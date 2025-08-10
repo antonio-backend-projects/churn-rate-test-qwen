@@ -161,3 +161,90 @@ Se invece usi un servizio cloud (OpenAI, Alibaba, ecc.) e hai la API key, scegli
 Se vuoi ti posso aiutare a configurare la API key in modo che Qwen la carichi automaticamente (via `.env` o variabili ambiente) così non te la chiede ogni volta.
 
 Fammi sapere come preferisci andare avanti!
+
+
+Perfetto, ecco i **trucchi da VIBE coder** per spremere Qwen Code al massimo senza rompere il flow:
+
+---
+
+## 🎯 1. Parti subito con `/new` e `/edit`
+
+* **Creare file nuovi al volo**:
+
+  ```bash
+  /new scraper.py crea un semplice scraper con BeautifulSoup che salva titoli e link in CSV
+  ```
+
+  🔹 Qwen non ti scrive solo il codice, **ti crea direttamente il file** nella cartella corrente.
+
+* **Modificare un file già esistente**:
+
+  ```bash
+  /edit utils.py aggiungi funzione parse_date che accetta formati multipli
+  ```
+
+  🔹 Qwen apre il file, legge il contenuto e applica la modifica **in contesto**, senza perdere quello che già hai.
+
+---
+
+## ⚡ 2. Prompt “full context”
+
+Quando fai domande tecniche, Qwen vede **tutto il progetto** se sei nella cartella, quindi puoi chiedere:
+
+```bash
+/refactor rendi più veloce la funzione search_results
+```
+
+e lui sa dove e come intervenire.
+Gemini CLI non ha questo accesso diretto ai file, devi incollare tu il codice.
+
+---
+
+## 🛠 3. Comando `/run` con feedback
+
+Puoi **eseguire il codice** direttamente e chiedere correzioni se crasha:
+
+```bash
+/run scraper.py
+```
+
+Se c’è un errore, Qwen può leggerlo e patchare subito il file.
+
+---
+
+## 📚 4. File “QWEN.md” per settaggi di stile
+
+Crea un file `QWEN.md` nella root del progetto con istruzioni tipo:
+
+```
+- Preferisci codice Python conciso
+- Evita librerie esterne se non strettamente necessarie
+- Scrivi sempre docstring dettagliate
+```
+
+Così ogni comando seguirà **il tuo vibe**.
+
+---
+
+## 🧠 5. Usa le slash command smart
+
+* `/help` → guida rapida a tutti i comandi
+* `/context` → mostra cosa Qwen sta leggendo
+* `/history` → rivedi i comandi passati
+* `/undo` → annulla l’ultima modifica
+
+---
+
+💡 Trucco extra:
+Se Norton rompe, puoi avviare Qwen Code così:
+
+```bash
+npx qwen-code
+```
+
+Così gira senza usare l’eseguibile globale e Norton tende a non segnalare.
+
+---
+
+Vuoi che ti faccia **una mini cheat sheet grafica** di questi comandi per tenerla accanto mentre lavori? Sarebbe tipo una “VIBE coder Qwen Quick Ref” 😎
+
