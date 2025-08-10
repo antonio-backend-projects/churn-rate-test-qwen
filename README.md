@@ -1,6 +1,6 @@
 # Churn Rate Calculator
 
-![Calcolo del Tasso di Abbandono](assets/images/Calcolo_del_asso_di_Abbandono.png)
+![Calcolo del Tasso di Abbandono](assets/images/Calcolo_del_Tasso_di_Abbandono.png)
 
 Questa repository contiene due script Python per calcolare il churn rate per un'azienda di energia e gas: una versione base e una versione avanzata con machine learning.
 
