@@ -332,3 +332,77 @@ Con feature engineering possiamo introdurre:
 
 Se vuoi, posso prepararti una lista prioritaria di 10 nuove variabili che potresti calcolare subito nei dataset sintetici e reali per rendere il modello meno “questionario-dipendente” e più robusto.
 Vuoi che lo faccia?
+
+
+Ecco 10 variabili ad alta copertura e alta potenzialità predittiva per ridurre la dipendenza dal questionario e migliorare il modello di churn:
+
+⸻
+
+🔹 1. Churn_neighborhood_rate
+	•	Descrizione: Percentuale di clienti nella stessa area geografica che hanno abbandonato negli ultimi 6 mesi.
+	•	Motivazione: Effetto contagio del churn: quando un fornitore perde clienti in un’area, il rischio aumenta per tutti.
+
+⸻
+
+🔹 2. Payment_method_change_last_6m
+	•	Descrizione: Numero di cambi del metodo di pagamento negli ultimi 6 mesi.
+	•	Motivazione: Cambi frequenti possono indicare insoddisfazione o problemi amministrativi.
+
+⸻
+
+🔹 3. Avg_invoice_amount_last_3m_vs_prev_6m
+	•	Descrizione: Rapporto tra la spesa media negli ultimi 3 mesi e quella dei precedenti 6 mesi.
+	•	Motivazione: Variazioni improvvise (soprattutto aumenti) possono portare al churn.
+
+⸻
+
+🔹 4. Days_since_last_login
+	•	Descrizione: Giorni trascorsi dall’ultimo accesso al portale clienti/app.
+	•	Motivazione: Diminuzione dell’engagement digitale spesso precede il churn.
+
+⸻
+
+🔹 5. Num_tariff_changes_last_year
+	•	Descrizione: Numero di modifiche al piano tariffario negli ultimi 12 mesi.
+	•	Motivazione: Chi sperimenta molti piani tende a essere in cerca di alternative.
+
+⸻
+
+🔹 6. Late_payment_streak
+	•	Descrizione: Numero massimo di mesi consecutivi con pagamento in ritardo.
+	•	Motivazione: Un trend di pagamenti tardivi segnala rischio finanziario o disaffezione.
+
+⸻
+
+🔹 7. Consumption_drop_percentage_last_3m
+	•	Descrizione: Percentuale di calo del consumo medio negli ultimi 3 mesi rispetto ai 6 precedenti.
+	•	Motivazione: Può indicare che il cliente sta riducendo l’uso in previsione di cambio fornitore.
+
+⸻
+
+🔹 8. Num_service_interruption_tickets
+	•	Descrizione: Numero di ticket di interruzione del servizio negli ultimi 12 mesi.
+	•	Motivazione: Disservizi frequenti portano al churn.
+
+⸻
+
+🔹 9. Has_requested_contract_info
+	•	Descrizione: Flag se il cliente ha richiesto copia contratto o dettagli tariffari negli ultimi 6 mesi.
+	•	Motivazione: Spesso preludio a un confronto con altri fornitori.
+
+⸻
+
+🔹 10. Price_sensitivity_index
+	•	Descrizione: Indicatore calcolato come (num_price_inquiries_last_year + tariff_changes) / total_months_active.
+	•	Motivazione: Chi è molto attento ai prezzi ha probabilità maggiore di migrare.
+
+⸻
+
+📊 Queste variabili hanno due vantaggi chiave:
+	1.	Si basano su dati transazionali, tecnici e comportamentali, quindi quasi sempre disponibili.
+	2.	Riducono l’impatto del bias dovuto al questionario di soddisfazione.
+
+⸻
+
+Se vuoi, ti posso fare anche un mapping diretto di queste variabili sul tuo dataset attuale e sintetico, così puoi calcolarle subito in generate_advanced_customer_data.py e allenare un modello con feature importance rivalutata.
+Vuoi che lo preparo?
