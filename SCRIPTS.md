@@ -30,7 +30,7 @@ Script Python avanzato che calcola il churn rate e utilizza modelli di machine l
 
 ### Funzionalità Principali
 - Calcola churn rate mensile e trimestrale per un anno specificato
-- Addestra un modello Random Forest per prevedere il churn
+- Addestra modelli di machine learning (Random Forest, XGBoost, Logistic Regression) per prevedere il churn
 - Fornisce report sulle performance del modello ML
 - Mostra l'importanza delle caratteristiche nel predire il churn
 - Genera grafici per visualizzare i trend di churn
@@ -49,18 +49,20 @@ Script Python avanzato che calcola il churn rate e utilizza modelli di machine l
 
 ### Utilizzo
 ```bash
-python churn_calculator_ml.py [percorso_file_csv] [anno]
+python churn_calculator_ml.py [percorso_file_csv] [anno] [modello]
 ```
-Entrambi i parametri sono opzionali; se non forniti, lo script chiederà all'utente di inserirli.
+Tutti i parametri sono opzionali; se non forniti, lo script chiederà all'utente di inserirli.
+Il parametro `modello` può essere `random_forest` (default), `xgboost` o `logistic_regression`.
 
 ### Classi e Metodi Principali
 - `ChurnCalculator`: Classe principale per il calcolo del churn
   - `calculate_period_churn_rate(start_date, end_date)`: Calcola il churn rate per un periodo specifico
   - `calculate_monthly_churn_rates(year)`: Calcola i churn rate mensili per un anno
   - `calculate_quarterly_churn_rates(year)`: Calcola i churn rate trimestrali per un anno
-  - `train_ml_model()`: Addestra il modello di machine learning
+  - `train_ml_model(model_type='random_forest')`: Addestra il modello di machine learning
   - `predict_churn()`: Predice i clienti con alta probabilità di churn
   - `plot_churn_trends(year)`: Genera grafici dei trend di churn
+  - `compare_models()`: Confronta le performance di diversi modelli
 
 ## 3. File di Dati
 
@@ -70,7 +72,21 @@ File CSV contenente dati dettagliati dei clienti per l'analisi avanzata con mach
 ### sample_customer_data.csv
 File CSV con dati minimi per il calcolo tradizionale del churn rate. Utilizzato dallo script `churn_calculator.py`.
 
-## 4. File di Configurazione
+### customer_data_advanced.csv
+File CSV con dati avanzati dei clienti, inclusi nuovi parametri come `consumption_volatility`, `consumption_trend`, ecc. Utilizzato dallo script `churn_calculator_ml.py`.
+
+## 4. Script di Generazione Dati
+
+### generate_large_customer_data.py
+Script per generare un dataset sintetico di grandi dimensioni.
+
+### generate_enriched_customer_data.py
+Script per generare un dataset sintetico arricchito con caratteristiche aggiuntive.
+
+### generate_advanced_customer_data.py
+Script per generare un dataset sintetico avanzato con caratteristiche simulate.
+
+## 5. File di Configurazione
 
 ### requirements.txt
 Elenco delle dipendenze Python richieste per eseguire gli script:
@@ -78,6 +94,7 @@ Elenco delle dipendenze Python richieste per eseguire gli script:
 - scikit-learn (>=1.0.0)
 - matplotlib (>=3.5.0)
 - seaborn (>=0.11.0)
+- xgboost (>=1.7.3)
 
 ### README.md
 File di documentazione principale del progetto con istruzioni per l'installazione e l'utilizzo.

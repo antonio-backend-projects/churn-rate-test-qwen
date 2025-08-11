@@ -219,9 +219,10 @@ Garantire la qualità del codice e fornire una documentazione completa per l'uti
 
 Per un inizio strutturato, si consiglia di affrontare i seguenti passi in ordine:
 
-1.  **Fase 3.1 (XGBoost)**: Implementare il supporto per XGBoost come modello alternativo.
-2.  **Fase 3.3 (Confronto Modelli)**: Creare un meccanismo per confrontare facilmente Random Forest e XGBoost.
-3.  **Fase 4.1 (Validazione Dati)**: Rafforzare la robustezza della fase di caricamento dati.
-4.  **Fase 5.1 (SHAP)**: Iniziare ad integrare SHAP per spiegare le predizioni.
+1.  **[Completato] Fase 3.1 (XGBoost)**: Implementare il supporto per XGBoost come modello alternativo.
+2.  **[Completato] Fase 3.2 (Logistic Regression)**: Implementare il supporto per Logistic Regression come modello alternativo.
+3.  **[Completato] Fase 3.3 (Confronto Modelli)**: Creare un meccanismo per confrontare facilmente Random Forest, XGBoost e Logistic Regression.
+4.  **Fase 4.1 (Validazione Dati)**: Rafforzare la robustezza della fase di caricamento dati.
+5.  **Fase 5.1 (SHAP)**: Iniziare ad integrare SHAP per spiegare le predizioni.
 
 Questo approccio consentirà di avere rapidamente una scelta di modelli, dati più affidabili in ingresso e predizioni interpretabili, ponendo le basi solide per un deployment in produzione.

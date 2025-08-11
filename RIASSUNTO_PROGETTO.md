@@ -12,6 +12,7 @@ Questo progetto mira a sviluppare un sistema affidabile per prevedere il churn (
     *   `customer_data.csv`: Dataset originale di esempio.
     *   `customer_data_large.csv`: Dataset sintetico più grande per test.
     *   `customer_data_enriched.csv`: Dataset sintetico avanzato con caratteristiche aggiuntive.
+    *   `customer_data_advanced.csv`: Nuovo dataset sintetico con caratteristiche avanzate.
 
 ## Evoluzione del Modello
 
@@ -45,12 +46,13 @@ Il modello è passato attraverso diverse fasi di miglioramento:
 ### Fase 2: Ottimizzazione del Modello (Completata)
 *   [x] Ricerca degli Iperparametri con `GridSearchCV`.
 
-### Fase 3: Esplorazione di Altri Modelli (Da Implementare)
-*   [ ] Integrare e valutare altri modelli come `XGBoost`, `LogisticRegression`.
+### Fase 3: Esplorazione di Altri Modelli (In Corso)
+*   [x] Integrare e valutare altri modelli come `XGBoost`, `LogisticRegression`.
 *   [ ] Implementare un classificatore ensemble per combinare predizioni.
 
 ### Fase 4: Integrazione di Nuove Fonti di Dati (In Corso)
 *   [x] Espansione del dataset con caratteristiche simulate (`customer_data_enriched.csv`).
+*   [x] Creazione di `customer_data_advanced.csv` con caratteristiche avanzate.
 *   [ ] Definire un piano per integrare dati reali di consumo e assistenza.
 *   [ ] Strutturare il processo per un flusso dati continuo.
 
@@ -66,7 +68,7 @@ Il modello è passato attraverso diverse fasi di miglioramento:
     *   `pandas`, `numpy`: Per la manipolazione e l'analisi dei dati.
     *   `scikit-learn`: Per il machine learning.
     *   `matplotlib`, `seaborn`: Per la visualizzazione.
-*   **Modelli ML**: `RandomForestClassifier` (primario), con progetti per `XGBoost`, `LogisticRegression`.
+*   **Modelli ML**: `RandomForestClassifier` (primario), `XGBoost`, `LogisticRegression`.
 
 ## Conclusioni
 

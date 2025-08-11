@@ -19,9 +19,11 @@ Uno script avanzato che include calcoli temporali, analisi predittiva con machin
 **Funzionalità Avanzate:**
 - Calcola churn rate mensile e trimestrale
 - Predice i clienti con alta probabilità di churn usando machine learning
+  - Modelli supportati: `RandomForestClassifier`, `XGBClassifier`, `LogisticRegression`
   - Modello `RandomForestClassifier` ottimizzato con `GridSearchCV`
   - Gestione intelligente del bilanciamento delle classi
   - Feature engineering avanzato
+- Confronta le performance di diversi modelli ML
 - Analizza pattern e trend del churn
 - Genera grafici per la visualizzazione dei dati
 - Fornisce report dettagliati sulle performance del modello ML
@@ -35,10 +37,12 @@ Il progetto include diversi dataset per diversi scopi:
 - **`customer_data.csv`**: File di esempio standard per la versione avanzata.
 - **`customer_data_large.csv`**: Dataset sintetico più grande generato per test di carico.
 - **`customer_data_enriched.csv`**: Dataset avanzato con caratteristiche aggiuntive (consumo, contatti con il supporto) che ha permesso di raggiungere performance eccellenti.
+- **`customer_data_advanced.csv`**: Nuovo dataset avanzato con caratteristiche simulate.
 
 Sono inclusi anche script per generare dataset sintetici:
 - **`generate_large_customer_data.py`**: Crea un dataset di grandi dimensioni.
 - **`generate_enriched_customer_data.py`**: Crea un dataset con caratteristiche avanzate.
+- **`generate_advanced_customer_data.py`**: Crea un dataset con caratteristiche avanzate simulate.
 
 ## Requisiti
 
@@ -49,6 +53,7 @@ Sono inclusi anche script per generare dataset sintetici:
   - `scikit-learn`
   - `matplotlib`
   - `seaborn`
+  - `xgboost`
 
 ## Installazione
 
@@ -90,12 +95,13 @@ Sono inclusi anche script per generare dataset sintetici:
 
 2. Esegui lo script:
    ```bash
-   python churn_calculator_ml.py [percorso_file_csv] [anno]
+   python churn_calculator_ml.py [percorso_file_csv] [anno] [modello]
    ```
    
-   Entrambi i parametri sono opzionali:
+   Tutti i parametri sono opzionali:
    - `percorso_file_csv`: Percorso al file CSV con i dati dei clienti
    - `anno`: Anno per l'analisi (es. 2023)
+   - `modello`: Modello ML da utilizzare (`random_forest`, `xgboost`, `logistic_regression`)
 
 3. Se non forniti, lo script chiederà di inserire questi valori interattivamente.
 
@@ -110,6 +116,10 @@ Per generare nuovi dataset per il testing:
 - Per un dataset arricchito:
   ```bash
   python generate_enriched_customer_data.py
+  ```
+- Per un dataset avanzato:
+  ```bash
+  python generate_advanced_customer_data.py
   ```
 
 ## Performance del Modello
