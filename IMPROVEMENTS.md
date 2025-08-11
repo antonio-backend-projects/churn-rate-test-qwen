@@ -271,3 +271,64 @@ Questo piano di miglioramento può essere implementato gradualmente, prioritizza
          se questo script è necessario dopo aver implementato le prime features.
 
   ---
+
+
+
+
+# appunti di ricerca
+
+Hai ragione: se il questionario di soddisfazione viene compilato soprattutto da clienti già motivati (spesso quelli più soddisfatti o quelli molto arrabbiati), rischiamo un bias di campionamento.
+Questo significa che il modello potrebbe sopravvalutare l’importanza di quella feature semplicemente perché la distribuzione dei dati è distorta.
+
+Per evitare che il modello si “fissi” su questo segnale parziale, si possono:
+
+⸻
+
+1️⃣ Ridurre la dipendenza dal questionario
+	•	Imputazione dei dati mancanti: invece di trattare i mancanti come neutri (0) o scartarli, si possono creare variabili flag tipo has_survey_score per distinguere chi non ha mai risposto.
+	•	Ribilanciamento della feature: usare tecniche come feature scaling by presence per ridurre il peso della soddisfazione quando la coverage è bassa.
+
+⸻
+
+2️⃣ Integrare variabili comportamentali ad alta copertura
+
+Queste sono spesso molto più predittive del churn perché legate ad azioni concrete del cliente.
+
+Esempi nel contesto energia/gas:
+	•	Trend consumo anomalo: calo costante → possibile switch fornitore in corso.
+	•	Incremento contatti con il supporto (anche senza lamentele registrate).
+	•	Accesso ridotto all’area clienti online negli ultimi 2-3 mesi.
+	•	Mancati pagamenti o ritardi ripetuti.
+	•	Variazioni frequenti del piano tariffario o passaggio a un piano più economico.
+	•	Distanza temporale dalla scadenza contratto (se < 60 giorni aumenta il rischio).
+	•	Interruzioni o modifiche nell’addebito automatico (es. rimozione carta salvata).
+	•	Richiesta copie fatture o dati tecnici (spesso preludio a comparazione offerte).
+
+⸻
+
+3️⃣ Usare “proxy” di soddisfazione indiretta
+
+Anche senza questionario, si può stimare il sentiment:
+	•	Analisi del tono delle conversazioni con il supporto (NLP).
+	•	Classificazione dei ticket per categoria/problematicità.
+	•	Tempo medio di risoluzione problemi per cliente.
+
+⸻
+
+4️⃣ Far emergere pattern di churn nascosto
+
+Con feature engineering possiamo introdurre:
+	•	Indice di volatilità contrattuale: cambi di opzioni, promozioni, modifiche pagamento in breve tempo.
+	•	Indice di rischio geografico: se in un’area c’è stato churn alto, il singolo cliente in quell’area ha rischio più elevato.
+	•	Confronto consumo vs. media locale: chi consuma meno della media può essere più mobile.
+
+⸻
+
+📌 In pratica, io farei due cose nel tuo modello:
+	1.	Abbassare il peso della soddisfazione nei casi con pochi dati (magari penalizzandola nel GridSearch).
+	2.	Arricchire le variabili comportamentali ad alta copertura per avere segnali forti anche quando il questionario manca.
+
+⸻
+
+Se vuoi, posso prepararti una lista prioritaria di 10 nuove variabili che potresti calcolare subito nei dataset sintetici e reali per rendere il modello meno “questionario-dipendente” e più robusto.
+Vuoi che lo faccia?
