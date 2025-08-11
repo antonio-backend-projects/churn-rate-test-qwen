@@ -1,0 +1,1001 @@
+customer_id,contract_start_date,contract_end_date,monthly_charges,total_charges,payment_method,tenure_months,service_type,contract_type,name
+10001,2024-10-30,2026-07-05,117.4,2397.1,Credit card,20,electricity,month-to-month,Sara Morelli
+10002,2022-10-12,,77.8,1692.4,Electronic check,21,gas,two year,Ilaria Costa
+10003,2025-02-18,,63.0,1501.9,Credit card,25,gas,two year,Simone Bianco
+10004,2020-10-11,,54.4,225.6,Electronic check,4,both,month-to-month,Elisa Marino
+10005,2022-10-26,,71.7,1587.6,Bank transfer,23,both,month-to-month,Giulia Innocenti
+10006,2021-07-22,,81.1,1476.8,Bank transfer,18,both,month-to-month,Michela Fiore
+10007,2021-10-27,,105.3,2638.5,Mailed check,24,gas,month-to-month,Gaia Gentile
+10008,2022-10-12,,77.7,797.7,Credit card,10,electricity,one year,Stefano Bianco
+10009,2022-04-15,,103.6,1276.5,Credit card,12,gas,one year,Arianna Colombo
+10010,2022-08-31,,60.2,1511.7,Credit card,26,gas,two year,Nicole Marchetti
+10011,2020-08-16,,97.6,2112.2,Electronic check,21,both,month-to-month,Marco Santoro
+10012,2023-07-14,,110.8,2595.4,Bank transfer,23,gas,two year,Stefano Giordano
+10013,2024-11-07,,99.3,2812.5,Mailed check,27,gas,two year,Simone Lombardo
+10014,2024-11-21,,61.7,758.6,Bank transfer,12,both,one year,Andrea Bianchi
+10015,2025-08-01,,73.3,1194.1,Bank transfer,17,both,month-to-month,Luca Lombardi
+10016,2025-04-28,,97.4,1288.5,Credit card,13,electricity,one year,Angelo Sanna
+10017,2025-03-23,,86.3,499.5,Bank transfer,6,gas,month-to-month,Simone Fontana
+10018,2023-09-01,,68.0,828.6,Credit card,12,gas,one year,Paolo Costa
+10019,2021-09-10,,114.6,1270.2,Mailed check,11,electricity,one year,Alessia Mancini
+10020,2020-12-06,,93.2,1586.5,Bank transfer,17,electricity,month-to-month,Federica Ricci
+10021,2023-01-24,2024-03-04,68.4,993.4,Electronic check,14,electricity,month-to-month,Silvia Ferrari
+10022,2022-12-05,2025-02-05,85.3,2202.2,Electronic check,26,both,two year,Chiara De Luca
+10023,2025-02-19,,83.2,2052.5,Electronic check,24,electricity,month-to-month,Simone Esposito
+10024,2024-01-21,,105.2,2292.2,Bank transfer,22,both,two year,Giulia Basile
+10025,2023-03-30,,81.8,890.5,Mailed check,11,both,one year,Chiara Ricci
+10026,2023-10-12,,66.8,800.6,Electronic check,12,gas,one year,Angelo Mancini
+10027,2023-12-14,,59.6,121.2,Bank transfer,2,both,month-to-month,Valentina Basile
+10028,2022-05-20,2024-05-13,112.3,2790.0,Bank transfer,24,gas,two year,Serena Bruno
+10029,2025-01-21,,99.3,1427.5,Electronic check,15,both,one year,Silvia Bellini
+10030,2023-01-17,,99.3,2112.4,Electronic check,22,gas,month-to-month,Giulia Colombo
+10031,2023-01-20,,63.5,1592.6,Mailed check,24,electricity,two year,Simone Innocenti
+10032,2024-09-26,,60.1,1266.5,Mailed check,21,gas,two year,Alessia Gentile
+10033,2022-06-20,2024-02-09,63.2,1320.4,Electronic check,20,both,two year,Elisa Esposito
+10034,2022-07-11,,115.3,1967.3,Mailed check,17,both,month-to-month,Elisa Marino
+10035,2024-07-22,,103.8,435.7,Electronic check,4,electricity,month-to-month,Sara Marino
+10036,2025-04-28,,97.1,1041.9,Credit card,11,electricity,month-to-month,Silvia Innocenti
+10037,2023-11-19,,116.3,3149.4,Bank transfer,26,both,two year,Stefano Marchetti
+10038,2022-02-05,,65.8,1168.7,Credit card,18,gas,month-to-month,Arianna Vitale
+10039,2024-03-15,,51.5,538.4,Credit card,10,electricity,one year,Gaia Fiore
+10040,2021-04-08,,59.9,117.0,Credit card,2,gas,month-to-month,Gaia Bruno
+10041,2024-05-05,,78.1,1192.2,Mailed check,15,gas,one year,Antonio Conti
+10042,2021-09-19,,59.5,735.8,Electronic check,13,electricity,one year,Angelo Longo
+10043,2024-04-19,,78.3,1045.0,Electronic check,14,electricity,one year,Federica Russo
+10044,2020-12-19,,71.3,2018.0,Electronic check,27,gas,two year,Luca Bellini
+10045,2024-03-29,,99.0,1524.3,Credit card,15,electricity,one year,Marco De Luca
+10046,2024-08-27,,52.8,50.6,Electronic check,1,electricity,month-to-month,Luigi Caruso
+10047,2021-02-16,,101.5,419.3,Bank transfer,4,electricity,month-to-month,Luigi Benedetti
+10048,2025-08-11,2027-02-02,80.9,1397.3,Credit card,18,electricity,month-to-month,Matteo Longo
+10049,2024-12-14,,74.3,794.5,Mailed check,11,gas,one year,Veronica Colombo
+10050,2022-09-11,,107.7,1464.3,Mailed check,13,gas,month-to-month,Giorgio Gentile
+10051,2025-01-23,2026-03-24,71.4,1002.5,Mailed check,14,both,one year,Giorgio Rossi
+10052,2022-10-13,,66.3,1550.2,Credit card,24,electricity,two year,Salvatore Moretti
+10053,2024-08-18,,73.3,634.0,Credit card,9,electricity,month-to-month,Valentina Bruno
+10054,2020-11-06,,83.4,1143.8,Electronic check,14,both,one year,Paolo Fiore
+10055,2023-11-27,,60.4,1579.8,Mailed check,27,electricity,two year,Marco Fiore
+10056,2025-01-28,,89.7,1976.4,Electronic check,21,both,two year,Chiara Colombo
+10057,2021-04-15,,60.6,581.5,Electronic check,10,electricity,one year,Camilla Gallo
+10058,2023-06-01,2024-07-17,90.4,1299.4,Bank transfer,14,gas,one year,Federica Romano
+10059,2023-08-16,,60.8,847.3,Mailed check,14,electricity,one year,Camilla Russo
+10060,2023-02-07,,84.5,1796.9,Electronic check,22,both,month-to-month,Valentina Mancini
+10061,2023-12-22,,113.0,2965.7,Electronic check,27,electricity,two year,Davide Bianchi
+10062,2021-07-29,,98.4,1835.7,Bank transfer,18,both,month-to-month,Veronica Bellini
+10063,2024-06-25,,84.8,1150.7,Electronic check,13,electricity,month-to-month,Paolo Ferrara
+10064,2024-11-23,,82.0,1681.2,Bank transfer,21,gas,month-to-month,Debora Conti
+10065,2022-11-26,,101.8,2275.0,Mailed check,22,both,two year,Angelo Gallo
+10066,2020-12-01,2022-04-15,108.4,1807.2,Mailed check,17,electricity,month-to-month,Federica Fontana
+10067,2022-12-11,,92.4,2498.4,Bank transfer,27,gas,two year,Simone Bianchi
+10068,2021-07-12,2022-02-23,96.9,809.2,Credit card,8,electricity,month-to-month,Stefano Russo
+10069,2022-09-17,,83.8,2004.3,Mailed check,23,both,two year,Sara Lombardi
+10070,2023-12-04,,89.3,1114.3,Mailed check,12,both,month-to-month,Sara Bruno
+10071,2024-09-01,,54.8,1041.6,Bank transfer,20,gas,two year,Ilaria De Luca
+10072,2023-06-08,,74.0,779.1,Electronic check,11,both,one year,Sofia Bellini
+10073,2025-04-03,,113.9,236.8,Mailed check,2,electricity,month-to-month,Marco Lombardi
+10074,2023-07-13,,110.7,2816.7,Bank transfer,25,electricity,two year,Paolo Ferrari
+10075,2025-05-30,,88.5,1095.6,Credit card,12,electricity,month-to-month,Camilla Moretti
+10076,2023-09-08,,51.2,1198.5,Mailed check,23,both,two year,Salvatore Marchetti
+10077,2021-03-27,,71.4,488.4,Electronic check,7,both,month-to-month,Serena Gentile
+10078,2022-12-22,,119.6,1364.9,Electronic check,11,gas,one year,Stefano Rossi
+10079,2024-11-02,,113.4,2608.5,Electronic check,24,gas,month-to-month,Alessandro Marini
+10080,2025-06-07,,93.3,1371.9,Electronic check,15,electricity,month-to-month,Valentina Bianchi
+10081,2025-04-03,2025-08-31,101.5,501.1,Credit card,5,gas,month-to-month,Debora Mancini
+10082,2024-06-09,2025-02-20,80.5,735.6,Electronic check,9,gas,month-to-month,Sara Moretti
+10083,2025-06-27,,95.2,2608.9,Bank transfer,28,gas,two year,Davide Vitale
+10084,2024-02-16,,70.6,1025.9,Credit card,14,electricity,one year,Marco Bianchi
+10085,2021-09-30,,109.6,541.1,Credit card,5,gas,month-to-month,Veronica Costa
+10086,2021-03-10,,91.8,1441.2,Mailed check,16,both,month-to-month,Daniele Moretti
+10087,2022-04-27,,93.5,1891.7,Bank transfer,21,gas,two year,Debora Rossi
+10088,2024-08-14,2025-10-28,111.2,1667.8,Bank transfer,15,gas,one year,Elisa Martinelli
+10089,2025-01-10,2026-08-28,61.3,1217.4,Bank transfer,20,electricity,month-to-month,Martina Fontana
+10090,2022-11-01,2024-02-28,110.3,1807.8,Bank transfer,16,both,month-to-month,Simone Marino
+10091,2020-09-23,,50.8,617.7,Electronic check,12,gas,one year,Veronica Fiore
+10092,2020-12-02,2022-01-06,63.6,786.0,Credit card,13,electricity,one year,Valentina Moretti
+10093,2020-10-23,,91.0,1014.1,Mailed check,11,electricity,one year,Angelo Fiore
+10094,2023-01-18,,55.6,338.0,Mailed check,6,electricity,month-to-month,Matteo Ferrari
+10095,2023-10-17,,109.6,1011.0,Mailed check,9,gas,month-to-month,Sofia Fontana
+10096,2022-04-05,,90.1,2160.5,Bank transfer,23,gas,two year,Elisa Ferrara
+10097,2020-09-18,,86.4,1891.6,Credit card,23,electricity,two year,Stefano Marini
+10098,2021-11-20,,88.6,623.6,Bank transfer,7,both,month-to-month,Paolo Benedetti
+10099,2023-11-11,,62.5,887.5,Electronic check,14,gas,one year,Ilaria Barbieri
+10100,2021-09-03,,76.7,1763.6,Mailed check,22,both,two year,Luca Santoro
+10101,2022-05-07,,76.1,1327.5,Electronic check,18,gas,month-to-month,Elena Barbieri
+10102,2022-12-19,,94.1,1259.1,Mailed check,13,both,one year,Marco Moretti
+10103,2023-10-14,,115.3,1164.8,Electronic check,10,electricity,one year,Giulia Innocenti
+10104,2020-10-12,,93.7,567.4,Credit card,6,both,month-to-month,Roberto Gentile
+10105,2024-08-26,,75.7,2048.8,Credit card,27,both,two year,Gaia De Luca
+10106,2024-10-10,,76.8,843.7,Electronic check,11,both,one year,Angelo Marini
+10107,2023-08-09,,94.5,2047.0,Mailed check,22,both,two year,Daniele Costa
+10108,2023-06-09,,50.0,254.8,Electronic check,5,both,month-to-month,Valentina Conti
+10109,2024-06-18,2026-06-12,107.0,2487.0,Mailed check,24,electricity,two year,Matteo Giordano
+10110,2022-11-07,,53.1,574.3,Credit card,11,both,one year,Sofia Giordano
+10111,2022-05-27,,85.5,172.7,Credit card,2,gas,month-to-month,Silvia Romano
+10112,2023-08-30,2024-05-27,56.5,499.1,Bank transfer,9,gas,month-to-month,Angelo Innocenti
+10113,2021-06-11,,57.0,227.4,Electronic check,4,gas,month-to-month,Serena Marini
+10114,2025-01-21,,95.9,468.8,Electronic check,5,gas,month-to-month,Giulia Russo
+10115,2022-08-02,2023-05-08,72.1,639.3,Bank transfer,9,electricity,month-to-month,Federica Ferrara
+10116,2022-11-28,2024-05-01,99.7,1762.3,Bank transfer,17,gas,month-to-month,Matteo Ferrara
+10117,2021-02-10,,119.2,360.6,Electronic check,3,gas,month-to-month,Michela Fiore
+10118,2022-02-16,,113.4,1591.6,Electronic check,14,both,one year,Nicole Longo
+10119,2021-11-06,,105.1,2461.5,Credit card,24,electricity,two year,Valentina Colombo
+10120,2024-08-07,,57.5,667.1,Electronic check,12,gas,month-to-month,Marco Lombardo
+10121,2023-07-23,,98.8,1137.5,Bank transfer,11,both,one year,Alessia Gallo
+10122,2020-11-24,,81.1,1345.2,Electronic check,17,gas,month-to-month,Michela Ricci
+10123,2025-05-29,,116.5,1727.3,Electronic check,15,electricity,one year,Sofia Russo
+10124,2023-07-05,,67.2,705.4,Bank transfer,10,electricity,one year,Angelo Benedetti
+10125,2021-09-01,,53.0,1414.8,Bank transfer,26,electricity,two year,Debora Ferrari
+10126,2022-02-02,,92.1,1922.8,Bank transfer,21,gas,month-to-month,Andrea Ferrari
+10127,2024-07-30,,95.7,1088.0,Bank transfer,11,both,one year,Giorgio Ricci
+10128,2023-09-26,,115.0,3089.0,Electronic check,28,both,two year,Veronica Barbieri
+10129,2023-06-26,,99.9,1164.3,Bank transfer,12,gas,one year,Matteo De Luca
+10130,2025-03-05,,67.4,981.4,Mailed check,14,electricity,one year,Martina De Luca
+10131,2024-12-12,2026-03-10,91.5,1399.0,Credit card,15,gas,month-to-month,Giorgio Basile
+10132,2023-09-14,,109.7,1480.9,Electronic check,13,electricity,month-to-month,Alessia Bianchi
+10133,2023-10-07,,86.3,972.4,Mailed check,11,electricity,one year,Daniele Lombardi
+10134,2022-06-03,,67.7,1806.5,Bank transfer,26,gas,two year,Elisa Basile
+10135,2023-10-07,,70.8,1739.1,Electronic check,24,gas,two year,Nicole Esposito
+10136,2022-06-28,,55.3,564.9,Mailed check,10,gas,one year,Stefano Esposito
+10137,2021-06-17,,66.7,1687.1,Electronic check,26,electricity,two year,Camilla Marino
+10138,2022-07-02,2023-11-14,93.7,1525.5,Mailed check,17,electricity,month-to-month,Martina Lombardo
+10139,2023-06-01,,65.1,125.4,Bank transfer,2,electricity,month-to-month,Alessia Ferrari
+10140,2023-08-02,2024-01-06,84.1,434.3,Mailed check,5,gas,month-to-month,Marco De Luca
+10141,2023-07-22,,109.7,2399.4,Electronic check,23,electricity,two year,Paolo Martinelli
+10142,2022-08-13,,99.7,2261.7,Credit card,22,electricity,two year,Matteo Caruso
+10143,2024-02-21,,92.9,1838.4,Bank transfer,20,both,two year,Davide Lombardo
+10144,2020-10-18,,82.1,1084.1,Credit card,13,gas,one year,Marco Morelli
+10145,2022-09-13,,112.8,3307.7,Bank transfer,28,both,two year,Silvia Rossi
+10146,2024-03-31,,58.0,830.8,Electronic check,15,gas,one year,Alessia Bruno
+10147,2023-07-06,,50.6,358.3,Credit card,7,gas,month-to-month,Camilla Lombardo
+10148,2021-10-18,,108.7,2534.7,Credit card,24,gas,two year,Elisa Ferrara
+10149,2023-11-26,,95.1,1178.7,Electronic check,12,both,one year,Luigi Russo
+10150,2023-04-23,,66.5,1554.4,Bank transfer,23,both,two year,Paolo Ricci
+10151,2021-05-16,,92.9,283.7,Credit card,3,electricity,month-to-month,Marco Ferrari
+10152,2024-11-08,,78.3,815.9,Electronic check,10,gas,one year,Sofia Bellini
+10153,2022-08-23,,87.9,1002.8,Credit card,11,both,month-to-month,Francesco Lombardi
+10154,2023-08-10,,98.6,860.7,Bank transfer,9,electricity,month-to-month,Sofia Bellini
+10155,2021-12-10,,87.9,1989.3,Credit card,22,electricity,two year,Serena Coppola
+10156,2023-05-03,,80.2,1604.5,Bank transfer,21,gas,two year,Alessandro Vitale
+10157,2025-04-27,,117.1,1738.1,Electronic check,15,electricity,one year,Daniele Russo
+10158,2024-04-01,,61.4,1278.1,Bank transfer,20,both,two year,Antonio Lombardo
+10159,2023-06-12,,59.6,682.2,Credit card,11,both,one year,Veronica Marini
+10160,2022-01-13,,61.7,1387.7,Bank transfer,22,electricity,two year,Marco Giordano
+10161,2024-08-07,2024-10-22,100.2,293.8,Bank transfer,3,electricity,month-to-month,Roberto Bellini
+10162,2022-01-06,,88.7,1008.2,Bank transfer,11,electricity,one year,Daniele Sanna
+10163,2023-09-09,,113.9,1949.0,Electronic check,18,both,month-to-month,Salvatore Lombardo
+10164,2022-10-16,,94.9,2683.2,Credit card,27,gas,two year,Veronica Barbieri
+10165,2023-04-16,,73.5,1439.1,Bank transfer,20,electricity,month-to-month,Davide Fontana
+10166,2021-12-03,,112.8,1758.4,Bank transfer,15,electricity,one year,Elena Esposito
+10167,2020-10-27,,79.5,1859.9,Mailed check,24,gas,month-to-month,Arianna Romano
+10168,2024-08-03,,115.6,1584.0,Mailed check,14,electricity,one year,Antonio Martinelli
+10169,2025-01-04,,96.6,1718.1,Bank transfer,18,gas,month-to-month,Camilla Marchetti
+10170,2020-12-24,,70.1,1663.4,Credit card,24,both,two year,Giulia Bianchi
+10171,2024-01-29,,89.6,1925.9,Electronic check,22,gas,two year,Luigi Ricci
+10172,2024-03-04,,91.3,1348.6,Bank transfer,15,both,one year,Luca Innocenti
+10173,2024-06-09,2026-07-26,57.9,1514.1,Mailed check,26,gas,two year,Chiara Romano
+10174,2022-04-18,,108.1,2300.0,Mailed check,22,gas,month-to-month,Elena Costa
+10175,2024-04-23,,63.3,1702.4,Mailed check,27,electricity,two year,Sara Rossi
+10176,2022-04-01,2023-08-03,115.2,1767.1,Bank transfer,16,both,month-to-month,Arianna Vitale
+10177,2023-04-15,,84.4,1311.2,Electronic check,15,both,one year,Veronica Bruno
+10178,2023-10-21,2025-04-28,102.2,1878.1,Credit card,19,both,month-to-month,Giorgio Esposito
+10179,2022-04-16,,56.2,1405.1,Electronic check,26,both,two year,Michela Vitale
+10180,2024-05-12,2024-10-15,93.9,461.8,Electronic check,5,both,month-to-month,Sofia Benedetti
+10181,2024-11-04,,53.9,799.8,Bank transfer,15,both,one year,Arianna Marchetti
+10182,2024-02-13,,85.9,357.1,Credit card,4,both,month-to-month,Angelo Romano
+10183,2025-07-09,2025-11-08,113.5,448.5,Bank transfer,4,both,month-to-month,Giulia Caruso
+10184,2021-06-15,,105.4,305.3,Bank transfer,3,both,month-to-month,Serena Vitale
+10185,2022-04-20,2022-07-31,71.6,207.4,Bank transfer,3,electricity,month-to-month,Sofia Lombardo
+10186,2023-04-15,,85.4,1149.8,Credit card,13,both,one year,Luca Marini
+10187,2021-04-28,,77.6,738.1,Mailed check,10,electricity,one year,Angelo Fiore
+10188,2022-10-03,,75.8,1016.5,Mailed check,13,gas,month-to-month,Roberto Longo
+10189,2022-09-14,2023-10-19,103.2,1319.2,Mailed check,13,gas,month-to-month,Paolo Rossi
+10190,2024-10-30,,69.5,1341.9,Electronic check,20,gas,month-to-month,Federica Caruso
+10191,2021-09-21,2022-07-31,56.7,594.2,Mailed check,10,both,one year,Andrea Bellini
+10192,2025-07-01,,90.9,2429.9,Credit card,27,both,two year,Silvia Sanna
+10193,2021-02-05,,97.7,2730.5,Electronic check,27,gas,two year,Daniele Ferrara
+10194,2023-06-27,,114.4,459.8,Electronic check,4,gas,month-to-month,Andrea Fontana
+10195,2020-10-17,,97.6,967.9,Electronic check,10,both,one year,Camilla Ferrara
+10196,2022-01-07,,61.0,852.7,Electronic check,14,gas,one year,Simone Costa
+10197,2023-07-04,,105.4,1510.0,Mailed check,14,electricity,one year,Giorgio Caruso
+10198,2023-03-28,,60.6,1331.3,Electronic check,21,gas,month-to-month,Luigi Basile
+10199,2022-06-05,,73.8,2027.4,Bank transfer,28,gas,two year,Serena Russo
+10200,2020-12-20,,102.6,1412.2,Credit card,14,both,one year,Salvatore Ferrara
+10201,2021-01-07,,119.6,2992.8,Bank transfer,25,gas,two year,Giorgio Basile
+10202,2022-08-11,,69.7,879.5,Bank transfer,13,both,month-to-month,Elisa Colombo
+10203,2025-05-20,,112.4,1617.5,Electronic check,15,both,one year,Davide Costa
+10204,2023-05-26,,112.1,1162.7,Bank transfer,10,electricity,one year,Antonio Costa
+10205,2022-09-23,,111.1,762.7,Electronic check,7,electricity,month-to-month,Sara Barbieri
+10206,2022-06-16,,53.4,671.5,Mailed check,12,electricity,month-to-month,Marco Longo
+10207,2024-09-15,2026-07-22,74.5,1622.6,Credit card,22,electricity,month-to-month,Arianna Morelli
+10208,2021-03-05,,72.5,568.7,Bank transfer,8,gas,month-to-month,Angelo De Luca
+10209,2021-01-28,,102.7,2577.7,Credit card,26,electricity,two year,Debora Santoro
+10210,2021-12-31,,70.5,275.3,Bank transfer,4,electricity,month-to-month,Alessandro Innocenti
+10211,2022-05-07,,61.0,1311.1,Mailed check,22,both,month-to-month,Matteo Fiore
+10212,2022-09-07,2024-06-14,107.8,2438.1,Mailed check,22,gas,month-to-month,Elena Longo
+10213,2024-03-01,,119.8,1155.8,Electronic check,10,electricity,one year,Alessandro Martinelli
+10214,2025-02-05,,63.0,678.9,Bank transfer,11,gas,one year,Michela Santoro
+10215,2023-08-22,,78.6,1747.8,Credit card,23,electricity,two year,Debora Bruno
+10216,2025-05-21,,81.7,788.9,Mailed check,10,both,month-to-month,Silvia Basile
+10217,2022-07-13,,52.8,1445.0,Electronic check,28,both,two year,Vincenzo Mancini
+10218,2023-12-31,,115.1,3113.8,Electronic check,28,both,two year,Paolo Gallo
+10219,2024-12-21,,116.5,2779.9,Bank transfer,23,electricity,two year,Martina Bellini
+10220,2021-09-07,,60.9,1185.2,Mailed check,20,both,month-to-month,Daniele Bianchi
+10221,2022-09-08,,85.5,254.4,Mailed check,3,electricity,month-to-month,Debora Bianchi
+10222,2024-12-13,,95.1,2006.2,Credit card,21,both,two year,Michela Marini
+10223,2021-03-08,,69.0,739.2,Credit card,11,both,one year,Marco Bruno
+10224,2023-12-03,2025-01-26,118.7,1625.9,Mailed check,14,gas,month-to-month,Federica Caruso
+10225,2022-11-11,,70.7,1633.9,Credit card,23,gas,two year,Alessandro Gentile
+10226,2023-03-29,,75.0,1649.0,Bank transfer,21,both,month-to-month,Vincenzo Morelli
+10227,2025-06-25,,73.3,1987.2,Electronic check,28,gas,two year,Salvatore Bellini
+10228,2023-12-22,,55.2,1308.8,Electronic check,24,electricity,two year,Giulia Rossi
+10229,2021-02-04,,79.0,320.6,Credit card,4,gas,month-to-month,Camilla Gallo
+10230,2022-06-15,,80.4,2162.1,Bank transfer,26,electricity,two year,Vincenzo Lombardo
+10231,2022-10-08,,96.1,2432.3,Electronic check,26,gas,two year,Debora Ricci
+10232,2024-04-19,,96.4,190.8,Electronic check,2,gas,month-to-month,Stefano Conti
+10233,2021-01-25,,62.4,1593.0,Bank transfer,25,electricity,two year,Ilaria Bruno
+10234,2024-06-18,,113.6,324.8,Bank transfer,3,electricity,month-to-month,Francesco Marchetti
+10235,2025-01-22,,84.0,1146.6,Credit card,14,electricity,one year,Alessandro Bianco
+10236,2024-08-10,,76.7,1493.4,Electronic check,19,gas,month-to-month,Nicole Romano
+10237,2021-11-08,,108.7,1485.2,Mailed check,14,electricity,one year,Alessandro Morelli
+10238,2021-05-19,,114.1,1096.0,Bank transfer,10,electricity,one year,Marco Gallo
+10239,2023-02-20,,74.0,1522.1,Credit card,20,electricity,two year,Andrea Fontana
+10240,2025-01-28,,50.7,1374.3,Mailed check,27,both,two year,Daniele Romano
+10241,2023-07-20,,93.2,1158.0,Mailed check,13,gas,one year,Ilaria Coppola
+10242,2024-11-11,,100.3,394.1,Bank transfer,4,electricity,month-to-month,Gaia Bellini
+10243,2021-04-21,,106.1,1555.2,Electronic check,15,electricity,one year,Sara Mancini
+10244,2020-10-01,,81.4,1392.5,Bank transfer,17,electricity,month-to-month,Stefano Conti
+10245,2021-03-12,,56.6,591.5,Credit card,10,gas,month-to-month,Vincenzo Bellini
+10246,2025-05-15,,92.4,2156.3,Electronic check,24,electricity,two year,Ilaria Longo
+10247,2023-03-18,,79.5,1663.6,Bank transfer,21,both,two year,Angelo Mancini
+10248,2020-11-28,2022-11-03,80.2,2012.2,Bank transfer,24,electricity,month-to-month,Valentina Marino
+10249,2024-05-21,,79.1,848.0,Credit card,11,gas,one year,Silvia Longo
+10250,2022-04-27,,94.0,2027.1,Mailed check,21,both,month-to-month,Valentina Marini
+10251,2023-09-12,,73.8,804.5,Mailed check,11,electricity,one year,Daniele Marino
+10252,2024-08-09,,53.8,1039.1,Bank transfer,19,electricity,month-to-month,Ilaria Marchetti
+10253,2024-05-22,,72.8,1063.0,Bank transfer,15,gas,one year,Simone Lombardi
+10254,2022-06-28,,64.6,66.8,Credit card,1,electricity,month-to-month,Simone Bellini
+10255,2021-12-09,,66.7,848.2,Electronic check,13,electricity,one year,Alessia Romano
+10256,2024-10-14,,108.0,1422.8,Bank transfer,13,electricity,one year,Federica Bruno
+10257,2024-01-09,,112.5,2164.6,Electronic check,20,gas,month-to-month,Alessandro Sanna
+10258,2020-09-05,,93.4,1948.8,Electronic check,20,gas,two year,Elisa Conti
+10259,2023-08-09,,64.2,1351.9,Electronic check,22,both,two year,Michela Ferrara
+10260,2023-03-20,,116.4,237.9,Bank transfer,2,both,month-to-month,Veronica Ricci
+10261,2022-12-24,,108.7,899.2,Mailed check,8,gas,month-to-month,Angelo Martinelli
+10262,2021-07-29,2022-06-14,66.5,745.1,Credit card,11,gas,one year,Chiara Rossi
+10263,2022-10-13,,76.8,882.6,Mailed check,11,gas,one year,Michela Martinelli
+10264,2023-10-14,,59.4,657.6,Bank transfer,11,gas,month-to-month,Debora Rossi
+10265,2020-08-20,,85.0,1542.2,Mailed check,19,gas,month-to-month,Gaia Longo
+10266,2020-11-25,,95.4,1371.4,Electronic check,15,electricity,month-to-month,Debora Ricci
+10267,2025-04-07,,62.5,714.8,Electronic check,11,both,one year,Nicole Marini
+10268,2020-10-26,,71.7,1825.3,Bank transfer,25,electricity,two year,Debora Ferrari
+10269,2022-03-12,,55.9,787.6,Electronic check,14,both,month-to-month,Camilla Marini
+10270,2023-11-06,2024-04-28,99.6,580.7,Credit card,6,electricity,month-to-month,Daniele Romano
+10271,2025-01-16,,90.8,1022.4,Mailed check,11,electricity,one year,Elisa Costa
+10272,2021-02-27,2022-12-30,73.2,1636.5,Electronic check,22,gas,month-to-month,Angelo Marchetti
+10273,2024-11-02,,72.0,766.3,Mailed check,11,both,one year,Simone Marino
+10274,2024-12-16,,87.1,946.9,Credit card,11,electricity,one year,Elisa Caruso
+10275,2021-04-04,,99.5,2851.5,Mailed check,28,gas,two year,Michela Mancini
+10276,2021-12-06,,71.8,1595.5,Electronic check,23,gas,two year,Simone De Luca
+10277,2023-09-03,,83.9,2268.6,Mailed check,28,both,two year,Fabio De Luca
+10278,2023-08-23,,81.9,594.4,Electronic check,7,electricity,month-to-month,Stefano Marini
+10279,2021-10-08,2022-08-26,102.2,1174.7,Credit card,11,gas,one year,Andrea Sanna
+10280,2020-12-09,,99.5,1178.2,Electronic check,12,both,month-to-month,Andrea Santoro
+10281,2021-09-03,,114.1,1125.9,Credit card,10,electricity,one year,Gaia Bellini
+10282,2021-01-13,,88.5,1243.8,Credit card,14,both,month-to-month,Alessandro Barbieri
+10283,2023-04-19,,114.9,2666.1,Bank transfer,23,both,month-to-month,Michela Russo
+10284,2021-12-26,,50.9,676.5,Credit card,13,electricity,month-to-month,Marco Bianco
+10285,2025-03-21,,105.1,1443.2,Mailed check,14,both,one year,Elisa Caruso
+10286,2023-01-13,,50.7,861.4,Electronic check,17,both,month-to-month,Elisa Giordano
+10287,2024-06-16,,96.7,1030.4,Bank transfer,11,electricity,one year,Sofia Costa
+10288,2024-04-24,,113.2,2414.1,Mailed check,21,gas,month-to-month,Elisa Costa
+10289,2024-02-03,2025-03-16,74.4,1025.6,Credit card,14,both,month-to-month,Giulia Esposito
+10290,2022-10-04,2023-04-24,101.6,678.7,Credit card,7,both,month-to-month,Debora Lombardo
+10291,2023-04-03,2025-02-20,56.0,1253.2,Bank transfer,23,electricity,two year,Matteo Morelli
+10292,2023-03-14,,94.5,2673.2,Mailed check,28,gas,two year,Ilaria Ferrara
+10293,2022-08-13,,56.7,572.5,Bank transfer,10,both,one year,Paolo Costa
+10294,2022-12-23,2023-12-15,90.6,1063.7,Mailed check,12,electricity,one year,Vincenzo Russo
+10295,2023-12-02,,59.4,1128.8,Electronic check,20,both,month-to-month,Serena Fontana
+10296,2024-06-09,,91.5,2000.0,Mailed check,21,both,two year,Serena Costa
+10297,2022-06-29,2024-03-15,68.4,1381.4,Credit card,21,electricity,month-to-month,Salvatore Innocenti
+10298,2025-02-04,,81.5,2089.1,Electronic check,25,gas,two year,Federica Bianco
+10299,2020-11-10,,105.9,1928.5,Credit card,18,both,month-to-month,Elena Russo
+10300,2024-05-28,,117.1,3291.1,Mailed check,27,both,two year,Angelo Mancini
+10301,2022-08-31,,72.9,985.8,Bank transfer,13,electricity,month-to-month,Ilaria Basile
+10302,2024-03-26,,105.7,1524.3,Mailed check,15,both,one year,Martina Caruso
+10303,2021-09-28,,111.8,2713.8,Credit card,24,both,two year,Sofia Martinelli
+10304,2020-11-10,,68.2,1397.3,Electronic check,21,gas,two year,Chiara Barbieri
+10305,2022-06-12,,84.5,1162.5,Mailed check,14,electricity,one year,Federica Romano
+10306,2024-03-14,,73.0,1260.8,Bank transfer,17,electricity,month-to-month,Michela Ricci
+10307,2025-03-01,,71.0,1450.2,Electronic check,20,gas,two year,Elisa Marini
+10308,2023-04-07,,98.6,2483.6,Mailed check,25,gas,two year,Federica Conti
+10309,2021-11-12,,117.2,1196.8,Credit card,10,electricity,month-to-month,Gaia Barbieri
+10310,2023-03-07,,100.2,1364.8,Bank transfer,14,both,one year,Debora Colombo
+10311,2021-12-20,,103.2,1379.2,Bank transfer,14,electricity,one year,Andrea Morelli
+10312,2021-04-13,2022-03-24,88.8,992.1,Mailed check,11,both,one year,Stefano Costa
+10313,2025-03-31,,98.8,1316.0,Bank transfer,14,both,month-to-month,Simone Russo
+10314,2021-05-25,,78.5,903.5,Credit card,12,gas,one year,Matteo Morelli
+10315,2024-01-23,,95.5,570.5,Credit card,6,both,month-to-month,Simone Esposito
+10316,2022-03-29,,73.3,714.3,Electronic check,10,both,one year,Marco Coppola
+10317,2020-09-23,2021-08-24,94.6,1026.4,Bank transfer,11,electricity,one year,Chiara Colombo
+10318,2024-01-23,,66.6,966.4,Credit card,15,gas,one year,Alessia Longo
+10319,2022-08-20,,66.0,447.9,Mailed check,7,electricity,month-to-month,Giulia Longo
+10320,2024-05-29,,64.6,1599.7,Bank transfer,25,both,two year,Stefano Morelli
+10321,2024-10-27,,110.4,1373.2,Bank transfer,12,both,month-to-month,Luigi Esposito
+10322,2023-06-16,,116.4,960.1,Credit card,8,electricity,month-to-month,Camilla Russo
+10323,2024-02-14,,103.6,1394.4,Credit card,13,gas,one year,Roberto Romano
+10324,2021-10-02,2022-07-19,73.9,730.0,Credit card,10,both,one year,Roberto Benedetti
+10325,2023-04-28,,103.7,1352.9,Mailed check,13,both,one year,Vincenzo Moretti
+10326,2024-09-20,2026-06-03,114.8,2472.4,Mailed check,21,both,month-to-month,Serena Gallo
+10327,2024-04-08,,72.0,1534.6,Mailed check,21,gas,two year,Daniele Morelli
+10328,2025-08-10,,90.5,86.2,Bank transfer,1,both,month-to-month,Francesco Romano
+10329,2020-12-17,2021-10-06,71.0,717.1,Electronic check,10,electricity,one year,Veronica Lombardi
+10330,2025-05-27,,61.6,307.5,Credit card,5,both,month-to-month,Sofia Bellini
+10331,2022-03-24,,78.7,780.2,Credit card,10,both,one year,Veronica De Luca
+10332,2023-12-02,2025-08-03,100.3,2050.8,Credit card,20,electricity,two year,Fabio Lombardi
+10333,2024-07-02,2026-07-21,51.5,1239.4,Mailed check,25,both,two year,Antonio Costa
+10334,2020-12-01,2022-10-13,62.9,1443.7,Mailed check,23,gas,month-to-month,Ilaria Santoro
+10335,2021-01-05,,80.6,949.0,Mailed check,12,electricity,one year,Martina Lombardo
+10336,2021-12-10,2023-08-30,52.6,1066.4,Electronic check,21,both,month-to-month,Daniele Marini
+10337,2020-11-02,,83.0,1261.6,Electronic check,15,gas,one year,Arianna Mancini
+10338,2022-10-24,2024-04-07,67.4,1166.2,Mailed check,18,gas,month-to-month,Valentina Moretti
+10339,2025-06-05,,79.2,982.0,Credit card,13,gas,one year,Fabio Barbieri
+10340,2020-08-22,,109.1,2602.9,Mailed check,23,gas,month-to-month,Alessia Giordano
+10341,2024-04-05,,64.9,1548.2,Electronic check,24,gas,two year,Martina Bianchi
+10342,2025-01-31,2026-09-23,115.1,2189.8,Electronic check,20,gas,two year,Serena Marini
+10343,2022-06-02,,95.2,1270.6,Credit card,13,both,one year,Serena Marino
+10344,2022-07-06,,118.9,2903.0,Credit card,24,both,two year,Gaia Sanna
+10345,2021-09-21,,85.6,1146.0,Bank transfer,13,electricity,month-to-month,Matteo Basile
+10346,2023-07-23,,56.1,1519.0,Credit card,27,gas,two year,Alessia Colombo
+10347,2024-07-06,,73.1,1150.7,Electronic check,15,gas,one year,Luca Innocenti
+10348,2024-03-28,,67.0,594.2,Bank transfer,9,electricity,month-to-month,Marco Conti
+10349,2024-08-02,,77.6,1594.0,Mailed check,20,electricity,month-to-month,Stefano Lombardi
+10350,2025-07-14,,100.1,1437.7,Bank transfer,15,both,one year,Camilla De Luca
+10351,2021-10-01,,83.8,2126.5,Mailed check,26,gas,two year,Alessandro Giordano
+10352,2025-04-03,,103.4,2563.0,Bank transfer,25,electricity,two year,Luca Bianco
+10353,2021-07-11,2022-05-17,83.2,869.1,Electronic check,10,both,one year,Francesco Moretti
+10354,2022-01-14,,104.6,2076.0,Credit card,20,gas,two year,Martina Bianchi
+10355,2021-05-18,,77.4,2002.8,Credit card,26,both,two year,Luca Caruso
+10356,2023-03-18,2023-09-06,71.5,416.2,Bank transfer,6,both,month-to-month,Giulia Longo
+10357,2021-03-08,,53.2,704.1,Mailed check,13,gas,one year,Paolo Fontana
+10358,2025-05-05,,72.0,1302.2,Credit card,19,both,month-to-month,Vincenzo Costa
+10359,2022-08-01,,53.0,893.5,Electronic check,17,electricity,month-to-month,Federica Santoro
+10360,2024-06-11,,92.8,1241.0,Credit card,13,gas,one year,Vincenzo Lombardo
+10361,2021-02-25,,95.1,774.9,Bank transfer,8,both,month-to-month,Angelo Bianco
+10362,2023-07-29,,62.3,1649.0,Credit card,27,gas,two year,Francesco Romano
+10363,2023-09-29,,103.9,1548.8,Credit card,15,electricity,one year,Fabio Bianco
+10364,2023-03-10,,73.2,281.3,Credit card,4,electricity,month-to-month,Nicole Innocenti
+10365,2020-09-19,,94.7,1985.3,Bank transfer,22,electricity,two year,Marco Morelli
+10366,2021-12-07,,54.8,1322.0,Bank transfer,24,electricity,month-to-month,Valentina Ferrara
+10367,2024-05-24,2026-01-26,115.1,2319.6,Electronic check,20,electricity,month-to-month,Michela Gallo
+10368,2021-05-22,2021-09-28,77.2,317.7,Electronic check,4,both,month-to-month,Stefano Bianchi
+10369,2024-03-31,,64.0,975.2,Mailed check,15,gas,month-to-month,Luca Marini
+10370,2021-07-01,,83.0,1026.4,Mailed check,12,electricity,one year,Antonio Bianco
+10371,2024-05-02,,73.1,835.1,Bank transfer,12,gas,month-to-month,Gaia Martinelli
+10372,2023-02-08,,61.8,1687.7,Electronic check,28,electricity,two year,Arianna Longo
+10373,2023-11-27,,66.3,1194.8,Bank transfer,18,electricity,month-to-month,Ilaria Fiore
+10374,2025-05-12,,73.1,1251.7,Mailed check,18,both,month-to-month,Matteo Esposito
+10375,2023-04-06,,104.7,1575.2,Bank transfer,15,both,one year,Giulia Barbieri
+10376,2023-08-29,,107.8,1819.3,Bank transfer,17,both,month-to-month,Simone Basile
+10377,2021-02-06,,88.2,967.2,Bank transfer,11,both,one year,Antonio Lombardi
+10378,2020-12-13,,62.5,1685.4,Credit card,28,both,two year,Francesco Ferrari
+10379,2025-03-24,,85.0,1334.4,Bank transfer,16,electricity,month-to-month,Giorgio Coppola
+10380,2022-04-03,,111.9,2300.1,Mailed check,20,gas,month-to-month,Elisa Bianco
+10381,2022-01-23,2022-02-27,96.3,95.1,Electronic check,1,gas,month-to-month,Giorgio Caruso
+10382,2024-06-26,,106.8,1072.4,Mailed check,10,gas,one year,Michela Gallo
+10383,2024-11-21,,86.4,917.9,Bank transfer,11,electricity,one year,Martina Lombardo
+10384,2024-10-31,,111.1,3029.2,Bank transfer,28,electricity,two year,Arianna Lombardi
+10385,2025-08-03,,105.6,409.9,Electronic check,4,electricity,month-to-month,Sara Bruno
+10386,2023-07-18,,61.2,1680.3,Credit card,27,electricity,two year,Federica Rossi
+10387,2021-04-22,,83.4,1113.0,Electronic check,14,electricity,one year,Nicole Rossi
+10388,2023-10-25,,119.0,1390.3,Bank transfer,12,gas,one year,Fabio Innocenti
+10389,2022-09-24,,56.6,971.0,Bank transfer,18,both,month-to-month,Davide Costa
+10390,2022-07-25,,86.9,2432.7,Mailed check,28,electricity,two year,Michela Moretti
+10391,2021-09-09,,57.4,675.3,Electronic check,12,gas,month-to-month,Giorgio Basile
+10392,2021-12-01,,117.9,3025.2,Electronic check,26,gas,two year,Arianna Vitale
+10393,2023-09-11,2025-06-15,96.1,1935.1,Electronic check,21,both,month-to-month,Federica Caruso
+10394,2021-02-12,,52.6,699.9,Credit card,13,gas,month-to-month,Debora Marini
+10395,2021-12-17,,81.7,1744.7,Credit card,21,electricity,two year,Federica Morelli
+10396,2023-07-18,,85.7,1026.1,Electronic check,12,electricity,one year,Stefano Martinelli
+10397,2021-11-09,2022-03-06,77.4,323.2,Bank transfer,4,gas,month-to-month,Martina Bianchi
+10398,2020-10-08,,71.9,849.4,Bank transfer,12,electricity,one year,Camilla Basile
+10399,2023-08-18,,98.1,1640.1,Bank transfer,16,both,month-to-month,Davide Ferrari
+10400,2022-01-02,,90.9,1270.3,Mailed check,14,electricity,one year,Giorgio Bianco
+10401,2021-04-10,,88.2,765.9,Mailed check,9,both,month-to-month,Fabio Fiore
+10402,2022-03-29,,73.0,1828.9,Electronic check,24,electricity,month-to-month,Valentina Bianco
+10403,2022-02-23,,119.9,1062.2,Electronic check,9,gas,month-to-month,Matteo Bellini
+10404,2021-03-12,2023-06-24,68.8,1844.2,Mailed check,28,both,two year,Francesco Caruso
+10405,2021-12-22,2022-03-05,110.6,218.7,Bank transfer,2,both,month-to-month,Giulia Santoro
+10406,2020-12-07,,75.9,1704.9,Electronic check,23,electricity,two year,Valentina Bianchi
+10407,2022-03-20,,110.0,1303.5,Electronic check,12,both,one year,Marco Bianco
+10408,2022-01-26,,69.1,427.7,Electronic check,6,gas,month-to-month,Elena Coppola
+10409,2024-07-23,,91.8,469.1,Electronic check,5,electricity,month-to-month,Debora Marini
+10410,2022-11-09,2023-10-17,83.4,924.2,Credit card,11,both,month-to-month,Luigi Lombardo
+10411,2025-07-09,,109.3,2178.1,Credit card,19,both,month-to-month,Debora Fiore
+10412,2023-11-06,,65.9,752.2,Electronic check,11,both,one year,Veronica Morelli
+10413,2021-09-03,,83.7,1265.6,Bank transfer,15,gas,one year,Angelo Rossi
+10414,2024-08-18,2024-12-01,119.6,461.2,Bank transfer,4,gas,month-to-month,Fabio Morelli
+10415,2022-02-06,,87.9,1006.5,Credit card,11,gas,one year,Camilla Moretti
+10416,2021-01-24,2022-05-24,84.8,1309.0,Mailed check,16,both,month-to-month,Matteo Vitale
+10417,2021-02-19,,61.5,768.9,Credit card,12,both,one year,Silvia Fiore
+10418,2022-03-14,,113.6,2854.0,Electronic check,24,both,two year,Daniele Lombardi
+10419,2023-02-05,,50.1,579.0,Credit card,12,gas,one year,Andrea Bruno
+10420,2022-06-01,,114.0,1665.5,Credit card,15,both,month-to-month,Davide Romano
+10421,2022-05-20,,78.5,555.7,Electronic check,7,electricity,month-to-month,Giulia Rossi
+10422,2020-09-27,,115.5,1211.4,Mailed check,11,gas,one year,Matteo Russo
+10423,2022-01-23,,104.7,1016.3,Mailed check,10,both,one year,Davide Esposito
+10424,2023-09-12,,53.7,1190.4,Bank transfer,22,both,month-to-month,Stefano Esposito
+10425,2023-07-10,,74.6,1574.0,Electronic check,21,gas,month-to-month,Camilla Longo
+10426,2021-04-22,,66.9,920.7,Mailed check,14,gas,one year,Luca Conti
+10427,2023-03-22,,117.8,1482.8,Credit card,12,gas,month-to-month,Davide Gallo
+10428,2022-03-15,,76.1,2071.5,Credit card,27,electricity,two year,Davide Marino
+10429,2024-02-12,,111.8,1163.5,Credit card,10,gas,month-to-month,Paolo Russo
+10430,2021-04-03,,71.7,957.5,Mailed check,14,gas,one year,Veronica De Luca
+10431,2023-11-08,,63.2,627.3,Bank transfer,10,electricity,one year,Marco De Luca
+10432,2024-02-23,,97.4,2413.2,Electronic check,26,gas,two year,Gaia De Luca
+10433,2022-07-27,2023-07-01,57.2,606.4,Bank transfer,11,gas,one year,Debora Sanna
+10434,2021-05-19,2021-11-22,115.8,715.4,Electronic check,6,gas,month-to-month,Michela Bianchi
+10435,2024-04-22,,81.1,970.6,Electronic check,12,both,one year,Giorgio Fiore
+10436,2024-04-24,,54.3,838.9,Credit card,15,both,one year,Stefano Bellini
+10437,2024-06-17,,86.3,82.4,Bank transfer,1,both,month-to-month,Davide Conti
+10438,2023-04-27,2024-03-18,103.7,1087.4,Electronic check,11,both,one year,Federica Fiore
+10439,2021-07-24,,103.4,1838.1,Electronic check,18,gas,month-to-month,Andrea Fiore
+10440,2025-04-11,2026-05-18,89.5,1210.9,Mailed check,13,electricity,one year,Simone Basile
+10441,2021-01-04,,116.8,814.6,Bank transfer,7,electricity,month-to-month,Daniele Conti
+10442,2022-12-23,,59.0,1430.7,Mailed check,24,both,month-to-month,Gaia Giordano
+10443,2025-04-27,,55.0,160.2,Credit card,3,electricity,month-to-month,Stefano Coppola
+10444,2023-11-04,,93.2,620.7,Electronic check,7,gas,month-to-month,Veronica Fiore
+10445,2020-09-19,,112.0,3001.9,Bank transfer,27,gas,two year,Giorgio Bellini
+10446,2025-05-08,,75.3,1768.4,Mailed check,23,both,two year,Michela Vitale
+10447,2022-09-22,,88.2,1224.0,Electronic check,14,electricity,one year,Gaia Bianchi
+10448,2024-02-26,2026-02-18,53.8,1330.0,Credit card,24,both,month-to-month,Ilaria Longo
+10449,2025-06-07,2027-03-07,119.4,2597.5,Credit card,21,electricity,month-to-month,Martina Gallo
+10450,2020-09-11,,87.8,1101.5,Mailed check,12,electricity,month-to-month,Chiara Martinelli
+10451,2025-04-01,,53.2,495.9,Electronic check,9,both,month-to-month,Andrea Innocenti
+10452,2025-06-03,2026-09-14,100.7,1537.6,Credit card,16,electricity,month-to-month,Daniele Basile
+10453,2022-04-12,,93.5,2040.9,Mailed check,21,gas,two year,Roberto Coppola
+10454,2023-02-23,,68.8,1266.4,Electronic check,18,both,month-to-month,Davide Bianchi
+10455,2021-10-05,2022-02-05,90.5,368.7,Electronic check,4,gas,month-to-month,Michela Bruno
+10456,2024-11-06,,92.2,903.7,Electronic check,10,gas,one year,Michela Ricci
+10457,2022-08-04,,68.7,196.6,Bank transfer,3,electricity,month-to-month,Fabio Vitale
+10458,2024-11-16,2026-05-09,54.3,966.1,Mailed check,18,gas,month-to-month,Giulia Bellini
+10459,2024-10-08,,78.7,1827.9,Bank transfer,24,gas,two year,Federica Caruso
+10460,2024-11-18,,69.6,404.4,Electronic check,6,both,month-to-month,Vincenzo Sanna
+10461,2022-11-20,2024-09-25,97.8,2137.8,Bank transfer,22,gas,two year,Marco Gentile
+10462,2024-11-03,,71.0,1695.5,Mailed check,24,electricity,two year,Luca Bianchi
+10463,2025-07-14,2025-08-02,86.0,89.3,Mailed check,1,gas,month-to-month,Alessia Romano
+10464,2024-12-13,,57.4,718.5,Credit card,13,both,one year,Paolo Basile
+10465,2021-01-15,2022-12-22,108.9,2543.9,Mailed check,24,both,month-to-month,Angelo Martinelli
+10466,2021-08-28,,85.6,1832.1,Credit card,21,gas,two year,Ilaria De Luca
+10467,2023-03-21,2024-07-12,93.2,1459.2,Mailed check,16,both,month-to-month,Andrea Barbieri
+10468,2021-08-05,,89.3,2339.9,Electronic check,26,both,two year,Silvia Ferrari
+10469,2023-04-22,,73.8,607.5,Mailed check,8,both,month-to-month,Elisa Caruso
+10470,2024-09-02,,57.6,757.4,Electronic check,13,electricity,month-to-month,Davide Marchetti
+10471,2025-05-23,,115.8,1566.4,Credit card,14,gas,month-to-month,Martina Conti
+10472,2022-12-01,,55.1,802.8,Credit card,15,both,one year,Chiara Longo
+10473,2021-01-29,2022-04-26,51.9,817.1,Credit card,15,gas,one year,Silvia Ferrari
+10474,2023-09-07,,101.7,2544.5,Mailed check,24,gas,two year,Matteo Longo
+10475,2021-10-14,2022-09-27,90.3,1047.7,Electronic check,12,both,month-to-month,Arianna Ferrara
+10476,2022-01-23,,114.9,2488.9,Credit card,21,gas,month-to-month,Roberto Innocenti
+10477,2022-09-04,,54.4,1309.3,Electronic check,24,gas,month-to-month,Fabio Mancini
+10478,2022-12-31,,52.5,1261.3,Mailed check,23,both,two year,Fabio Fiore
+10479,2023-09-11,,64.9,717.8,Mailed check,11,both,one year,Martina De Luca
+10480,2022-11-12,,77.6,919.9,Bank transfer,12,gas,one year,Giorgio Mancini
+10481,2020-10-11,,92.4,2159.4,Mailed check,23,both,two year,Sofia Innocenti
+10482,2023-10-18,,50.7,1405.1,Electronic check,27,both,two year,Arianna Caruso
+10483,2024-07-22,,118.6,3054.3,Electronic check,26,both,two year,Michela Marchetti
+10484,2020-08-17,,62.6,428.9,Electronic check,7,gas,month-to-month,Nicole Ferrara
+10485,2021-01-16,,116.4,3118.5,Bank transfer,27,gas,two year,Alessia Lombardo
+10486,2021-04-17,,89.0,2210.7,Bank transfer,26,electricity,two year,Veronica Morelli
+10487,2023-01-15,,77.0,966.7,Mailed check,13,electricity,one year,Marco Sanna
+10488,2025-04-16,,105.7,1006.9,Credit card,10,electricity,month-to-month,Fabio Marchetti
+10489,2023-03-26,,80.5,505.3,Mailed check,6,both,month-to-month,Sara Ferrara
+10490,2022-10-19,2023-08-18,101.6,1043.4,Credit card,10,gas,one year,Valentina Gentile
+10491,2023-11-26,2025-12-21,96.4,2473.9,Electronic check,25,gas,two year,Veronica Ricci
+10492,2024-11-26,,87.1,987.5,Bank transfer,11,gas,month-to-month,Ilaria Ferrari
+10493,2022-02-24,,63.8,1587.9,Credit card,24,both,two year,Salvatore Moretti
+10494,2024-04-16,,118.4,1928.3,Mailed check,16,both,month-to-month,Gaia Longo
+10495,2022-12-26,,106.0,1531.3,Bank transfer,14,gas,one year,Roberto Coppola
+10496,2021-02-22,,73.6,1064.1,Mailed check,14,electricity,one year,Elena Basile
+10497,2024-02-03,,79.3,880.7,Electronic check,11,gas,one year,Giulia Ferrari
+10498,2024-02-28,,102.2,609.9,Mailed check,6,gas,month-to-month,Simone Bruno
+10499,2020-10-01,,76.8,744.4,Bank transfer,10,electricity,one year,Silvia Basile
+10500,2023-09-04,,66.9,1591.3,Electronic check,23,electricity,two year,Elisa Ferrara
+10501,2023-11-10,,60.2,1259.4,Credit card,22,gas,month-to-month,Angelo Marino
+10502,2024-12-30,2025-05-06,78.1,312.5,Mailed check,4,gas,month-to-month,Elisa Ferrari
+10503,2024-06-01,,57.6,837.6,Bank transfer,15,both,one year,Debora Fontana
+10504,2022-06-25,,66.7,885.8,Electronic check,13,gas,month-to-month,Michela Lombardi
+10505,2022-12-15,,58.5,1568.3,Electronic check,27,electricity,two year,Salvatore Bruno
+10506,2022-08-29,2023-08-17,89.5,1072.4,Mailed check,12,electricity,one year,Alessia Rossi
+10507,2022-11-13,,88.3,855.4,Bank transfer,10,electricity,one year,Nicole Vitale
+10508,2022-07-26,,85.1,592.8,Mailed check,7,both,month-to-month,Stefano Costa
+10509,2021-09-21,,103.2,2454.2,Bank transfer,25,electricity,two year,Francesco Barbieri
+10510,2024-12-04,2025-05-06,103.5,517.4,Bank transfer,5,electricity,month-to-month,Gaia Coppola
+10511,2025-06-04,2025-11-11,61.8,315.6,Electronic check,5,electricity,month-to-month,Silvia Giordano
+10512,2021-05-10,2021-10-05,87.7,424.7,Electronic check,5,gas,month-to-month,Sofia De Luca
+10513,2024-07-16,,50.3,1124.3,Bank transfer,23,gas,month-to-month,Sofia Gentile
+10514,2025-02-07,,74.3,908.1,Credit card,12,both,one year,Debora Vitale
+10515,2025-02-24,,63.7,321.7,Mailed check,5,electricity,month-to-month,Giulia Mancini
+10516,2024-03-09,,74.9,1163.3,Bank transfer,15,electricity,one year,Ilaria Coppola
+10517,2021-05-29,,51.5,308.7,Bank transfer,6,gas,month-to-month,Alessia Costa
+10518,2023-12-06,,85.8,1874.9,Credit card,22,electricity,two year,Giulia Benedetti
+10519,2022-02-09,,93.4,2416.7,Mailed check,26,electricity,two year,Sara Martinelli
+10520,2022-04-01,2023-05-22,95.7,1350.7,Electronic check,14,electricity,one year,Daniele Sanna
+10521,2021-08-18,,95.1,1940.6,Credit card,20,gas,two year,Ilaria Santoro
+10522,2025-07-28,2026-06-13,118.3,1305.2,Electronic check,11,both,month-to-month,Sara Fiore
+10523,2023-08-16,,102.3,750.0,Credit card,7,gas,month-to-month,Elisa Conti
+10524,2024-12-25,,96.8,1094.2,Bank transfer,11,gas,one year,Serena Ferrari
+10525,2022-11-30,,58.1,678.5,Bank transfer,12,both,month-to-month,Marco Esposito
+10526,2022-05-14,,109.4,2346.0,Mailed check,22,both,two year,Serena Caruso
+10527,2023-09-06,,53.1,1318.7,Mailed check,25,gas,two year,Chiara Romano
+10528,2022-05-29,2024-07-23,85.5,2284.3,Electronic check,26,gas,two year,Michela Benedetti
+10529,2024-12-12,,71.4,1044.2,Bank transfer,15,both,one year,Gaia Costa
+10530,2021-06-30,,72.8,1106.7,Credit card,15,electricity,one year,Elena Marchetti
+10531,2022-05-07,2023-04-21,65.0,812.2,Mailed check,12,electricity,month-to-month,Roberto Bianchi
+10532,2023-04-01,2023-11-15,104.2,854.6,Electronic check,8,both,month-to-month,Roberto Vitale
+10533,2022-08-30,,53.2,753.0,Credit card,14,gas,one year,Marco Gallo
+10534,2022-01-09,,109.6,2149.7,Bank transfer,19,electricity,month-to-month,Luca Gallo
+10535,2023-05-06,2024-12-21,82.4,1585.0,Credit card,20,both,month-to-month,Andrea Martinelli
+10536,2024-09-26,,108.9,2266.4,Mailed check,20,electricity,month-to-month,Debora Innocenti
+10537,2025-02-21,,118.6,3322.2,Mailed check,28,both,two year,Gaia De Luca
+10538,2022-12-28,,80.5,1026.0,Mailed check,13,gas,one year,Nicole Gallo
+10539,2023-01-13,,63.8,653.9,Electronic check,10,both,one year,Simone Vitale
+10540,2025-03-12,,72.1,1510.2,Credit card,20,both,two year,Marco Rossi
+10541,2021-04-09,,88.3,2124.4,Mailed check,25,gas,two year,Alessandro Sanna
+10542,2024-03-17,,56.4,1509.6,Bank transfer,26,both,two year,Paolo Bianco
+10543,2023-05-08,,109.6,1580.9,Mailed check,14,both,one year,Camilla Morelli
+10544,2021-03-24,,99.8,1048.7,Mailed check,11,both,one year,Antonio Bianchi
+10545,2024-12-31,,62.5,1665.3,Bank transfer,27,both,two year,Luca Coppola
+10546,2022-06-10,,88.8,1979.0,Electronic check,22,electricity,month-to-month,Stefano Caruso
+10547,2024-07-02,,60.8,1489.6,Credit card,24,electricity,two year,Roberto Gallo
+10548,2025-03-18,,86.1,1129.3,Bank transfer,13,both,one year,Marco Gentile
+10549,2025-01-11,2026-04-08,94.7,1398.1,Bank transfer,15,electricity,one year,Antonio Innocenti
+10550,2023-10-21,,105.2,524.4,Mailed check,5,electricity,month-to-month,Camilla Colombo
+10551,2022-06-10,2023-02-19,84.8,703.1,Electronic check,8,electricity,month-to-month,Debora Rossi
+10552,2025-01-03,,99.0,1502.2,Electronic check,15,gas,one year,Simone Giordano
+10553,2020-12-10,,85.2,1135.8,Mailed check,13,electricity,month-to-month,Chiara Russo
+10554,2021-06-05,,85.7,1236.1,Mailed check,15,electricity,one year,Matteo Ricci
+10555,2024-04-01,2025-11-27,62.4,1302.3,Electronic check,20,gas,two year,Serena Bruno
+10556,2025-03-26,,96.5,1271.4,Electronic check,13,both,one year,Alessandro Colombo
+10557,2021-10-31,,71.5,430.6,Mailed check,6,gas,month-to-month,Nicole Fiore
+10558,2021-01-04,,100.2,731.1,Electronic check,7,both,month-to-month,Federica Vitale
+10559,2022-08-20,,88.5,1196.8,Mailed check,13,both,one year,Francesco Marini
+10560,2023-01-03,,60.5,1549.9,Credit card,25,both,two year,Debora Marino
+10561,2023-06-21,2024-05-30,76.4,848.2,Electronic check,11,electricity,one year,Valentina Rossi
+10562,2025-02-07,,58.9,756.5,Mailed check,13,gas,month-to-month,Federica Gentile
+10563,2023-07-21,,58.6,1566.9,Credit card,26,electricity,two year,Elena Romano
+10564,2021-05-14,2021-07-25,100.4,197.3,Electronic check,2,both,month-to-month,Chiara Rossi
+10565,2023-08-14,,90.2,1861.9,Credit card,20,both,two year,Luigi Gentile
+10566,2023-06-15,2024-09-09,110.8,1675.3,Electronic check,15,electricity,one year,Fabio Fiore
+10567,2022-06-16,,114.0,2526.1,Mailed check,22,gas,two year,Alessandro Coppola
+10568,2020-11-06,,118.1,1850.7,Electronic check,15,both,one year,Silvia Bellini
+10569,2022-09-28,,70.1,1099.5,Mailed check,16,electricity,month-to-month,Chiara Santoro
+10570,2020-10-18,,97.2,1015.1,Mailed check,10,gas,one year,Marco Lombardo
+10571,2025-03-02,,75.3,1769.6,Credit card,24,both,two year,Angelo Marino
+10572,2025-05-20,2026-01-09,75.9,636.3,Bank transfer,8,electricity,month-to-month,Daniele Benedetti
+10573,2021-07-06,2022-09-14,108.6,1591.8,Bank transfer,14,electricity,month-to-month,Camilla Ricci
+10574,2025-03-28,,112.6,1394.8,Electronic check,13,gas,one year,Giulia Barbieri
+10575,2023-10-04,,100.0,1532.3,Electronic check,15,gas,one year,Arianna Morelli
+10576,2023-03-11,,80.4,1181.3,Bank transfer,15,gas,one year,Alessandro Russo
+10577,2024-09-07,,88.5,530.0,Bank transfer,6,both,month-to-month,Francesco Longo
+10578,2023-12-30,,65.5,1410.7,Mailed check,21,both,two year,Chiara Bruno
+10579,2025-05-19,,95.3,2177.0,Electronic check,24,both,two year,Camilla Bianco
+10580,2025-07-14,,115.2,117.8,Electronic check,1,electricity,month-to-month,Alessia Costa
+10581,2021-04-10,,82.8,1109.7,Credit card,13,gas,one year,Federica Romano
+10582,2023-05-24,,88.9,253.9,Electronic check,3,gas,month-to-month,Chiara Santoro
+10583,2025-01-16,2026-04-04,76.1,1178.1,Bank transfer,15,both,one year,Roberto Moretti
+10584,2021-01-10,,83.3,1287.5,Electronic check,15,gas,one year,Silvia Barbieri
+10585,2023-01-07,,118.9,2621.2,Electronic check,22,electricity,month-to-month,Luigi Ricci
+10586,2024-06-21,,70.2,337.7,Mailed check,5,both,month-to-month,Valentina Russo
+10587,2021-11-13,2022-12-26,83.3,1189.8,Bank transfer,14,both,month-to-month,Sofia Lombardi
+10588,2022-03-12,,115.2,1103.2,Electronic check,10,both,one year,Daniele Bellini
+10589,2023-06-15,2023-11-17,85.0,445.8,Bank transfer,5,electricity,month-to-month,Roberto Martinelli
+10590,2022-10-08,,66.8,763.3,Electronic check,12,electricity,one year,Sofia Marino
+10591,2024-07-30,,106.4,1174.0,Credit card,11,electricity,month-to-month,Michela Coppola
+10592,2025-07-28,2026-07-15,50.9,622.0,Electronic check,12,gas,one year,Andrea Marini
+10593,2023-12-24,,58.9,772.9,Mailed check,13,electricity,one year,Luca Ricci
+10594,2025-06-04,,102.8,1301.2,Credit card,13,both,one year,Vincenzo Santoro
+10595,2020-08-13,,64.5,1078.4,Bank transfer,17,both,month-to-month,Paolo Rossi
+10596,2022-09-11,,78.0,889.2,Electronic check,11,both,one year,Vincenzo Barbieri
+10597,2022-04-26,,93.8,1131.5,Credit card,12,electricity,one year,Fabio Barbieri
+10598,2021-11-23,,89.4,1151.2,Credit card,13,electricity,one year,Marco Conti
+10599,2024-05-24,,116.6,602.0,Bank transfer,5,electricity,month-to-month,Stefano Coppola
+10600,2025-07-02,,58.3,1330.6,Mailed check,22,electricity,two year,Silvia Lombardi
+10601,2020-08-12,,77.5,226.9,Electronic check,3,both,month-to-month,Paolo Vitale
+10602,2023-05-04,,67.1,1513.1,Bank transfer,23,gas,two year,Debora Basile
+10603,2021-08-03,,109.0,1064.0,Electronic check,10,gas,one year,Sofia Bianchi
+10604,2023-07-11,2025-01-31,57.2,1053.9,Mailed check,19,gas,month-to-month,Veronica De Luca
+10605,2020-12-03,,112.1,1175.3,Credit card,10,both,month-to-month,Marco Basile
+10606,2024-06-29,,64.1,631.3,Credit card,10,both,month-to-month,Nicole Morelli
+10607,2024-08-23,,99.4,1239.5,Mailed check,12,gas,one year,Simone Marini
+10608,2021-09-12,,96.6,2264.1,Bank transfer,23,gas,two year,Serena Basile
+10609,2023-06-20,,66.5,952.4,Electronic check,14,electricity,one year,Giorgio Conti
+10610,2021-10-25,,101.7,1229.4,Bank transfer,12,gas,one year,Debora Longo
+10611,2025-03-24,2027-06-29,102.0,2877.2,Electronic check,28,both,two year,Davide Bianchi
+10612,2024-05-03,2024-06-10,89.4,93.2,Bank transfer,1,electricity,month-to-month,Alessandro Moretti
+10613,2024-05-04,2025-05-12,61.1,755.3,Bank transfer,12,both,month-to-month,Francesco Fiore
+10614,2021-04-21,,60.1,1586.1,Credit card,26,both,two year,Veronica Lombardi
+10615,2024-01-08,,69.0,878.1,Bank transfer,13,both,one year,Matteo Russo
+10616,2022-09-13,,82.1,2306.6,Electronic check,27,gas,two year,Martina Giordano
+10617,2022-08-01,2022-11-12,95.7,276.9,Electronic check,3,gas,month-to-month,Paolo Benedetti
+10618,2021-02-08,2021-05-27,73.7,308.0,Bank transfer,4,both,month-to-month,Davide Moretti
+10619,2023-07-26,,84.7,1087.5,Bank transfer,13,electricity,one year,Paolo Giordano
+10620,2024-07-27,2026-04-22,72.8,1517.4,Mailed check,21,electricity,two year,Arianna Morelli
+10621,2024-03-22,,82.5,1020.8,Bank transfer,13,gas,one year,Giulia Marchetti
+10622,2021-02-09,,99.4,1342.0,Credit card,14,gas,month-to-month,Andrea Marini
+10623,2022-03-26,2024-06-30,67.7,1839.2,Credit card,28,both,two year,Matteo Marini
+10624,2022-11-28,,108.9,1040.1,Electronic check,10,gas,one year,Valentina Innocenti
+10625,2021-12-05,,87.3,966.2,Credit card,11,gas,one year,Matteo Barbieri
+10626,2024-06-06,,68.9,844.1,Credit card,12,both,one year,Giorgio Caruso
+10627,2020-12-16,2022-01-07,55.5,708.3,Mailed check,13,both,month-to-month,Antonio Mancini
+10628,2022-09-16,,85.8,1138.9,Bank transfer,13,both,one year,Martina Vitale
+10629,2020-12-10,2021-04-12,77.4,301.5,Credit card,4,both,month-to-month,Arianna Bellini
+10630,2021-05-28,,112.5,469.4,Credit card,4,both,month-to-month,Luigi Caruso
+10631,2021-11-09,,90.9,1240.3,Credit card,14,both,month-to-month,Paolo Longo
+10632,2023-11-11,,114.0,1285.1,Mailed check,11,gas,one year,Luca Martinelli
+10633,2024-12-30,,69.1,725.3,Mailed check,11,gas,one year,Camilla Bianchi
+10634,2024-09-30,,109.7,1359.7,Bank transfer,12,both,month-to-month,Francesco Bianco
+10635,2021-09-24,,82.9,2074.3,Bank transfer,26,electricity,two year,Daniele Ferrara
+10636,2021-01-21,,114.8,1646.6,Bank transfer,14,both,one year,Vincenzo Longo
+10637,2023-10-01,,109.2,454.9,Credit card,4,gas,month-to-month,Silvia Lombardo
+10638,2025-04-06,,118.6,1335.2,Credit card,11,gas,one year,Andrea Mancini
+10639,2023-02-08,2023-09-26,82.2,633.1,Credit card,8,gas,month-to-month,Giulia Gentile
+10640,2024-06-11,,57.1,880.2,Mailed check,15,both,one year,Alessia Bianchi
+10641,2021-03-10,2022-04-26,79.2,1140.5,Electronic check,14,gas,one year,Francesco Fontana
+10642,2021-10-12,,91.6,2212.6,Mailed check,24,electricity,two year,Elena Bianchi
+10643,2020-08-21,,57.2,1426.1,Mailed check,24,gas,two year,Arianna Benedetti
+10644,2022-03-23,,102.5,1147.4,Credit card,11,gas,one year,Angelo Moretti
+10645,2024-10-20,,82.0,1048.9,Electronic check,13,gas,one year,Federica Caruso
+10646,2025-08-01,,72.0,1517.3,Credit card,22,electricity,month-to-month,Fabio Marino
+10647,2023-12-22,,50.9,1379.4,Electronic check,27,both,two year,Giulia Ferrari
+10648,2020-10-20,,63.8,1271.7,Bank transfer,20,both,month-to-month,Alessandro Barbieri
+10649,2020-11-30,2023-02-01,71.7,1776.4,Electronic check,26,both,two year,Elisa Marino
+10650,2024-12-15,,99.8,1245.9,Credit card,13,both,one year,Marco Romano
+10651,2022-05-10,,92.4,1149.0,Bank transfer,12,electricity,one year,Camilla Fontana
+10652,2024-05-27,,85.0,2237.8,Credit card,26,electricity,two year,Giulia Giordano
+10653,2025-03-06,2025-03-30,114.9,113.8,Electronic check,1,electricity,month-to-month,Salvatore Sanna
+10654,2020-12-07,,60.2,185.4,Bank transfer,3,gas,month-to-month,Serena Marino
+10655,2021-07-02,,61.6,1543.2,Electronic check,25,gas,two year,Daniele Sanna
+10656,2022-07-05,,117.0,1622.6,Bank transfer,14,both,one year,Vincenzo Russo
+10657,2023-06-04,,90.3,1788.6,Credit card,20,electricity,month-to-month,Alessandro Morelli
+10658,2021-07-21,,73.7,560.2,Credit card,8,gas,month-to-month,Davide Ferrari
+10659,2025-03-28,,75.3,659.9,Electronic check,9,both,month-to-month,Stefano Ferrara
+10660,2021-10-20,,106.2,2481.8,Electronic check,23,both,month-to-month,Sara Costa
+10661,2022-08-03,,94.4,773.2,Electronic check,8,both,month-to-month,Veronica Bianchi
+10662,2022-12-22,,66.3,695.7,Electronic check,10,both,one year,Giulia Bianchi
+10663,2024-03-14,,53.3,55.8,Mailed check,1,electricity,month-to-month,Silvia Romano
+10664,2021-04-11,,119.3,1642.9,Mailed check,14,both,one year,Martina De Luca
+10665,2024-03-27,2024-11-11,54.1,447.7,Bank transfer,8,gas,month-to-month,Alessia Rossi
+10666,2022-08-27,,84.0,1915.6,Mailed check,24,electricity,two year,Elena Colombo
+10667,2023-07-22,,94.5,1344.7,Electronic check,14,gas,one year,Veronica De Luca
+10668,2023-03-06,,69.3,842.1,Credit card,12,both,one year,Sara Barbieri
+10669,2025-01-16,,62.4,1382.6,Mailed check,23,electricity,two year,Daniele Bellini
+10670,2022-05-17,2023-05-16,56.3,679.6,Electronic check,12,gas,one year,Giulia Coppola
+10671,2021-10-01,,53.3,596.9,Electronic check,11,gas,one year,Elisa Marino
+10672,2021-08-05,,89.2,2031.4,Electronic check,22,electricity,two year,Serena Russo
+10673,2025-03-15,,104.5,2092.4,Electronic check,20,both,two year,Roberto Longo
+10674,2024-11-22,,85.8,1492.8,Mailed check,17,electricity,month-to-month,Vincenzo Gentile
+10675,2022-06-30,,53.5,1059.9,Bank transfer,20,both,two year,Roberto Sanna
+10676,2021-05-06,,71.1,869.1,Electronic check,12,both,month-to-month,Martina Romano
+10677,2025-04-03,,86.1,1192.8,Electronic check,14,both,one year,Roberto Longo
+10678,2022-10-28,,109.8,1299.6,Credit card,12,both,month-to-month,Fabio Ricci
+10679,2022-02-14,,63.7,817.4,Credit card,13,both,one year,Stefano Lombardi
+10680,2024-08-06,2025-03-08,58.3,402.9,Electronic check,7,electricity,month-to-month,Serena Ricci
+10681,2022-12-08,,62.3,1744.6,Electronic check,28,gas,two year,Davide Colombo
+10682,2022-07-08,,93.2,1127.3,Credit card,12,electricity,one year,Daniele Moretti
+10683,2020-12-04,2021-12-08,112.8,1334.8,Bank transfer,12,electricity,one year,Stefano Bellini
+10684,2022-07-25,,53.8,688.1,Credit card,13,electricity,one year,Martina Marini
+10685,2022-10-29,,69.3,1205.8,Electronic check,18,both,month-to-month,Daniele Giordano
+10686,2023-11-14,,66.5,1278.9,Mailed check,20,both,two year,Elena Caruso
+10687,2020-12-24,,113.6,2716.1,Electronic check,25,electricity,two year,Salvatore Barbieri
+10688,2022-03-06,,79.1,1645.6,Electronic check,21,both,two year,Marco Bruno
+10689,2024-02-26,,68.8,1585.5,Bank transfer,22,gas,two year,Elisa Coppola
+10690,2023-04-11,,107.9,320.3,Credit card,3,gas,month-to-month,Vincenzo Coppola
+10691,2023-11-06,,59.0,1163.4,Credit card,19,gas,month-to-month,Marco Gallo
+10692,2021-01-02,2021-07-31,91.7,648.8,Bank transfer,7,gas,month-to-month,Sofia Innocenti
+10693,2025-02-20,,108.6,1151.1,Mailed check,11,gas,one year,Giorgio Romano
+10694,2024-12-22,,67.4,1245.8,Bank transfer,19,gas,month-to-month,Sara Moretti
+10695,2023-10-15,,82.8,1289.2,Mailed check,15,both,one year,Chiara Bianchi
+10696,2025-05-04,2026-02-15,90.8,937.6,Mailed check,10,gas,month-to-month,Sofia Rossi
+10697,2025-02-07,,53.5,1072.9,Bank transfer,21,both,two year,Sofia Ferrari
+10698,2022-09-25,2022-11-20,118.9,244.2,Bank transfer,2,gas,month-to-month,Chiara Russo
+10699,2024-03-28,2025-04-09,102.5,1300.0,Credit card,13,gas,month-to-month,Martina Costa
+10700,2021-04-05,,99.0,1042.4,Credit card,11,electricity,one year,Marco Lombardo
+10701,2025-02-25,,65.2,1698.9,Mailed check,27,both,two year,Elisa Caruso
+10702,2021-01-08,,82.0,1231.0,Bank transfer,15,both,one year,Alessia Benedetti
+10703,2022-01-08,,54.5,1271.1,Bank transfer,24,gas,two year,Giulia Martinelli
+10704,2025-03-09,,89.5,893.6,Credit card,10,electricity,month-to-month,Ilaria Vitale
+10705,2024-06-06,2026-08-31,52.0,1424.2,Mailed check,27,both,two year,Francesco Lombardo
+10706,2023-05-10,,91.1,1863.3,Electronic check,21,gas,two year,Davide Fiore
+10707,2022-06-30,,55.2,1023.4,Mailed check,19,electricity,month-to-month,Chiara De Luca
+10708,2022-08-20,,75.4,948.9,Electronic check,12,electricity,one year,Valentina Morelli
+10709,2022-02-09,2023-04-18,82.4,1189.4,Bank transfer,14,both,one year,Antonio Lombardo
+10710,2023-12-18,,52.1,1102.0,Bank transfer,21,electricity,month-to-month,Elisa Sanna
+10711,2025-08-05,,52.5,572.2,Credit card,11,gas,one year,Francesco Basile
+10712,2022-10-22,,54.8,559.6,Mailed check,10,both,one year,Luigi Romano
+10713,2023-04-19,,114.8,1314.5,Credit card,11,both,month-to-month,Matteo Bruno
+10714,2025-03-06,,77.9,1089.7,Electronic check,14,gas,one year,Luigi Marini
+10715,2021-09-17,,72.1,1653.5,Mailed check,23,gas,month-to-month,Alessandro Mancini
+10716,2024-01-22,,86.0,1000.8,Electronic check,12,both,one year,Sara Morelli
+10717,2025-05-07,2026-05-06,110.1,1366.3,Electronic check,12,electricity,month-to-month,Francesco Giordano
+10718,2024-03-30,,58.3,661.9,Mailed check,11,gas,month-to-month,Roberto Morelli
+10719,2025-07-07,2027-02-16,93.0,1806.1,Bank transfer,20,gas,month-to-month,Matteo Bianchi
+10720,2022-04-29,,84.8,416.2,Electronic check,5,electricity,month-to-month,Sara Marini
+10721,2023-04-03,2024-01-09,65.1,606.5,Bank transfer,9,both,month-to-month,Ilaria Lombardi
+10722,2021-11-29,,66.8,1600.7,Credit card,24,both,two year,Marco Rossi
+10723,2023-10-06,,105.0,2883.1,Mailed check,27,electricity,two year,Stefano Marini
+10724,2021-04-10,,62.3,1368.7,Bank transfer,23,both,two year,Giorgio Longo
+10725,2020-10-30,,105.9,2237.3,Mailed check,21,electricity,two year,Elisa Esposito
+10726,2025-05-10,,119.9,3208.3,Electronic check,28,electricity,two year,Valentina Romano
+10727,2021-06-20,,113.6,711.8,Mailed check,6,gas,month-to-month,Antonio Santoro
+10728,2023-05-02,,76.9,302.7,Bank transfer,4,both,month-to-month,Elena Conti
+10729,2021-08-05,,89.5,2353.5,Mailed check,26,electricity,two year,Vincenzo De Luca
+10730,2025-05-09,,66.5,698.1,Bank transfer,11,gas,one year,Alessandro Russo
+10731,2021-10-15,,119.1,1487.6,Bank transfer,13,electricity,one year,Luca Colombo
+10732,2025-03-25,2026-08-03,116.4,2057.4,Mailed check,17,both,month-to-month,Veronica Mancini
+10733,2022-09-21,,71.8,423.9,Mailed check,6,both,month-to-month,Nicole Santoro
+10734,2023-01-28,,93.7,928.8,Electronic check,10,gas,one year,Angelo Rossi
+10735,2024-09-02,,117.7,2059.5,Electronic check,18,both,month-to-month,Giorgio Romano
+10736,2024-02-16,,55.7,672.5,Credit card,12,gas,month-to-month,Nicole Esposito
+10737,2023-06-14,,91.8,2024.4,Mailed check,22,both,two year,Andrea Marchetti
+10738,2025-03-04,2026-05-13,80.6,1264.8,Credit card,15,both,month-to-month,Veronica Basile
+10739,2021-12-25,,76.3,769.3,Mailed check,10,both,month-to-month,Marco Ricci
+10740,2024-01-24,,90.0,1322.7,Electronic check,15,electricity,one year,Matteo Ricci
+10741,2022-08-01,,54.9,626.3,Mailed check,12,both,one year,Antonio Innocenti
+10742,2022-04-08,2022-05-13,101.3,105.3,Mailed check,1,both,month-to-month,Ilaria Ferrara
+10743,2022-08-26,,65.3,826.9,Mailed check,13,electricity,one year,Valentina Marchetti
+10744,2022-12-27,,87.4,605.6,Electronic check,7,electricity,month-to-month,Paolo Santoro
+10745,2024-01-11,,109.4,1372.6,Mailed check,13,electricity,one year,Luca Gallo
+10746,2023-05-06,2025-03-19,85.2,1998.5,Mailed check,23,gas,month-to-month,Elisa Santoro
+10747,2025-06-23,,81.0,643.8,Credit card,8,electricity,month-to-month,Chiara Gallo
+10748,2021-01-28,,74.0,1079.7,Electronic check,14,gas,month-to-month,Debora De Luca
+10749,2023-10-10,,65.4,1502.6,Mailed check,22,electricity,two year,Salvatore Costa
+10750,2024-10-09,,98.9,1141.5,Credit card,11,electricity,one year,Simone Russo
+10751,2022-05-22,,67.9,1331.1,Bank transfer,20,gas,two year,Elena Esposito
+10752,2023-11-30,,79.0,2005.4,Electronic check,25,both,two year,Giulia Conti
+10753,2025-04-14,,78.3,1041.7,Bank transfer,14,electricity,one year,Marco Ricci
+10754,2020-10-30,,108.2,1316.4,Electronic check,12,electricity,one year,Sara Colombo
+10755,2025-03-01,,60.4,60.6,Mailed check,1,both,month-to-month,Martina Ricci
+10756,2021-03-13,,86.4,1015.8,Credit card,12,gas,month-to-month,Debora Caruso
+10757,2023-07-25,,73.2,778.6,Bank transfer,11,gas,one year,Alessandro Bellini
+10758,2020-10-20,,68.3,785.9,Bank transfer,11,both,one year,Davide Bianco
+10759,2020-08-24,,72.2,1809.2,Mailed check,24,gas,month-to-month,Silvia Ferrari
+10760,2023-09-05,,117.8,1730.8,Mailed check,14,electricity,one year,Ilaria Conti
+10761,2021-02-09,,82.8,2248.2,Electronic check,26,gas,two year,Davide Lombardo
+10762,2022-07-16,,107.5,1444.5,Credit card,13,gas,one year,Fabio Romano
+10763,2023-08-19,2024-08-27,64.7,774.7,Electronic check,12,electricity,one year,Daniele Bianco
+10764,2023-04-07,,84.4,1574.4,Electronic check,18,gas,month-to-month,Federica Morelli
+10765,2025-05-17,,88.7,1073.8,Electronic check,12,electricity,one year,Fabio Innocenti
+10766,2023-12-16,,108.1,1341.5,Credit card,13,gas,month-to-month,Marco Esposito
+10767,2022-11-11,,79.6,798.5,Bank transfer,10,electricity,one year,Luigi Rossi
+10768,2023-02-06,,90.3,1118.7,Bank transfer,12,both,one year,Fabio Mancini
+10769,2021-04-08,,73.9,780.5,Mailed check,11,gas,one year,Luigi Marchetti
+10770,2025-07-18,,69.5,1520.0,Bank transfer,23,electricity,two year,Silvia Ricci
+10771,2021-04-27,,79.5,873.0,Bank transfer,11,gas,one year,Arianna Bruno
+10772,2024-07-26,,90.1,1286.9,Mailed check,14,gas,month-to-month,Sara Caruso
+10773,2024-11-11,,83.8,1452.9,Mailed check,17,electricity,month-to-month,Elena Coppola
+10774,2023-07-25,,106.2,1394.0,Credit card,13,gas,one year,Alessandro Conti
+10775,2021-03-28,,69.5,1913.6,Mailed check,27,both,two year,Serena Gallo
+10776,2025-06-09,,105.1,2333.7,Mailed check,22,gas,two year,Francesco Bianchi
+10777,2023-01-01,,92.8,457.0,Bank transfer,5,both,month-to-month,Davide Ferrari
+10778,2024-10-15,,63.1,1472.7,Electronic check,23,gas,two year,Martina Gallo
+10779,2020-10-18,,87.6,1268.6,Bank transfer,14,gas,one year,Salvatore Rossi
+10780,2023-08-02,2023-12-10,110.8,425.5,Bank transfer,4,electricity,month-to-month,Michela Longo
+10781,2022-10-26,,114.8,2023.1,Bank transfer,18,electricity,month-to-month,Matteo Romano
+10782,2021-10-03,,53.9,1341.3,Mailed check,25,both,two year,Salvatore Benedetti
+10783,2024-10-19,,87.6,1279.9,Credit card,14,both,one year,Elena Rossi
+10784,2021-01-05,,106.3,1075.6,Credit card,10,electricity,one year,Antonio Gentile
+10785,2023-08-11,,68.3,71.2,Credit card,1,electricity,month-to-month,Marco Bianchi
+10786,2022-03-17,,109.4,1576.9,Bank transfer,14,electricity,one year,Luca Marini
+10787,2023-01-30,,62.7,1554.0,Bank transfer,24,gas,two year,Sara Conti
+10788,2024-07-06,,52.9,1132.1,Credit card,22,electricity,month-to-month,Elena Bruno
+10789,2022-01-10,,54.6,160.8,Bank transfer,3,gas,month-to-month,Giorgio Morelli
+10790,2022-11-19,,118.2,1831.6,Mailed check,16,electricity,month-to-month,Alessandro Vitale
+10791,2022-11-07,,64.8,134.4,Mailed check,2,both,month-to-month,Michela Fontana
+10792,2025-04-09,2026-04-28,84.5,1055.7,Mailed check,13,gas,month-to-month,Silvia Bianchi
+10793,2025-06-24,,79.6,1980.0,Credit card,25,gas,two year,Fabio Coppola
+10794,2023-12-29,2024-11-08,97.3,944.5,Credit card,10,both,one year,Luigi Martinelli
+10795,2020-10-16,,50.5,1092.2,Mailed check,21,gas,two year,Francesco Rossi
+10796,2024-09-27,,101.3,2869.0,Credit card,27,gas,two year,Paolo Colombo
+10797,2024-09-22,,92.7,1953.7,Credit card,22,both,month-to-month,Silvia Barbieri
+10798,2023-04-22,,95.3,2147.3,Electronic check,23,electricity,two year,Salvatore Ferrari
+10799,2021-06-03,,70.0,785.2,Credit card,11,both,one year,Martina Romano
+10800,2024-01-12,,83.5,1114.4,Bank transfer,14,gas,one year,Luigi Romano
+10801,2023-06-16,,101.4,2410.5,Mailed check,24,gas,two year,Vincenzo Romano
+10802,2023-01-24,,117.6,1453.7,Electronic check,12,both,one year,Serena Gallo
+10803,2023-05-17,,99.4,2500.4,Electronic check,24,gas,two year,Alessia Benedetti
+10804,2024-11-23,,85.5,2169.1,Bank transfer,25,gas,two year,Davide Bruno
+10805,2022-12-23,,81.7,1640.0,Bank transfer,21,both,two year,Sofia Ferrari
+10806,2022-11-02,,92.0,1133.8,Electronic check,12,gas,one year,Salvatore Vitale
+10807,2022-09-22,,94.0,1920.7,Credit card,21,both,month-to-month,Michela Benedetti
+10808,2021-01-17,,51.6,623.2,Credit card,12,both,one year,Gaia Bianchi
+10809,2022-08-14,,109.3,1607.3,Electronic check,15,gas,one year,Debora Bruno
+10810,2023-08-07,,111.3,1461.1,Credit card,13,electricity,one year,Daniele Romano
+10811,2022-02-10,,71.6,957.3,Bank transfer,13,both,one year,Michela Sanna
+10812,2025-07-14,,69.4,975.9,Credit card,14,gas,one year,Marco Basile
+10813,2022-04-28,2023-06-06,73.3,964.0,Electronic check,13,both,one year,Luca Gentile
+10814,2021-01-05,,94.0,1272.0,Bank transfer,13,both,one year,Marco Fiore
+10815,2024-04-17,,109.1,1639.8,Bank transfer,15,electricity,one year,Francesco Gallo
+10816,2024-05-25,,68.8,686.0,Mailed check,10,electricity,one year,Valentina Gentile
+10817,2025-03-11,,67.2,1487.4,Electronic check,22,gas,two year,Federica Bruno
+10818,2020-08-23,2021-10-01,112.4,1512.9,Bank transfer,13,both,one year,Michela Ferrara
+10819,2025-06-22,2026-04-20,61.1,590.5,Credit card,10,gas,month-to-month,Elena Benedetti
+10820,2025-04-02,,111.7,1426.6,Credit card,13,electricity,one year,Elisa Bianco
+10821,2024-05-01,,119.5,3344.2,Mailed check,28,gas,two year,Valentina Fontana
+10822,2025-07-20,,99.5,1423.3,Mailed check,15,both,one year,Alessandro Caruso
+10823,2023-04-18,2024-03-05,113.8,1203.8,Bank transfer,11,both,month-to-month,Fabio Colombo
+10824,2024-08-25,,91.3,1306.9,Bank transfer,15,both,one year,Stefano Benedetti
+10825,2022-12-14,2023-05-03,113.5,583.1,Electronic check,5,both,month-to-month,Simone Morelli
+10826,2022-02-17,,70.8,951.4,Mailed check,13,both,month-to-month,Marco Innocenti
+10827,2024-09-07,,106.4,1178.8,Bank transfer,11,both,month-to-month,Valentina Barbieri
+10828,2021-11-29,,67.8,870.3,Mailed check,13,gas,one year,Sofia Marini
+10829,2023-04-24,,104.1,2101.7,Credit card,20,electricity,two year,Debora Longo
+10830,2023-04-26,2024-02-22,77.6,741.6,Bank transfer,10,electricity,month-to-month,Elena Russo
+10831,2025-06-22,,59.6,233.9,Bank transfer,4,electricity,month-to-month,Ilaria Ferrari
+10832,2022-07-06,,83.8,2163.0,Electronic check,27,both,two year,Giorgio Barbieri
+10833,2022-01-20,,109.5,1221.0,Electronic check,11,both,one year,Paolo Lombardo
+10834,2023-04-03,,58.5,753.1,Mailed check,13,electricity,one year,Vincenzo Giordano
+10835,2023-12-15,,63.1,784.5,Credit card,12,both,one year,Ilaria Ricci
+10836,2024-03-18,,117.2,3072.3,Electronic check,26,electricity,two year,Chiara Giordano
+10837,2024-12-04,,97.8,1015.3,Credit card,10,both,one year,Marco De Luca
+10838,2021-03-23,,64.2,917.4,Mailed check,15,electricity,one year,Stefano Costa
+10839,2025-03-28,2025-05-16,102.1,213.7,Mailed check,2,both,month-to-month,Luca Bianchi
+10840,2021-08-02,,113.0,115.2,Bank transfer,1,both,month-to-month,Silvia Santoro
+10841,2023-08-06,,110.4,1255.7,Bank transfer,11,gas,one year,Martina Fontana
+10842,2024-09-10,,100.3,1350.3,Mailed check,14,both,month-to-month,Fabio Bianco
+10843,2025-04-27,,55.2,1113.7,Mailed check,21,both,two year,Debora Caruso
+10844,2023-08-25,,53.6,556.6,Bank transfer,10,electricity,month-to-month,Salvatore Mancini
+10845,2021-11-16,,111.3,3088.4,Bank transfer,28,both,two year,Roberto Gallo
+10846,2021-01-17,,106.8,2740.0,Electronic check,25,gas,two year,Elisa Fontana
+10847,2024-08-26,,63.1,1612.9,Mailed check,25,gas,two year,Daniele Esposito
+10848,2022-01-27,2022-03-06,91.1,87.5,Credit card,1,both,month-to-month,Giulia Marchetti
+10849,2024-07-06,2025-04-17,113.5,997.0,Mailed check,9,gas,month-to-month,Marco Bellini
+10850,2022-08-31,2022-10-19,86.0,179.4,Electronic check,2,both,month-to-month,Elisa Fontana
+10851,2023-11-17,,93.2,1836.8,Mailed check,20,both,month-to-month,Sara Fontana
+10852,2023-08-15,2023-10-03,98.8,202.3,Mailed check,2,gas,month-to-month,Davide Costa
+10853,2024-11-01,,104.9,1449.2,Electronic check,14,electricity,one year,Giulia Romano
+10854,2022-08-11,,119.5,2884.0,Bank transfer,25,both,two year,Federica Innocenti
+10855,2024-05-26,,55.4,400.7,Electronic check,7,gas,month-to-month,Daniele Santoro
+10856,2022-08-02,,110.2,2539.0,Electronic check,23,both,two year,Andrea Benedetti
+10857,2024-01-24,2025-06-19,91.3,1523.7,Bank transfer,17,gas,month-to-month,Stefano Fontana
+10858,2023-06-04,,65.2,981.2,Mailed check,15,both,one year,Marco Romano
+10859,2022-09-04,,68.0,1677.5,Electronic check,25,gas,two year,Veronica Giordano
+10860,2023-10-25,,96.4,1352.7,Bank transfer,14,gas,one year,Francesco Innocenti
+10861,2025-04-28,,104.3,1619.2,Mailed check,16,both,month-to-month,Daniele Romano
+10862,2025-05-09,,66.4,63.8,Bank transfer,1,both,month-to-month,Gaia Romano
+10863,2020-09-27,,118.7,1351.6,Bank transfer,11,gas,one year,Nicole Russo
+10864,2024-01-20,,56.2,1132.1,Credit card,21,both,month-to-month,Francesco Romano
+10865,2022-03-30,2023-09-19,72.6,1278.7,Bank transfer,18,both,month-to-month,Camilla Bianco
+10866,2022-08-03,,51.9,1155.7,Bank transfer,22,both,two year,Simone Marino
+10867,2025-07-09,,98.0,1935.4,Bank transfer,20,both,two year,Gaia Lombardi
+10868,2023-12-27,,118.0,974.6,Bank transfer,8,gas,month-to-month,Elena Gentile
+10869,2023-02-01,,63.3,1682.4,Electronic check,27,gas,two year,Sara Marchetti
+10870,2025-03-04,,113.1,1156.9,Bank transfer,10,both,one year,Fabio Costa
+10871,2021-03-20,,71.9,630.2,Credit card,9,electricity,month-to-month,Sara De Luca
+10872,2021-04-21,,115.4,1561.1,Electronic check,14,gas,one year,Serena Santoro
+10873,2022-05-26,,102.8,1200.5,Bank transfer,12,electricity,month-to-month,Debora Marchetti
+10874,2023-06-06,,61.2,1268.4,Electronic check,21,both,two year,Valentina Gallo
+10875,2025-04-15,,77.4,592.6,Mailed check,8,electricity,month-to-month,Nicole Esposito
+10876,2021-10-05,2022-11-16,87.1,1167.9,Mailed check,14,electricity,month-to-month,Martina Conti
+10877,2023-12-17,,60.4,797.1,Credit card,13,electricity,one year,Davide Lombardo
+10878,2021-08-02,,95.1,1140.6,Credit card,12,gas,one year,Alessia De Luca
+10879,2025-04-04,,54.0,575.7,Bank transfer,11,both,month-to-month,Daniele Romano
+10880,2021-07-22,,67.2,646.6,Credit card,10,electricity,one year,Marco Longo
+10881,2024-06-12,,74.0,1536.9,Credit card,20,electricity,two year,Elena Santoro
+10882,2021-06-01,2022-07-25,72.4,965.5,Bank transfer,14,both,one year,Valentina Bianco
+10883,2023-01-07,2024-08-15,66.5,1270.1,Bank transfer,20,both,month-to-month,Elisa Ferrari
+10884,2024-09-03,2026-09-07,77.3,1763.4,Mailed check,24,both,two year,Michela Esposito
+10885,2021-03-16,,115.1,1389.7,Electronic check,12,both,month-to-month,Marco Vitale
+10886,2022-06-26,,95.8,2405.1,Electronic check,26,gas,two year,Francesco Ferrara
+10887,2021-02-03,,68.7,1788.4,Bank transfer,25,both,two year,Elena Bianco
+10888,2023-02-01,2023-06-07,90.8,373.3,Mailed check,4,both,month-to-month,Marco Bianchi
+10889,2021-03-02,,77.1,154.2,Mailed check,2,gas,month-to-month,Matteo Marino
+10890,2024-07-02,2024-10-18,105.6,441.7,Bank transfer,4,both,month-to-month,Antonio Innocenti
+10891,2023-09-02,,101.2,1225.6,Bank transfer,12,electricity,one year,Stefano Ricci
+10892,2023-11-17,,52.5,667.6,Electronic check,13,electricity,one year,Nicole Colombo
+10893,2022-10-20,,68.9,752.3,Credit card,11,electricity,one year,Angelo Barbieri
+10894,2023-01-17,,84.4,962.9,Electronic check,12,gas,one year,Martina Marchetti
+10895,2020-12-28,,93.4,553.3,Credit card,6,gas,month-to-month,Andrea Fiore
+10896,2022-05-20,,105.9,1467.2,Bank transfer,14,electricity,one year,Elisa Marchetti
+10897,2024-06-05,,119.8,2362.4,Bank transfer,20,gas,month-to-month,Roberto Ferrara
+10898,2022-09-08,,100.0,2024.3,Mailed check,20,gas,two year,Veronica Rossi
+10899,2023-02-21,,94.9,1074.0,Bank transfer,11,gas,month-to-month,Angelo Colombo
+10900,2024-05-05,,83.8,2001.5,Bank transfer,23,both,two year,Marco De Luca
+10901,2022-06-21,,95.9,1369.9,Bank transfer,14,gas,one year,Sofia Gentile
+10902,2023-08-04,,51.2,1022.8,Credit card,20,both,month-to-month,Ilaria Gallo
+10903,2023-02-17,,52.3,1078.7,Bank transfer,20,both,two year,Simone Martinelli
+10904,2025-07-22,,109.0,1542.0,Bank transfer,14,electricity,one year,Arianna Romano
+10905,2024-05-20,,114.0,789.4,Mailed check,7,both,month-to-month,Luca Bellini
+10906,2022-03-25,,71.2,1845.5,Bank transfer,25,both,two year,Serena Coppola
+10907,2023-09-05,,71.3,725.7,Credit card,10,gas,one year,Angelo Bruno
+10908,2023-09-15,,71.8,1064.2,Credit card,15,gas,one year,Veronica Lombardo
+10909,2022-07-13,2023-05-22,72.1,708.8,Credit card,10,gas,month-to-month,Vincenzo Barbieri
+10910,2020-09-25,,52.0,697.9,Bank transfer,14,both,one year,Ilaria Bruno
+10911,2023-08-10,,52.2,509.2,Bank transfer,10,gas,month-to-month,Andrea Bruno
+10912,2024-07-27,,110.2,1434.6,Mailed check,13,both,month-to-month,Martina Longo
+10913,2024-09-14,,61.9,683.0,Credit card,11,gas,month-to-month,Chiara Romano
+10914,2023-05-01,,75.3,1037.9,Bank transfer,14,electricity,one year,Roberto Sanna
+10915,2025-01-07,,75.5,1531.2,Bank transfer,21,electricity,two year,Matteo Caruso
+10916,2023-04-13,,75.6,1010.0,Bank transfer,14,gas,month-to-month,Chiara Bianco
+10917,2022-07-19,,80.7,2319.0,Mailed check,28,both,two year,Alessandro Fontana
+10918,2022-04-17,,92.2,450.9,Electronic check,5,both,month-to-month,Veronica Russo
+10919,2021-02-12,,95.3,1272.4,Credit card,13,electricity,one year,Luigi Basile
+10920,2024-11-24,,88.0,1366.3,Electronic check,15,gas,month-to-month,Debora Esposito
+10921,2023-04-12,,110.4,344.3,Bank transfer,3,electricity,month-to-month,Alessia Colombo
+10922,2023-05-27,,84.0,1127.5,Credit card,14,both,month-to-month,Federica Colombo
+10923,2024-06-30,2026-03-04,71.6,1405.2,Electronic check,20,both,month-to-month,Gaia Bianchi
+10924,2022-06-12,,66.4,768.7,Electronic check,12,electricity,one year,Marco Ricci
+10925,2023-11-17,,78.5,2050.2,Credit card,27,gas,two year,Michela Fiore
+10926,2022-07-03,,85.1,2041.2,Credit card,24,electricity,month-to-month,Luigi Coppola
+10927,2023-04-18,,51.8,106.3,Bank transfer,2,electricity,month-to-month,Alessia De Luca
+10928,2020-10-30,,65.3,1651.4,Bank transfer,25,gas,two year,Elisa Esposito
+10929,2022-04-08,,52.3,1137.9,Credit card,22,electricity,two year,Camilla Ferrari
+10930,2022-05-18,,79.5,2124.5,Credit card,27,electricity,two year,Martina Colombo
+10931,2021-02-19,,115.2,1190.9,Credit card,10,both,one year,Andrea Giordano
+10932,2020-09-29,,61.1,640.2,Electronic check,10,both,one year,Daniele Marini
+10933,2023-11-15,2024-08-24,78.6,686.4,Bank transfer,9,gas,month-to-month,Davide Russo
+10934,2023-01-03,,65.3,846.0,Bank transfer,13,gas,month-to-month,Antonio Fontana
+10935,2022-12-01,,75.3,1097.2,Electronic check,15,electricity,one year,Davide Esposito
+10936,2022-04-25,,86.5,925.6,Bank transfer,11,both,one year,Giulia Vitale
+10937,2025-03-14,,110.8,3218.8,Credit card,28,gas,two year,Sara Coppola
+10938,2024-05-15,,58.7,1200.6,Electronic check,20,gas,month-to-month,Sara Romano
+10939,2023-02-06,,74.5,926.9,Bank transfer,12,electricity,month-to-month,Martina Romano
+10940,2025-08-09,2025-11-09,76.7,220.5,Mailed check,3,gas,month-to-month,Chiara Colombo
+10941,2021-05-12,,106.2,1109.9,Credit card,11,electricity,one year,Paolo De Luca
+10942,2023-04-14,,60.3,1244.2,Bank transfer,21,both,month-to-month,Paolo Moretti
+10943,2024-05-19,,101.2,1696.4,Bank transfer,17,both,month-to-month,Salvatore Barbieri
+10944,2025-07-07,,64.4,967.8,Credit card,15,electricity,one year,Serena Moretti
+10945,2022-11-21,,77.4,1694.9,Credit card,21,gas,month-to-month,Serena Bianco
+10946,2024-08-31,,63.1,667.5,Credit card,11,electricity,month-to-month,Ilaria Vitale
+10947,2022-09-07,,102.3,1358.7,Bank transfer,13,both,one year,Giulia Mancini
+10948,2023-12-28,2024-09-09,84.2,751.6,Mailed check,9,both,month-to-month,Martina Romano
+10949,2024-12-19,,65.1,888.1,Bank transfer,14,both,month-to-month,Alessia Fontana
+10950,2025-05-10,,103.0,1338.0,Credit card,13,electricity,one year,Antonio Colombo
+10951,2021-02-25,,69.2,213.9,Bank transfer,3,both,month-to-month,Elena Bianco
+10952,2022-04-07,,85.7,1075.9,Electronic check,13,electricity,one year,Vincenzo Marini
+10953,2025-07-15,,59.0,865.1,Bank transfer,15,electricity,one year,Paolo Santoro
+10954,2025-04-23,,57.0,1162.4,Electronic check,20,gas,two year,Luca Rossi
+10955,2021-09-29,2023-09-15,118.3,2836.7,Bank transfer,24,both,two year,Michela Colombo
+10956,2021-07-23,,71.3,285.1,Bank transfer,4,electricity,month-to-month,Paolo Gallo
+10957,2023-09-15,,101.5,2296.4,Electronic check,23,electricity,month-to-month,Giulia Ricci
+10958,2021-04-18,,70.9,1631.2,Bank transfer,24,both,two year,Daniele Ferrari
+10959,2023-05-21,,117.0,2708.7,Credit card,24,both,two year,Nicole Giordano
+10960,2024-07-21,,98.8,695.1,Electronic check,7,gas,month-to-month,Matteo Esposito
+10961,2022-08-21,,102.9,700.5,Mailed check,7,electricity,month-to-month,Veronica Bianchi
+10962,2024-04-24,2026-02-12,53.4,1201.7,Electronic check,22,electricity,month-to-month,Francesco Bellini
+10963,2021-07-12,2022-09-30,118.9,1869.5,Mailed check,15,gas,month-to-month,Silvia Conti
+10964,2020-10-02,,114.8,120.1,Bank transfer,1,both,month-to-month,Vincenzo Marchetti
+10965,2023-12-18,,78.4,646.6,Bank transfer,8,both,month-to-month,Giorgio Bianchi
+10966,2023-12-14,2025-02-08,71.5,1047.7,Mailed check,14,gas,month-to-month,Paolo Romano
+10967,2022-08-27,2024-02-21,62.8,1149.1,Mailed check,18,both,month-to-month,Fabio Colombo
+10968,2021-11-17,,105.5,2870.1,Electronic check,28,electricity,two year,Chiara Fontana
+10969,2022-11-24,,112.9,3205.3,Mailed check,28,electricity,two year,Camilla Esposito
+10970,2024-03-02,,57.0,1264.3,Bank transfer,22,electricity,month-to-month,Stefano Romano
+10971,2024-01-18,,75.6,760.2,Bank transfer,10,both,one year,Elisa Romano
+10972,2022-10-01,,96.5,1139.0,Credit card,12,gas,one year,Roberto Mancini
+10973,2022-06-15,2023-08-05,100.9,1362.8,Bank transfer,14,electricity,month-to-month,Veronica Marini
+10974,2022-03-24,,118.5,1357.8,Credit card,11,both,one year,Camilla Fontana
+10975,2024-10-10,,104.2,1797.6,Credit card,18,both,month-to-month,Sofia Marchetti
+10976,2024-11-02,,103.9,1319.3,Credit card,13,gas,one year,Luigi Caruso
+10977,2023-01-29,2024-02-11,63.0,783.9,Electronic check,13,electricity,one year,Paolo Gallo
+10978,2022-10-05,,79.0,401.8,Electronic check,5,both,month-to-month,Andrea Basile
+10979,2024-06-10,,93.6,865.2,Credit card,9,both,month-to-month,Gaia Bianco
+10980,2022-10-29,,69.7,889.6,Electronic check,13,electricity,one year,Debora Coppola
+10981,2024-05-14,,106.7,2390.8,Credit card,22,gas,month-to-month,Camilla Colombo
+10982,2020-10-05,,101.3,1296.4,Electronic check,13,gas,one year,Martina Ferrara
+10983,2024-05-01,,117.3,1779.1,Electronic check,15,gas,one year,Michela Bellini
+10984,2024-09-18,2024-10-13,68.2,66.3,Bank transfer,1,both,month-to-month,Alessia Bianchi
+10985,2023-09-05,,84.8,1943.0,Credit card,24,gas,month-to-month,Alessandro Fontana
+10986,2021-03-06,,114.3,2171.8,Bank transfer,19,electricity,month-to-month,Giorgio Marino
+10987,2024-06-06,,100.9,1384.5,Bank transfer,14,electricity,one year,Michela Lombardi
+10988,2024-04-28,2024-09-02,71.2,290.0,Mailed check,4,both,month-to-month,Sofia Barbieri
+10989,2021-01-08,,81.9,1174.1,Mailed check,14,electricity,one year,Michela De Luca
+10990,2020-11-02,,65.2,264.2,Credit card,4,both,month-to-month,Luca Fontana
+10991,2025-04-09,2026-03-04,94.3,1022.8,Mailed check,11,electricity,one year,Martina Coppola
+10992,2021-09-02,,114.1,1201.4,Credit card,11,electricity,one year,Arianna Esposito
+10993,2021-10-14,2023-02-19,59.7,952.9,Electronic check,16,gas,month-to-month,Giorgio Romano
+10994,2022-03-30,,102.4,2444.6,Mailed check,24,electricity,month-to-month,Giorgio Fontana
+10995,2023-10-12,,64.8,810.4,Electronic check,12,electricity,one year,Angelo Lombardo
+10996,2022-09-15,,74.4,565.9,Credit card,8,both,month-to-month,Serena Innocenti
+10997,2023-10-31,,60.1,649.6,Electronic check,11,gas,one year,Simone Benedetti
+10998,2022-10-30,,81.5,1485.5,Electronic check,19,both,month-to-month,Andrea Esposito
+10999,2024-07-31,,104.5,107.3,Bank transfer,1,both,month-to-month,Silvia Marchetti
+11000,2021-07-22,,74.9,836.9,Electronic check,11,gas,one year,Luigi Mancini
