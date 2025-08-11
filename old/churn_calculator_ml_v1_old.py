@@ -234,12 +234,25 @@ class ChurnCalculator:
         # Add predictions to dataframe
         ml_df['churn_probability'] = predictions
         
-        # Return customers with high probability of churning (top 10%)
+        # Filter for customers with high probability of churning
         high_risk_customers = ml_df[ml_df['churn_probability'] > 0.5].sort_values(
             'churn_probability', ascending=False
         )
         
-        return high_risk_customers[['customer_id', 'churn_probability', 'contract_end_date']]
+        # Exclude customers who have already churned (contract_end_date in the past)
+        # Convert contract_end_date to datetime for comparison
+        high_risk_customers = high_risk_customers.copy() # To avoid SettingWithCopyWarning
+        high_risk_customers['contract_end_date'] = pd.to_datetime(high_risk_customers['contract_end_date'])
+        
+        # Filter out customers whose contract ended before today
+        today = pd.to_datetime('today')
+        future_risk_customers = high_risk_customers[
+            (high_risk_customers['contract_end_date'].isna()) | 
+            (high_risk_customers['contract_end_date'] > today)
+        ]
+        
+        # Select and return relevant columns
+        return future_risk_customers[['customer_id', 'churn_probability', 'contract_end_date']]
     
     def plot_churn_trends(self, year):
         """Plot monthly and quarterly churn trends."""

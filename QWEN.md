@@ -11,6 +11,8 @@ Usa questi comandi rapidi con Qwen:
 - `/add_feature churn_calculator_ml.py trend_plot` → Aggiungi grafico trend churn mensile
 - `/fix_error churn_calculator_ml.py` → Correggi errori e bug
 - `/optimize churn_calculator_ml.py performance` → Velocizza analisi su grandi dataset
+- `/optimize churn_calculator_ml.py hyperparameters` → Esegui GridSearchCV per ottimizzare il modello
+- `/compare_models churn_calculator_ml.py` → Confronta RandomForest con altri modelli (XGBoost, LogisticRegression)
 - `/write_tests churn_calculator.py pytest` → Genera test unitari
 
 ---
@@ -21,6 +23,12 @@ Usa questi comandi rapidi con Qwen:
 - `requirements.txt` → Librerie richieste
 - `sample_customer_data.csv` → Dati esempio base
 - `customer_data.csv` → Dati esempio avanzato
+- `customer_data_large.csv` → Dataset sintetico più grande per test
+- `customer_data_enriched.csv` → Dataset sintetico avanzato con caratteristiche aggiuntive
+- `generate_large_customer_data.py` → Script per generare dataset sintetico
+- `generate_enriched_customer_data.py` → Script per generare dataset sintetico arricchito
+- `MODELLO_DECISIONALE.md` → Documento dettagliato sul modello ML
+- `RIASSUNTO_PROGETTO.md` → Panoramica del progetto e piano di miglioramento
 
 ---
 
@@ -29,6 +37,7 @@ Usa questi comandi rapidi con Qwen:
 - **Librerie**: pandas, scikit-learn, matplotlib, seaborn
 - **Stile**: PEP8, commenti in italiano
 - **Compatibilità**: Windows e Linux
+- **Note Aggiuntive**: Il modello ML è stato ottimizzato con GridSearchCV. Le performance attuali sono: Accuratezza 98%, Richiamo per Churn 89%.
 
 ---
 
@@ -46,12 +55,15 @@ Quando lavori sul progetto:
    - Algoritmo interpretabile (LogisticRegression o RandomForest)
    - Split train/test
    - Metriche: accuracy, precision, recall, f1-score
+   - Cross-validation per valutazione robusta
+   - Ottimizzazione degli iperparametri
 5. **Visualizzazioni**:
    - Grafici chiari, etichette leggibili
    - Salvataggio PNG e possibilità di mostrare a schermo
 6. **Output**:
    - Risultati stampati in console
    - File CSV o TXT con report
+   - Elenco clienti a rischio con probabilità > 50% e filtro per quelli non ancora abbandonati
 
 ---
 
@@ -70,6 +82,8 @@ Se il codice:
 - `Integra un grafico a barre con churn rate per service_type`
 - `Scrivi un report PDF automatico con matplotlib e reportlab`
 - `Genera test pytest per la funzione calculate_monthly_churn`
+- `Aggiungi il supporto per il modello XGBoost a churn_calculator_ml.py`
+- `Modifica il modello per utilizzare LogisticRegression e confronta le performance`
 
 ---
 

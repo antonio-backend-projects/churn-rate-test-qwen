@@ -1,7 +1,7 @@
 import pandas as pd
 import numpy as np
 from datetime import datetime
-from sklearn.model_selection import train_test_split
+from sklearn.model_selection import train_test_split, GridSearchCV
 from sklearn.ensemble import RandomForestClassifier
 from sklearn.preprocessing import LabelEncoder
 from sklearn.metrics import classification_report, confusion_matrix
@@ -143,15 +143,30 @@ class ChurnCalculator:
         # A customer is considered churned if they have an end date
         ml_df['churned'] = ~ml_df['contract_end_date'].isna()
         
-        # Feature engineering
-        # Calculate tenure in days
+        # Data preparation
         ml_df['contract_start_date'] = pd.to_datetime(ml_df['contract_start_date'])
         ml_df['contract_end_date'] = pd.to_datetime(ml_df['contract_end_date'])
         
+        # Feature engineering
+        # 1. Calculate tenure in days
         # For active customers, use today's date as end date for tenure calculation
         ml_df['tenure_days'] = (
             ml_df['contract_end_date'].fillna(pd.to_datetime('today')) - 
             ml_df['contract_start_date']
+        ).dt.days
+
+        # 2. Calculate average monthly charge
+        # Avoid division by zero
+        ml_df['avg_monthly_charge'] = np.where(
+            ml_df['tenure_months'] > 0, 
+            ml_df['total_charges'] / ml_df['tenure_months'], 
+            ml_df['monthly_charges']
+        )
+
+        # 3. Calculate days since last interaction (proxy: days since contract start for active, or until end for churned)
+        reference_date = pd.to_datetime('today')
+        ml_df['days_since_last_interaction'] = (
+            reference_date - ml_df['contract_start_date']
         ).dt.days
         
         # Encode categorical variables
@@ -164,19 +179,36 @@ class ChurnCalculator:
                 self.label_encoders[col] = le
         
         # Select features for the model
+        # Added 'avg_monthly_charge' and 'days_since_last_interaction'
+        # Check for new potential features from enriched dataset
+        potential_new_features = [
+            'avg_monthly_consumption_kwh',
+            'num_support_contacts_last_year'
+        ]
+        
         feature_columns = [
             'monthly_charges', 'total_charges', 'tenure_months', 
-            'tenure_days', 'payment_method_encoded', 'service_type_encoded', 
+            'tenure_days', 'avg_monthly_charge', 'days_since_last_interaction',
+            'payment_method_encoded', 'service_type_encoded', 
             'contract_type_encoded'
         ]
+        
+        # Add potential new features if they exist in the dataframe
+        for feat in potential_new_features:
+            if feat in ml_df.columns:
+                feature_columns.append(feat)
         
         # Remove any columns that don't exist in the dataframe
         feature_columns = [col for col in feature_columns if col in ml_df.columns]
         
         return ml_df, feature_columns
     
-    def train_ml_model(self):
-        """Train machine learning model to predict churn."""
+    def train_ml_model(self, use_balanced_classes=True, optimize_hyperparameters=False):
+        """Train machine learning model to predict churn.
+        
+        :param use_balanced_classes: If True, uses class weights to handle imbalanced data.
+        :param optimize_hyperparameters: If True, uses GridSearchCV to find best hyperparameters.
+        """
         # Prepare data
         ml_df, feature_columns = self.prepare_ml_data()
         
@@ -191,12 +223,57 @@ class ChurnCalculator:
         
         # Split data into training and testing sets
         X_train, X_test, y_train, y_test = train_test_split(
-            X, y, test_size=0.2, random_state=42
+            X, y, test_size=0.2, random_state=42, stratify=y
         )
         
-        # Train Random Forest model
-        self.model = RandomForestClassifier(n_estimators=100, random_state=42)
-        self.model.fit(X_train, y_train)
+        # Determine class weight
+        class_weight = 'balanced' if use_balanced_classes else None
+        
+        if optimize_hyperparameters:
+            print("Performing hyperparameter optimization with GridSearchCV...")
+            # Define the model
+            rf = RandomForestClassifier(random_state=42, class_weight=class_weight)
+            
+            # Define the hyperparameter grid
+            # Note: A small grid for demonstration. In practice, you might want a larger grid.
+            param_grid = {
+                'n_estimators': [50, 100],
+                'max_depth': [None, 10, 20],
+                'min_samples_split': [2, 5],
+                'min_samples_leaf': [1, 2]
+            }
+            
+            # Create the GridSearchCV object
+            # Using accuracy as the scoring metric, but you can change it (e.g., 'f1', 'precision', 'recall')
+            grid_search = GridSearchCV(
+                estimator=rf, 
+                param_grid=param_grid, 
+                cv=3,  # 3-fold cross-validation
+                scoring='accuracy',
+                n_jobs=-1,  # Use all available cores
+                verbose=1   # Print progress
+            )
+            
+            # Fit the GridSearchCV object to the data
+            grid_search.fit(X_train, y_train)
+            
+            # Get the best model
+            self.model = grid_search.best_estimator_
+            
+            # Print the best parameters
+            print("\nBest Hyperparameters:")
+            for param, value in grid_search.best_params_.items():
+                print(f"  {param}: {value}")
+            print(f"\nBest Cross-Validation Score: {grid_search.best_score_:.4f}")
+            
+        else:
+            # Train Random Forest model with default or specified parameters
+            self.model = RandomForestClassifier(
+                n_estimators=100, 
+                random_state=42, 
+                class_weight=class_weight
+            )
+            self.model.fit(X_train, y_train)
         
         # Make predictions on test set
         y_pred = self.model.predict(X_test)
@@ -335,7 +412,9 @@ def main():
     
     # Train machine learning model
     print("\nTraining machine learning model...")
-    calculator.train_ml_model()
+    # For hyperparameter optimization, set optimize_hyperparameters=True
+    # Note: This will take longer to run
+    calculator.train_ml_model(use_balanced_classes=True, optimize_hyperparameters=True)
     
     # Predict churn
     print("\nPredicting customers likely to churn...")
