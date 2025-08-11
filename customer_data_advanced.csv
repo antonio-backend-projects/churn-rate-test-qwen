@@ -1,0 +1,1001 @@
+customer_id,contract_start_date,contract_end_date,monthly_charges,total_charges,payment_method,tenure_months,service_type,contract_type,name,avg_monthly_consumption_kwh,num_support_contacts_last_year,consumption_volatility,consumption_trend,consumption_vs_local_avg_ratio,peak_hour_consumption_ratio,smart_meter_flag,has_promo,days_since_last_promo_end,num_price_changes_last_year,last_bill_amount_vs_avg,num_late_payments,avg_days_late_payment,billing_method,contract_renewal_reminder_sent,days_to_contract_end,has_online_account,num_logins_last_month,num_paperless_bills_sent,last_survey_satisfaction_score,num_complaints_last_year,complaint_resolution_time_avg,customer_tenure_type
+10001,2022-02-08,,100.7,1983.1,Credit card,20,gas,month-to-month,Elena Coppola,1399,2,0.2378,0.0001,1.16,0.36,True,True,0,0,1.16,0,0,Online Portal,False,,False,0,20,10,1,8,Tenant
+10002,2022-10-13,,100.7,957.8,Electronic check,10,both,one year,Marco Bianchi,2359,4,0.2002,0.0028,1.02,0.35,False,False,204,0,0.87,0,0,Paper,True,20,False,0,0,7,2,1,Tenant
+10003,2025-03-08,,112.1,1446.5,Mailed check,13,electricity,month-to-month,Matteo Bianco,384,2,0.2985,-0.0048,1.04,0.26,True,False,211,0,1.01,0,0,Paper,False,,True,5,0,10,1,10,Owner
+10004,2020-11-21,2022-12-18,58.1,1472.6,Credit card,25,both,two year,Sofia Ricci,2085,12,0.4411,-0.003,1.09,0.44,False,True,0,1,1.57,4,9,Email,False,,False,0,25,4,11,1,Tenant
+10005,2021-10-01,,118.1,1822.3,Bank transfer,15,gas,one year,Vincenzo Esposito,1559,1,0.1977,-0.0045,0.93,0.35,False,True,0,2,0.9,0,0,Online Portal,True,50,False,0,15,10,0,0,Tenant
+10006,2022-04-10,,67.1,1667.0,Electronic check,25,gas,two year,Arianna Ferrara,1690,2,0.1734,0.0047,1.06,0.29,True,False,235,0,0.83,0,0,Online Portal,True,165,True,10,25,10,0,0,Owner
+10007,2021-03-05,,95.5,1945.6,Mailed check,20,both,two year,Antonio Russo,1615,0,0.1781,0.0085,1.09,0.33,True,False,153,0,1.01,0,0,Paper,True,46,False,0,0,8,0,0,Owner
+10008,2023-09-03,,51.8,267.0,Credit card,5,electricity,month-to-month,Antonio Marini,218,2,0.2849,-0.0054,1.04,0.37,True,False,181,0,0.82,0,0,Email,False,,False,0,5,9,0,0,Owner
+10009,2024-08-20,,95.6,1504.8,Bank transfer,15,gas,one year,Michela Bianchi,1343,0,0.241,0.0007,1.06,0.28,False,True,0,0,0.95,0,0,Paper,True,10,False,0,0,10,0,0,Tenant
+10010,2023-04-07,,66.2,444.6,Bank transfer,7,both,month-to-month,Sofia Romano,1282,0,0.2895,-0.0041,1.09,0.23,True,False,120,0,1.28,1,20,Email,False,,True,16,7,10,0,0,Tenant
+10011,2023-10-18,,71.7,1037.2,Mailed check,15,electricity,one year,Sara Ferrari,306,1,0.287,0.0008,0.98,0.35,True,False,49,2,1.0,0,0,Online Portal,True,111,False,0,15,8,0,0,Owner
+10012,2022-06-04,,74.5,1552.1,Electronic check,21,both,month-to-month,Francesco Lombardo,2169,1,0.2702,0.0027,1.1,0.34,True,False,43,0,0.88,0,0,Email,False,,False,0,21,8,0,0,Tenant
+10013,2020-09-19,,103.5,1507.6,Electronic check,14,electricity,one year,Elisa Vitale,250,0,0.137,0.0024,1.1,0.49,False,True,0,0,1.06,0,0,Email,False,59,True,11,14,7,0,0,Tenant
+10014,2023-07-19,,112.7,1462.3,Electronic check,13,gas,one year,Chiara Fiore,1977,0,0.2428,-0.0045,0.98,0.41,True,False,267,1,1.28,1,6,Online Portal,True,46,True,1,13,8,0,0,Owner
+10015,2021-11-26,2023-10-24,59.7,1383.6,Bank transfer,23,gas,month-to-month,Fabio Gallo,1747,5,0.4141,0.0067,1.14,0.22,False,False,106,2,1.23,3,29,Paper,False,,True,1,0,0,4,17,Owner
+10016,2025-05-26,,62.0,64.2,Credit card,1,gas,month-to-month,Antonio Bruno,1185,4,0.2951,0.0035,1.14,0.3,False,False,83,2,1.14,0,0,Email,False,,False,0,1,10,3,16,Owner
+10017,2022-09-18,,117.2,3188.0,Electronic check,26,gas,two year,Alessia Conti,1162,3,0.1462,0.0001,1.0,0.45,False,True,0,0,1.13,2,9,Email,True,156,True,5,26,10,1,9,Tenant
+10018,2021-08-13,2022-08-21,91.8,1084.8,Electronic check,12,electricity,one year,Davide Mancini,206,13,0.4886,-0.0483,0.83,0.33,True,False,216,2,2.94,2,8,Online Portal,False,,False,0,12,1,9,22,Tenant
+10019,2025-01-23,,66.0,1471.3,Credit card,23,both,two year,Camilla Costa,2394,2,0.23,0.0046,1.0,0.44,True,False,31,0,1.11,1,10,Online Portal,True,30,True,17,23,8,0,0,Tenant
+10020,2025-05-03,,85.4,892.9,Mailed check,11,both,one year,Luca Lombardo,1575,2,0.134,-0.0088,1.01,0.34,False,False,332,2,1.29,1,14,Paper,True,139,True,16,0,9,1,16,Tenant
+10021,2023-06-03,2024-08-09,59.0,864.8,Credit card,14,electricity,month-to-month,Paolo Fontana,285,4,0.1711,-0.0343,1.17,0.3,True,False,355,0,2.35,5,19,Email,False,,False,0,14,0,2,8,Tenant
+10022,2022-01-22,,118.9,2617.1,Mailed check,23,gas,month-to-month,Salvatore Bianco,1083,0,0.1075,-0.0007,1.2,0.36,True,False,190,3,1.08,0,0,Paper,False,,True,6,0,10,0,0,Owner
+10023,2025-07-01,2026-02-02,61.4,442.8,Mailed check,7,both,month-to-month,Francesco Rossi,1486,11,0.3014,0.0053,0.97,0.43,True,False,155,2,1.22,2,16,Online Portal,False,,True,9,7,0,5,28,Tenant
+10024,2021-07-12,,94.8,1225.5,Mailed check,13,electricity,one year,Stefano Romano,307,4,0.2419,-0.0035,1.19,0.33,True,False,237,1,0.96,0,0,Paper,True,166,True,8,0,8,3,2,Owner
+10025,2021-08-18,2022-01-28,58.6,291.2,Bank transfer,5,both,month-to-month,Michela Coppola,1679,5,0.3219,-0.044,0.94,0.48,True,False,85,2,1.18,4,23,Paper,False,,False,0,0,4,2,21,Owner
+10026,2022-07-06,,105.8,2588.8,Electronic check,25,electricity,two year,Camilla Gallo,229,2,0.1671,-0.0051,0.95,0.22,True,False,209,1,1.09,0,0,Online Portal,False,132,True,9,25,7,0,0,Tenant
+10027,2025-06-11,,94.3,1335.9,Mailed check,14,electricity,one year,Giorgio Marino,225,0,0.1099,-0.0064,1.19,0.47,True,True,0,0,0.96,0,0,Online Portal,True,149,True,13,14,9,0,0,Tenant
+10028,2021-01-31,,63.8,1736.6,Electronic check,27,both,two year,Giulia Giordano,2159,0,0.2632,0.0093,1.09,0.24,True,False,323,0,0.91,0,0,Paper,True,34,False,0,0,10,0,0,Tenant
+10029,2024-08-25,,97.3,507.3,Bank transfer,5,both,month-to-month,Veronica Conti,1863,2,0.1791,-0.0089,1.01,0.31,True,True,0,1,0.85,0,0,Email,False,,True,3,5,10,0,0,Owner
+10030,2020-12-03,,51.1,209.0,Electronic check,4,both,month-to-month,Vincenzo Giordano,1468,1,0.1708,0.003,0.91,0.3,True,False,54,1,0.9,1,18,Paper,False,,False,0,0,8,0,0,Tenant
+10031,2022-04-23,,85.4,1227.3,Electronic check,15,electricity,one year,Simone Barbieri,315,1,0.215,0.0062,1.03,0.47,True,False,357,2,0.81,0,0,Email,True,22,False,0,15,10,0,0,Owner
+10032,2023-03-15,2024-10-13,104.4,2020.9,Mailed check,19,electricity,month-to-month,Davide Colombo,324,12,0.2385,-0.0209,0.5,0.45,True,True,0,0,1.68,5,28,Email,False,,False,0,19,5,5,17,Owner
+10033,2024-08-08,,79.3,2160.3,Bank transfer,27,electricity,two year,Marco Ricci,369,2,0.1719,-0.0019,0.92,0.48,True,False,137,0,1.09,0,0,Paper,True,167,False,0,0,9,1,21,Tenant
+10034,2023-12-20,2024-07-16,71.1,522.3,Bank transfer,7,electricity,month-to-month,Sofia Romano,375,3,0.2198,-0.0162,0.85,0.5,False,False,228,1,1.01,4,5,Online Portal,False,,False,0,7,6,2,24,Tenant
+10035,2023-09-30,,63.5,802.6,Electronic check,13,electricity,month-to-month,Andrea Lombardi,380,2,0.2354,0.006,1.09,0.49,True,True,0,2,1.02,1,14,Online Portal,False,,True,11,13,9,1,11,Tenant
+10036,2024-04-30,,58.1,277.4,Credit card,5,gas,month-to-month,Arianna Rossi,1892,2,0.2274,-0.0077,0.94,0.4,True,False,336,2,1.15,0,0,Paper,False,,True,1,0,10,1,11,Tenant
+10037,2023-09-04,,50.8,409.2,Credit card,8,gas,month-to-month,Fabio Lombardo,1942,0,0.2274,-0.0031,1.16,0.46,False,False,206,1,1.17,0,0,Email,False,,True,14,8,7,0,0,Owner
+10038,2022-08-31,,70.3,1101.2,Mailed check,15,gas,one year,Serena Caruso,1439,4,0.1571,-0.0018,1.02,0.39,False,False,139,0,1.21,0,0,Online Portal,True,104,True,5,15,10,1,1,Tenant
+10039,2022-04-30,,57.4,719.8,Bank transfer,12,gas,one year,Stefano Sanna,1081,3,0.2581,0.0067,1.11,0.46,True,False,227,2,0.9,0,0,Paper,True,121,True,10,0,8,1,15,Tenant
+10040,2023-01-28,2024-03-02,57.7,761.3,Bank transfer,13,gas,month-to-month,Salvatore Benedetti,1072,5,0.2587,-0.0474,1.13,0.28,True,True,0,0,1.0,4,25,Email,False,,False,0,13,5,2,5,Owner
+10041,2023-10-14,,99.6,1807.2,Mailed check,18,gas,month-to-month,Paolo Gallo,1844,0,0.1556,0.004,0.96,0.32,False,False,63,0,1.05,0,0,Online Portal,False,,False,0,18,10,0,0,Owner
+10042,2022-10-11,,107.5,1638.4,Electronic check,15,gas,one year,Alessandro Marino,1670,2,0.1236,-0.0029,1.02,0.49,True,True,0,0,1.08,0,0,Email,True,169,True,19,15,10,1,8,Tenant
+10043,2023-04-23,2025-03-01,81.4,1812.0,Electronic check,23,both,month-to-month,Davide Barbieri,1283,15,0.2195,-0.0164,0.51,0.44,True,False,307,1,1.21,3,28,Email,False,,False,0,23,1,6,13,Tenant
+10044,2022-12-15,,85.6,2186.5,Electronic check,26,gas,two year,Stefano Gallo,1991,2,0.2859,0.0085,0.98,0.26,True,False,277,2,1.23,0,0,Paper,True,179,True,20,0,9,1,10,Tenant
+10045,2021-05-01,,100.4,1359.4,Credit card,13,gas,one year,Salvatore Benedetti,1497,4,0.272,-0.0045,0.96,0.22,True,True,0,0,1.3,1,28,Online Portal,True,81,False,0,13,8,1,4,Owner
+10046,2021-10-01,,90.9,2606.3,Mailed check,28,gas,two year,Nicole Conti,1904,0,0.2402,0.006,0.92,0.4,True,False,270,0,0.89,0,0,Online Portal,True,119,True,20,28,8,0,0,Tenant
+10047,2022-05-10,,58.4,872.9,Mailed check,15,both,month-to-month,Simone Fontana,2177,0,0.2295,-0.0083,0.96,0.3,True,True,0,0,1.04,1,14,Online Portal,False,,True,4,15,8,0,0,Tenant
+10048,2021-04-20,,117.7,1234.9,Mailed check,10,both,one year,Luca Fiore,1822,0,0.2194,0.0077,1.0,0.23,True,False,129,0,1.02,0,0,Online Portal,False,148,False,0,10,9,0,0,Tenant
+10049,2023-03-25,,77.0,2076.5,Mailed check,26,electricity,two year,Angelo Giordano,397,3,0.2668,-0.0032,1.01,0.21,True,False,179,0,1.26,0,0,Email,True,7,True,11,26,9,0,0,Tenant
+10050,2021-03-13,,50.0,511.6,Bank transfer,10,gas,one year,Francesco Giordano,1454,0,0.2936,-0.0081,1.07,0.28,True,False,260,0,1.16,0,0,Email,False,76,True,16,10,7,0,0,Owner
+10051,2021-08-08,,81.1,1177.0,Bank transfer,15,gas,one year,Federica Bellini,1562,1,0.1962,-0.0044,1.0,0.41,True,False,119,0,1.04,0,0,Online Portal,True,28,True,10,15,9,0,0,Owner
+10052,2021-05-29,,79.3,1547.8,Mailed check,20,electricity,month-to-month,Fabio Sanna,322,4,0.148,0.0086,1.1,0.43,True,False,178,2,0.89,0,0,Online Portal,False,,True,11,20,7,3,20,Tenant
+10053,2023-03-06,,94.5,2009.8,Mailed check,22,electricity,two year,Marco Santoro,211,3,0.1816,-0.0016,0.96,0.48,True,True,0,0,0.94,0,0,Paper,True,140,False,0,0,9,1,12,Owner
+10054,2024-10-11,,87.0,2005.9,Credit card,24,both,two year,Chiara Marini,1342,1,0.2836,-0.0095,1.17,0.25,True,False,347,1,0.9,0,0,Online Portal,True,106,True,10,24,10,0,0,Owner
+10055,2023-11-07,,107.4,2356.3,Bank transfer,23,gas,two year,Sara Bellini,1924,3,0.2391,-0.0077,1.1,0.25,True,False,277,1,1.04,0,0,Online Portal,True,40,True,6,23,9,0,0,Tenant
+10056,2022-12-16,,112.4,3083.7,Bank transfer,28,both,two year,Ilaria Gallo,1729,3,0.1872,0.0014,1.11,0.41,False,False,218,0,1.29,0,0,Paper,True,94,False,0,0,10,1,28,Tenant
+10057,2022-07-24,2022-12-25,64.7,314.2,Bank transfer,5,both,month-to-month,Gaia Russo,1944,8,0.3101,-0.0031,0.79,0.44,True,True,0,0,1.81,1,22,Email,False,,True,9,5,5,3,27,Tenant
+10058,2021-12-08,,81.9,1181.7,Mailed check,14,electricity,one year,Alessandro De Luca,343,2,0.1158,-0.0058,1.15,0.4,True,False,322,0,1.06,0,0,Paper,True,40,False,0,0,9,1,16,Owner
+10059,2024-10-30,,106.7,2308.6,Bank transfer,22,both,two year,Sofia Sanna,1999,1,0.1336,-0.0051,1.02,0.3,False,False,321,0,1.15,0,0,Online Portal,True,21,True,18,22,10,0,0,Tenant
+10060,2023-11-03,,91.8,2442.8,Electronic check,27,gas,two year,Gaia De Luca,1120,0,0.1752,0.0098,0.95,0.3,True,False,48,2,0.82,0,0,Email,False,1,False,0,27,8,0,0,Owner
+10061,2024-09-10,,86.8,2138.6,Mailed check,24,both,two year,Roberto Innocenti,2209,2,0.282,-0.0069,0.92,0.24,True,False,351,0,1.04,0,0,Paper,True,44,False,0,0,10,1,11,Tenant
+10062,2023-05-18,,56.5,1078.8,Bank transfer,20,electricity,two year,Arianna Caruso,396,4,0.1664,0.0076,0.99,0.22,True,False,313,3,1.18,0,0,Paper,True,60,True,20,0,10,2,29,Owner
+10063,2022-01-19,,69.9,2023.9,Bank transfer,28,both,two year,Nicole Ricci,1666,1,0.267,-0.0052,1.02,0.38,False,False,314,1,1.21,0,0,Paper,True,66,True,13,0,10,0,0,Owner
+10064,2022-07-15,2023-09-03,94.7,1378.6,Bank transfer,14,both,one year,Ilaria De Luca,2029,13,0.1499,-0.0238,1.11,0.24,True,True,0,1,0.95,4,17,Paper,True,,True,11,0,5,11,21,Tenant
+10065,2021-08-25,,53.5,796.6,Electronic check,15,gas,one year,Arianna Moretti,1584,3,0.2801,-0.008,0.9,0.35,True,True,0,0,1.19,0,0,Paper,False,16,True,4,0,8,2,24,Owner
+10066,2021-06-10,,99.6,2800.5,Credit card,28,both,two year,Simone Bianco,1687,3,0.1903,0.0011,1.01,0.46,False,False,170,1,0.86,0,0,Online Portal,True,61,True,14,28,10,2,13,Tenant
+10067,2021-03-15,,95.4,2231.4,Mailed check,23,both,two year,Silvia Lombardi,1721,2,0.2346,-0.0055,1.04,0.41,True,False,33,2,0.96,0,0,Paper,True,43,False,0,0,7,1,22,Tenant
+10068,2020-09-01,,52.1,1147.7,Electronic check,21,gas,two year,Giorgio Romano,1558,2,0.2264,-0.0045,1.07,0.29,True,True,0,0,1.23,0,0,Online Portal,False,90,False,0,21,9,1,24,Owner
+10069,2022-08-11,,91.5,2583.1,Electronic check,28,both,two year,Elisa Bruno,1486,2,0.2581,0.003,0.93,0.22,False,False,110,1,1.28,0,0,Online Portal,False,173,False,0,28,9,1,12,Owner
+10070,2024-06-01,,63.0,1585.7,Mailed check,26,gas,two year,Alessia Bruno,1267,0,0.1852,-0.0099,1.07,0.46,True,True,0,0,0.82,0,0,Paper,True,58,False,0,0,7,0,0,Tenant
+10071,2023-12-21,,68.9,983.7,Credit card,14,gas,month-to-month,Luca Fontana,1235,4,0.1566,-0.0086,0.93,0.23,False,False,172,1,0.82,0,0,Paper,False,,True,8,0,10,3,11,Tenant
+10072,2023-06-30,2024-09-22,72.9,1120.1,Credit card,15,both,month-to-month,Chiara Moretti,1200,6,0.3133,-0.0348,1.19,0.38,True,True,0,2,0.99,2,29,Paper,False,,True,18,0,0,3,3,Owner
+10073,2021-08-18,,100.1,1296.6,Mailed check,13,both,month-to-month,Luca Russo,2377,0,0.148,-0.0023,1.2,0.34,True,False,234,1,1.22,0,0,Paper,False,,True,3,0,8,0,0,Tenant
+10074,2021-05-13,,69.3,860.7,Electronic check,13,both,one year,Veronica De Luca,2013,0,0.1292,0.0052,1.0,0.39,False,False,153,1,0.86,0,0,Email,False,75,True,7,13,7,0,0,Tenant
+10075,2023-03-21,2025-03-01,108.9,2540.4,Mailed check,24,both,month-to-month,Simone Marini,1397,10,0.2752,0.0058,1.1,0.26,True,False,118,1,1.3,5,6,Paper,False,,True,2,0,1,9,24,Owner
+10076,2023-05-19,,116.3,1435.5,Mailed check,12,electricity,one year,Francesco Martinelli,323,1,0.2488,0.0055,0.91,0.49,True,False,38,0,1.19,0,0,Email,False,41,False,0,12,9,0,0,Owner
+10077,2023-01-10,,65.6,1509.5,Mailed check,23,both,month-to-month,Paolo Ferrara,2153,0,0.1495,0.0005,0.99,0.33,True,False,198,0,1.21,1,15,Email,False,,True,6,23,10,0,0,Owner
+10078,2023-12-06,,53.9,434.0,Electronic check,8,electricity,month-to-month,Luca Costa,280,4,0.1279,0.0053,1.03,0.35,True,False,201,0,0.94,0,0,Online Portal,False,,True,11,8,10,3,30,Tenant
+10079,2025-07-16,2025-11-14,59.7,236.8,Bank transfer,4,both,month-to-month,Daniele Bruno,1978,12,0.3287,-0.0066,0.85,0.44,True,False,174,2,2.81,1,10,Online Portal,False,,True,0,4,0,9,18,Owner
+10080,2020-09-25,2020-12-10,89.9,267.5,Bank transfer,3,gas,month-to-month,Federica Rossi,1659,11,0.5396,0.0058,1.01,0.41,True,False,128,0,1.57,1,29,Online Portal,False,,False,0,3,6,10,10,Owner
+10081,2024-12-15,,107.0,611.5,Bank transfer,6,both,month-to-month,Serena Marchetti,2389,0,0.1048,0.0044,0.93,0.22,True,False,192,0,1.08,0,0,Paper,False,,False,0,0,8,0,0,Owner
+10082,2021-05-17,,74.5,1343.9,Bank transfer,18,gas,month-to-month,Elena Mancini,1690,3,0.2279,-0.0016,1.06,0.42,False,False,275,2,0.88,0,0,Paper,False,,False,0,0,9,1,26,Tenant
+10083,2020-11-19,,118.6,1206.0,Credit card,10,both,one year,Matteo Morelli,1457,1,0.1737,0.0014,0.96,0.21,True,False,337,1,1.04,0,0,Email,True,148,True,12,10,8,0,0,Owner
+10084,2022-06-09,,91.6,2514.8,Credit card,28,gas,two year,Gaia Romano,1210,0,0.1207,-0.0067,1.12,0.23,True,False,309,0,1.28,0,0,Email,True,53,True,4,28,10,0,0,Owner
+10085,2024-02-15,,53.2,1129.1,Electronic check,22,both,two year,Luca Russo,1907,0,0.1426,-0.0025,0.91,0.28,True,False,121,0,1.14,0,0,Paper,True,8,True,11,0,10,0,0,Owner
+10086,2023-06-14,2024-11-07,79.2,1362.4,Electronic check,17,gas,month-to-month,Serena Romano,1849,8,0.3601,-0.0476,1.14,0.36,True,False,190,3,2.05,4,18,Online Portal,False,,False,0,17,4,4,12,Owner
+10087,2020-08-22,,53.1,1407.8,Bank transfer,26,gas,two year,Francesco Mancini,1248,0,0.198,-0.006,1.08,0.35,True,True,0,0,1.06,0,0,Paper,True,117,False,0,0,9,0,0,Owner
+10088,2024-02-14,,109.4,1084.0,Electronic check,10,both,one year,Ilaria Costa,2350,3,0.1037,-0.0011,1.07,0.45,True,False,241,0,1.2,0,0,Paper,False,73,True,14,0,9,1,5,Tenant
+10089,2022-07-11,,105.3,1362.3,Electronic check,13,gas,one year,Nicole Rossi,1067,2,0.2149,0.0056,1.09,0.22,True,True,0,1,0.91,0,0,Paper,True,169,False,0,0,8,0,0,Owner
+10090,2022-10-26,2023-06-11,51.7,400.8,Bank transfer,8,gas,month-to-month,Marco Marini,1061,11,0.2798,-0.0195,0.71,0.31,False,False,180,0,2.89,1,28,Paper,False,,True,17,0,2,7,23,Tenant
+10091,2024-09-29,,109.4,2734.2,Electronic check,26,both,two year,Angelo Coppola,2011,3,0.1745,0.0012,1.01,0.42,True,True,0,1,1.0,0,0,Online Portal,True,82,False,0,26,7,2,17,Owner
+10092,2024-10-30,,97.3,2270.2,Mailed check,23,both,two year,Nicole Bruno,1643,2,0.1504,-0.0048,1.12,0.35,False,False,89,0,1.11,0,0,Paper,True,115,True,12,0,9,1,13,Owner
+10093,2022-11-27,,56.1,510.6,Electronic check,9,gas,month-to-month,Luca Lombardo,1751,2,0.1196,0.0054,0.99,0.33,False,True,0,2,1.24,0,0,Paper,False,,True,4,0,9,1,25,Tenant
+10094,2024-03-14,,82.1,1042.1,Credit card,13,electricity,one year,Sara Coppola,229,2,0.2641,-0.0004,1.15,0.43,True,False,283,1,1.29,0,0,Paper,True,59,True,11,0,10,1,8,Tenant
+10095,2021-09-07,,73.7,1294.1,Credit card,18,electricity,month-to-month,Simone Gallo,240,1,0.2893,0.0038,1.01,0.38,False,True,0,3,0.83,0,0,Paper,False,,True,20,0,8,0,0,Owner
+10096,2020-09-05,,112.3,2159.3,Mailed check,20,gas,two year,Luca Fiore,1083,0,0.1503,0.0057,1.07,0.49,True,False,58,1,1.14,0,0,Online Portal,True,53,False,0,20,7,0,0,Tenant
+10097,2024-02-02,,107.0,1060.1,Credit card,10,electricity,one year,Marco Fontana,359,1,0.2621,-0.0053,1.0,0.48,False,True,0,1,0.97,0,0,Paper,True,90,True,19,0,10,0,0,Owner
+10098,2021-08-30,,88.0,1363.5,Mailed check,15,electricity,one year,Antonio Marchetti,240,3,0.1444,0.0095,1.1,0.5,False,False,91,0,0.84,0,0,Paper,True,156,False,0,0,10,1,19,Owner
+10099,2022-07-25,,85.6,487.9,Credit card,6,both,month-to-month,Gaia Giordano,2135,2,0.2981,-0.0025,1.17,0.39,True,False,139,2,1.08,0,0,Paper,False,,True,0,0,7,1,14,Tenant
+10100,2021-12-18,,60.3,936.8,Electronic check,16,electricity,month-to-month,Alessandro Longo,331,2,0.2345,0.0035,0.94,0.38,True,True,0,2,0.91,0,0,Email,False,,True,10,16,8,0,0,Tenant
+10101,2024-08-14,,56.1,671.2,Credit card,12,gas,one year,Debora Coppola,1559,0,0.2701,0.0028,1.14,0.35,False,True,0,1,1.14,0,0,Online Portal,True,129,True,19,12,8,0,0,Tenant
+10102,2025-05-08,,52.0,625.4,Mailed check,12,electricity,one year,Luigi Vitale,254,4,0.2577,-0.0053,1.16,0.31,True,True,0,0,1.11,2,25,Email,True,22,False,0,12,7,3,17,Tenant
+10103,2022-07-15,,64.9,899.8,Bank transfer,14,electricity,one year,Debora Esposito,310,2,0.1552,0.0018,1.16,0.38,False,False,338,2,1.28,1,12,Paper,True,142,True,12,0,8,1,16,Owner
+10104,2022-07-09,,58.6,1306.9,Electronic check,22,electricity,two year,Nicole Romano,205,1,0.2603,-0.0039,1.14,0.32,False,False,169,0,1.25,0,0,Paper,True,153,True,11,0,8,0,0,Owner
+10105,2021-01-10,2022-10-22,102.4,2287.3,Credit card,22,gas,month-to-month,Elisa Martinelli,1308,7,0.3601,-0.0014,0.9,0.28,True,False,188,2,1.0,4,30,Paper,False,,False,0,0,3,4,27,Owner
+10106,2022-06-06,,109.8,3049.9,Mailed check,28,both,two year,Sofia Rossi,1573,4,0.1723,-0.0024,1.15,0.35,True,False,54,1,0.89,0,0,Email,True,10,False,0,28,7,3,7,Owner
+10107,2025-06-15,2026-05-12,71.1,756.1,Bank transfer,11,both,month-to-month,Debora Martinelli,1842,9,0.1358,0.0062,0.55,0.29,False,False,333,1,1.14,5,27,Paper,False,,False,0,0,5,8,7,Owner
+10108,2020-08-17,,105.7,2811.4,Credit card,27,electricity,two year,Marco Ferrara,234,0,0.2926,-0.0028,1.14,0.44,True,False,362,0,1.16,1,28,Online Portal,True,129,True,2,27,10,0,0,Tenant
+10109,2022-05-13,,64.4,738.3,Electronic check,11,both,one year,Roberto Giordano,2105,3,0.2589,-0.0061,1.19,0.45,True,False,157,0,1.17,0,0,Email,True,134,True,17,11,9,1,8,Tenant
+10110,2022-10-29,,79.0,1537.7,Bank transfer,20,electricity,month-to-month,Marco Longo,253,4,0.1635,-0.0046,1.18,0.48,True,False,101,1,1.26,0,0,Email,False,,True,17,20,8,3,8,Owner
+10111,2021-05-14,,99.6,1313.9,Credit card,13,both,one year,Nicole Morelli,1667,3,0.1756,0.0001,1.04,0.44,True,False,350,3,0.89,0,0,Paper,True,23,True,14,0,9,2,2,Tenant
+10112,2021-06-22,,86.4,89.9,Mailed check,1,both,month-to-month,Sofia Ricci,1926,0,0.1295,0.0097,1.19,0.48,True,True,0,0,0.95,0,0,Email,False,,True,16,1,8,0,0,Owner
+10113,2023-05-04,,92.6,626.7,Credit card,7,gas,month-to-month,Roberto Russo,1173,1,0.2764,0.0061,1.01,0.24,False,True,0,2,0.87,0,0,Email,False,,True,20,7,9,0,0,Tenant
+10114,2023-03-14,,68.4,1705.1,Electronic check,26,electricity,two year,Salvatore Vitale,226,2,0.2958,0.0015,1.07,0.5,False,False,113,0,1.28,0,0,Online Portal,True,155,True,9,26,9,1,7,Tenant
+10115,2022-05-13,,82.2,1289.4,Bank transfer,15,gas,one year,Serena Giordano,1566,2,0.2881,0.0056,0.93,0.41,False,False,49,0,0.95,0,0,Online Portal,True,47,False,0,15,7,1,29,Tenant
+10116,2020-08-29,,64.8,1256.6,Credit card,20,gas,two year,Francesco Ferrari,1039,3,0.1323,0.0075,0.96,0.31,False,False,49,2,1.16,0,0,Paper,False,123,True,7,0,8,2,14,Owner
+10117,2024-04-16,,89.4,1126.0,Mailed check,13,gas,one year,Gaia Fiore,1175,0,0.2632,-0.0065,1.16,0.25,True,False,42,0,1.09,0,0,Online Portal,True,79,False,0,13,9,0,0,Tenant
+10118,2022-04-03,2024-06-16,55.5,1439.8,Credit card,27,gas,two year,Paolo Giordano,1296,12,0.3923,-0.0035,0.78,0.49,True,True,0,1,0.93,2,12,Online Portal,True,,True,7,27,1,8,9,Owner
+10119,2022-04-24,,59.3,1555.1,Electronic check,26,gas,two year,Stefano Marchetti,1514,3,0.147,0.0003,1.15,0.38,True,True,0,0,1.15,0,0,Online Portal,True,164,False,0,26,8,2,18,Tenant
+10120,2022-12-04,,77.0,1765.5,Credit card,24,electricity,two year,Marco Bianchi,311,4,0.1561,-0.0027,1.01,0.23,True,False,144,0,0.94,0,0,Paper,True,66,False,0,0,8,2,10,Tenant
+10121,2020-08-12,,81.5,1961.9,Bank transfer,25,both,two year,Paolo Basile,1555,3,0.17,-0.0049,0.99,0.42,True,False,234,2,0.97,2,26,Paper,True,178,True,11,0,9,1,12,Tenant
+10122,2021-04-04,2021-06-10,68.2,134.8,Mailed check,2,electricity,month-to-month,Giulia Ferrari,312,11,0.3643,-0.0404,0.99,0.23,True,False,141,0,0.86,5,7,Paper,False,,True,9,0,1,4,20,Tenant
+10123,2022-07-22,,112.2,1520.5,Electronic check,13,both,one year,Sofia Bianchi,1379,2,0.1682,-0.0058,1.03,0.43,False,False,293,1,1.14,0,0,Online Portal,True,92,True,14,13,10,1,8,Owner
+10124,2024-03-14,,57.8,663.0,Electronic check,11,electricity,one year,Paolo Giordano,224,3,0.2525,0.0006,1.18,0.38,False,False,207,0,1.01,0,0,Paper,False,160,True,12,0,10,2,5,Owner
+10125,2023-08-06,,69.2,963.3,Bank transfer,14,gas,one year,Giulia Moretti,1887,0,0.2105,0.0078,1.02,0.47,True,False,355,1,1.09,0,0,Online Portal,True,26,True,14,14,7,0,0,Tenant
+10126,2024-10-26,,81.1,1269.1,Mailed check,15,electricity,one year,Elisa Bianco,222,4,0.1121,-0.002,0.96,0.4,True,False,191,2,1.23,1,11,Online Portal,False,82,True,14,15,9,2,23,Owner
+10127,2023-04-11,,51.2,902.4,Bank transfer,17,gas,month-to-month,Elena Gallo,1227,0,0.2079,0.0078,0.98,0.35,True,True,0,0,1.28,0,0,Email,False,,False,0,17,7,0,0,Owner
+10128,2025-06-24,,116.9,1779.1,Bank transfer,16,gas,month-to-month,Paolo Ferrari,1137,2,0.2789,0.0065,0.91,0.47,True,False,251,0,0.84,0,0,Online Portal,False,,True,11,16,10,0,0,Tenant
+10129,2022-12-31,,72.2,968.4,Electronic check,14,electricity,one year,Paolo Bianchi,259,3,0.1414,0.0057,1.01,0.44,True,False,337,0,0.92,0,0,Paper,True,176,True,3,0,10,0,0,Owner
+10130,2023-12-10,,92.5,963.5,Mailed check,10,gas,one year,Federica Coppola,1015,4,0.2099,-0.0016,0.99,0.37,False,False,323,0,1.14,0,0,Email,True,140,True,4,10,10,3,13,Tenant
+10131,2022-02-01,2023-07-15,110.0,2045.1,Electronic check,18,gas,month-to-month,Antonio Ricci,1972,11,0.48,-0.0073,1.02,0.26,True,True,0,0,2.26,4,15,Paper,False,,False,0,0,0,7,21,Tenant
+10132,2023-05-14,,53.2,1306.8,Mailed check,24,electricity,two year,Simone Russo,268,0,0.2494,-0.0067,0.94,0.28,True,False,31,0,1.3,0,0,Online Portal,True,127,True,8,24,8,0,0,Owner
+10133,2022-01-15,,103.1,2294.2,Bank transfer,23,electricity,two year,Sara Rossi,276,2,0.132,-0.0004,0.99,0.36,False,True,0,0,0.97,0,0,Online Portal,True,165,True,6,23,9,1,9,Owner
+10134,2021-05-25,,71.6,726.2,Bank transfer,10,gas,one year,Fabio Russo,1575,4,0.1812,0.0007,0.98,0.4,False,True,0,0,1.05,0,0,Paper,False,166,False,0,0,9,2,2,Owner
+10135,2024-09-11,,80.9,1830.6,Credit card,22,gas,month-to-month,Ilaria Fontana,1457,3,0.1096,0.0009,1.13,0.22,False,True,0,1,1.2,0,0,Online Portal,False,,True,11,22,7,2,17,Tenant
+10136,2025-06-30,,100.6,2122.0,Credit card,22,electricity,two year,Martina Benedetti,203,4,0.2196,0.0065,0.91,0.31,True,True,0,0,1.14,0,0,Paper,True,16,True,2,0,10,3,21,Tenant
+10137,2025-03-24,,50.3,779.4,Bank transfer,15,gas,one year,Salvatore Vitale,1943,4,0.1012,-0.0081,1.09,0.41,True,False,133,1,1.11,2,14,Email,True,28,False,0,15,8,3,14,Tenant
+10138,2025-01-14,,95.3,2472.2,Bank transfer,27,gas,two year,Debora Lombardo,1072,2,0.1311,0.0065,0.92,0.33,False,False,44,0,0.91,0,0,Paper,True,3,True,20,0,10,1,14,Owner
+10139,2024-03-02,2025-09-07,109.4,1976.4,Mailed check,18,gas,month-to-month,Gaia Gentile,1096,12,0.222,-0.0492,0.98,0.4,True,False,178,2,2.38,1,26,Email,False,,True,17,18,6,10,10,Owner
+10140,2022-04-12,,104.5,1439.0,Credit card,14,gas,one year,Sara Conti,1474,1,0.258,-0.0086,1.04,0.35,False,False,196,1,1.05,0,0,Paper,True,121,False,0,0,9,0,0,Owner
+10141,2020-10-14,,109.6,1205.7,Mailed check,11,gas,month-to-month,Giulia Mancini,1524,4,0.1548,-0.0014,1.04,0.29,True,False,161,0,0.91,1,11,Email,False,,False,0,11,10,3,15,Tenant
+10142,2025-01-27,,53.2,510.3,Credit card,10,electricity,one year,Francesco Rossi,214,2,0.1389,-0.003,1.09,0.29,True,False,287,2,1.13,0,0,Online Portal,True,139,False,0,10,7,0,0,Owner
+10143,2025-07-09,,66.1,1384.6,Credit card,22,both,month-to-month,Debora Rossi,1564,4,0.2802,-0.0029,1.2,0.35,False,False,226,2,0.99,0,0,Online Portal,False,,True,5,22,8,1,2,Tenant
+10144,2024-10-16,,90.8,1157.1,Electronic check,13,both,one year,Chiara Basile,2121,4,0.2306,0.0078,1.1,0.33,False,False,292,2,1.05,0,0,Email,True,136,True,5,13,8,2,21,Owner
+10145,2022-11-13,,112.6,1239.8,Bank transfer,11,gas,one year,Alessandro Bruno,1283,1,0.2039,0.0054,1.04,0.26,False,False,314,0,1.09,1,17,Paper,False,62,True,15,0,9,0,0,Owner
+10146,2025-01-27,,57.0,713.2,Electronic check,12,gas,one year,Sofia Rossi,1949,2,0.118,0.0068,1.03,0.5,False,False,310,0,1.2,0,0,Paper,True,31,True,20,0,9,1,4,Owner
+10147,2021-05-01,,86.2,826.2,Mailed check,10,gas,one year,Davide Colombo,1345,0,0.2649,-0.0012,1.07,0.36,True,True,0,0,1.09,1,10,Online Portal,True,101,True,5,10,9,0,0,Tenant
+10148,2024-02-23,,96.2,1207.1,Credit card,13,both,one year,Veronica Rossi,1489,0,0.162,-0.0065,1.2,0.26,True,False,119,0,1.18,1,11,Paper,True,173,True,15,0,7,0,0,Tenant
+10149,2023-11-27,2025-06-21,84.0,1628.0,Electronic check,19,gas,month-to-month,Marco Coppola,1426,15,0.1708,-0.012,1.14,0.44,True,False,276,0,0.82,4,22,Paper,False,,False,0,0,2,5,3,Owner
+10150,2021-11-06,,78.8,977.6,Electronic check,12,both,month-to-month,Luca Gallo,2028,2,0.1253,0.0087,0.99,0.45,False,True,0,1,1.24,0,0,Email,False,,False,0,12,9,0,0,Owner
+10151,2023-01-19,,96.9,2701.3,Electronic check,27,electricity,two year,Elena Costa,339,0,0.2356,0.0033,1.05,0.35,False,True,0,0,0.89,0,0,Paper,True,157,False,0,0,8,0,0,Owner
+10152,2022-01-11,,60.4,494.2,Credit card,8,electricity,month-to-month,Daniele Vitale,382,0,0.2505,0.0065,1.13,0.39,True,False,50,1,1.23,0,0,Paper,False,,True,20,0,10,0,0,Owner
+10153,2024-01-20,,87.5,1243.7,Bank transfer,14,both,month-to-month,Giorgio Moretti,1941,0,0.2457,0.0062,0.9,0.46,False,False,319,0,1.06,0,0,Paper,False,,False,0,0,7,0,0,Tenant
+10154,2023-08-06,,92.8,970.7,Mailed check,11,electricity,one year,Matteo Longo,287,4,0.2837,0.0057,0.99,0.44,True,True,0,0,1.29,0,0,Online Portal,True,124,True,4,11,7,2,28,Tenant
+10155,2021-09-30,,87.3,1592.2,Mailed check,19,gas,month-to-month,Antonio Gallo,1327,3,0.1423,-0.0008,1.12,0.33,False,False,37,0,1.19,0,0,Paper,False,,True,6,0,9,1,30,Tenant
+10156,2024-10-31,,84.3,1629.9,Bank transfer,20,both,two year,Davide Basile,1344,2,0.1992,0.0031,0.99,0.22,True,False,93,0,1.3,0,0,Online Portal,True,154,True,4,20,10,1,14,Owner
+10157,2020-10-03,,101.7,2779.2,Bank transfer,27,electricity,two year,Antonio Moretti,320,3,0.1477,0.0067,0.98,0.28,True,False,310,0,1.13,0,0,Online Portal,True,17,False,0,27,10,2,14,Owner
+10158,2022-03-06,,114.5,1469.7,Bank transfer,13,electricity,month-to-month,Giulia Esposito,345,3,0.2388,-0.0089,1.08,0.44,True,False,287,1,0.85,0,0,Email,False,,False,0,13,7,0,0,Tenant
+10159,2023-02-03,,52.9,104.6,Bank transfer,2,gas,month-to-month,Elisa Fiore,1610,3,0.2691,0.0011,0.97,0.24,False,True,0,2,1.16,0,0,Paper,False,,False,0,0,7,1,15,Owner
+10160,2021-08-14,2021-10-24,98.5,201.3,Credit card,2,gas,month-to-month,Michela Barbieri,1306,10,0.1376,-0.0308,0.51,0.41,True,False,46,2,2.29,2,11,Paper,False,,False,0,0,0,4,28,Tenant
+10161,2023-02-13,,76.4,745.7,Electronic check,10,both,month-to-month,Antonio Marchetti,2064,0,0.1524,-0.0027,0.97,0.22,True,False,118,0,1.14,0,0,Email,False,,True,7,10,9,0,0,Tenant
+10162,2024-07-20,,69.0,1015.3,Credit card,15,electricity,one year,Angelo Ricci,213,3,0.2986,-0.0034,0.91,0.49,False,False,43,3,1.26,0,0,Online Portal,True,62,True,0,15,10,1,11,Tenant
+10163,2020-09-13,2020-10-20,106.7,105.1,Electronic check,1,gas,month-to-month,Francesco Caruso,1531,11,0.3042,-0.001,0.6,0.37,False,False,292,3,1.14,3,21,Paper,False,,False,0,0,1,8,23,Tenant
+10164,2022-04-10,,72.2,1131.6,Mailed check,15,both,one year,Salvatore Russo,2214,2,0.1237,-0.0047,1.16,0.42,False,False,319,2,0.95,0,0,Online Portal,True,62,False,0,15,9,0,0,Owner
+10165,2021-03-27,,119.9,1367.2,Credit card,12,gas,one year,Martina Costa,1606,1,0.1353,0.0018,1.01,0.47,True,False,161,3,0.91,1,8,Paper,True,134,False,0,0,10,0,0,Tenant
+10166,2021-07-05,,85.6,427.7,Electronic check,5,electricity,month-to-month,Giulia Ricci,241,2,0.1126,-0.0002,0.93,0.44,True,False,282,1,0.86,0,0,Paper,False,,True,6,0,10,1,27,Owner
+10167,2020-09-15,2022-05-16,76.1,1479.3,Credit card,20,both,month-to-month,Simone Bellini,1486,14,0.2098,-0.0161,1.1,0.31,True,False,203,1,1.75,3,5,Paper,False,,False,0,0,6,5,23,Owner
+10168,2022-10-28,,110.0,1463.7,Mailed check,13,gas,one year,Veronica Fiore,1432,4,0.1093,0.006,1.04,0.49,True,False,78,2,1.09,0,0,Email,False,176,True,8,13,10,2,22,Tenant
+10169,2025-03-30,,66.2,861.6,Mailed check,13,both,one year,Simone Ricci,2149,0,0.2344,0.0058,1.01,0.35,True,True,0,0,1.11,1,18,Online Portal,True,47,True,19,13,9,0,0,Tenant
+10170,2023-06-15,2024-05-26,90.6,1071.3,Electronic check,12,electricity,one year,Chiara Sanna,215,14,0.1811,0.0096,0.66,0.41,False,False,225,2,2.55,3,28,Online Portal,False,,True,19,12,3,6,28,Owner
+10171,2021-06-16,,107.1,1212.9,Mailed check,11,electricity,one year,Giulia Marino,380,1,0.2927,-0.0071,1.17,0.33,True,False,292,1,1.09,2,29,Online Portal,False,174,True,14,11,7,0,0,Owner
+10172,2022-09-04,,91.1,911.3,Credit card,10,both,one year,Vincenzo Fontana,1929,1,0.1196,-0.0018,0.97,0.39,True,False,198,1,1.14,0,0,Online Portal,True,62,True,3,10,9,0,0,Tenant
+10173,2025-07-26,,78.3,981.4,Bank transfer,13,both,one year,Michela Bianchi,1765,1,0.2345,0.0091,0.94,0.49,True,False,172,0,0.9,1,26,Online Portal,False,104,True,14,13,9,0,0,Tenant
+10174,2024-05-06,2026-08-30,119.0,3324.5,Electronic check,28,both,two year,Antonio Mancini,1966,3,0.2576,0.0022,0.92,0.42,True,False,90,1,2.3,5,13,Email,True,,True,6,28,4,1,10,Owner
+10175,2021-07-19,,50.6,664.0,Bank transfer,13,electricity,one year,Martina Vitale,356,3,0.1185,-0.005,1.02,0.3,False,False,78,1,1.05,0,0,Paper,False,37,True,0,0,10,1,20,Owner
+10176,2020-12-26,2023-03-31,118.1,3188.2,Bank transfer,28,gas,two year,Francesco Fiore,1902,14,0.2852,0.0083,0.98,0.22,True,True,0,1,1.12,3,27,Email,True,,False,0,28,3,10,25,Tenant
+10177,2021-03-21,,63.5,952.8,Bank transfer,15,electricity,one year,Antonio Conti,321,2,0.2599,0.0063,1.07,0.24,True,False,275,2,1.2,0,0,Online Portal,True,166,False,0,15,7,1,15,Tenant
+10178,2021-10-18,2022-08-15,80.9,788.5,Mailed check,10,both,month-to-month,Nicole Bianchi,1724,4,0.3877,0.0001,0.74,0.46,True,False,53,2,1.22,4,28,Paper,False,,True,1,0,6,2,21,Tenant
+10179,2024-01-11,,61.2,670.0,Mailed check,11,gas,one year,Roberto Santoro,1188,4,0.2256,0.006,1.08,0.49,True,False,215,1,1.25,0,0,Email,True,155,True,3,11,8,3,20,Tenant
+10180,2022-04-27,,50.8,585.4,Credit card,11,gas,month-to-month,Roberto Vitale,1427,1,0.2726,0.0024,1.04,0.21,True,False,113,0,1.23,0,0,Paper,False,,False,0,0,10,0,0,Tenant
+10181,2022-08-21,,88.0,2534.7,Electronic check,28,both,two year,Angelo Caruso,1930,4,0.2543,-0.0046,1.01,0.4,True,False,173,0,0.89,0,0,Email,True,118,True,4,28,9,1,25,Tenant
+10182,2025-01-10,,75.8,899.0,Mailed check,12,electricity,one year,Sara Romano,400,0,0.2552,-0.0065,1.17,0.39,True,True,0,0,0.86,2,15,Online Portal,False,30,True,1,12,7,0,0,Owner
+10183,2021-04-06,,85.0,941.4,Bank transfer,11,electricity,one year,Francesco Rossi,380,3,0.2038,-0.0012,1.01,0.48,False,False,121,0,1.3,0,0,Email,True,79,True,16,11,7,1,23,Tenant
+10184,2021-08-15,,73.4,367.0,Mailed check,5,gas,month-to-month,Luca Lombardi,1128,2,0.224,-0.0086,1.01,0.3,False,False,339,0,0.94,0,0,Online Portal,False,,False,0,5,8,1,1,Tenant
+10185,2022-06-27,2023-07-25,54.0,696.0,Electronic check,13,electricity,month-to-month,Elisa Gallo,264,13,0.3624,0.003,0.65,0.27,True,False,173,1,2.35,4,26,Email,False,,False,0,13,1,8,14,Owner
+10186,2022-02-08,,101.3,1277.8,Electronic check,13,gas,one year,Matteo Costa,1743,4,0.2294,-0.0031,1.01,0.27,True,False,255,0,1.23,0,0,Email,True,86,True,4,13,10,1,14,Owner
+10187,2021-07-29,,55.0,612.7,Credit card,11,gas,one year,Stefano Morelli,1742,3,0.2399,-0.0076,0.92,0.3,True,False,59,1,0.87,0,0,Online Portal,True,125,True,8,11,10,1,23,Tenant
+10188,2024-04-11,,59.4,515.3,Credit card,9,gas,month-to-month,Sofia Costa,1655,2,0.1533,0.0031,0.96,0.21,False,True,0,3,1.15,0,0,Email,False,,True,18,9,7,1,19,Tenant
+10189,2023-01-21,,81.6,801.0,Credit card,10,electricity,one year,Nicole Innocenti,328,0,0.2799,-0.0007,1.14,0.41,True,False,70,0,1.26,0,0,Paper,True,159,True,4,0,8,0,0,Owner
+10190,2021-10-23,,102.5,2442.5,Credit card,25,both,two year,Marco Gallo,1540,0,0.2542,-0.0096,1.09,0.32,False,True,0,0,0.84,0,0,Email,True,7,False,0,25,10,0,0,Owner
+10191,2020-12-07,,100.1,2070.2,Bank transfer,21,both,two year,Nicole Ferrara,1204,1,0.262,0.0089,1.01,0.23,True,False,239,0,1.0,0,0,Online Portal,False,146,False,0,21,9,0,0,Owner
+10192,2025-06-03,,63.5,1472.3,Mailed check,24,gas,two year,Salvatore Benedetti,1475,1,0.2146,-0.0029,0.95,0.35,True,True,0,0,1.11,1,30,Online Portal,True,8,False,0,24,8,0,0,Owner
+10193,2025-05-01,,84.6,1488.9,Electronic check,17,electricity,month-to-month,Vincenzo Longo,310,1,0.1882,0.0098,1.01,0.47,True,True,0,1,0.97,0,0,Paper,False,,True,18,0,7,0,0,Tenant
+10194,2025-06-29,2027-04-03,65.6,1394.8,Credit card,21,gas,month-to-month,Giorgio Moretti,1833,4,0.2824,-0.0358,1.11,0.22,False,True,0,0,2.43,2,16,Paper,False,,True,3,0,5,3,21,Tenant
+10195,2021-06-10,,73.9,946.1,Mailed check,13,electricity,one year,Giorgio Giordano,353,3,0.2706,-0.0026,1.15,0.23,False,False,110,0,1.29,0,0,Email,True,136,True,13,13,10,2,17,Tenant
+10196,2025-01-23,,78.4,928.4,Electronic check,12,gas,one year,Debora Longo,1696,2,0.2421,0.0028,0.94,0.27,True,False,350,1,1.12,0,0,Paper,True,31,False,0,0,7,0,0,Owner
+10197,2025-06-21,,89.8,1217.1,Mailed check,13,both,one year,Arianna Ricci,1935,4,0.2443,-0.0048,1.0,0.44,True,False,311,1,0.8,0,0,Online Portal,True,55,False,0,13,10,3,16,Tenant
+10198,2021-12-22,,73.4,1893.5,Mailed check,26,both,two year,Alessia Marchetti,1465,3,0.1496,0.0099,1.14,0.4,True,True,0,1,1.01,0,0,Online Portal,True,93,True,14,26,7,1,29,Owner
+10199,2023-06-04,,54.9,1209.0,Mailed check,21,gas,month-to-month,Camilla Longo,1156,1,0.1639,-0.0068,0.95,0.42,False,False,335,2,1.1,2,9,Email,False,,True,19,21,7,0,0,Owner
+10200,2025-03-08,,102.9,106.6,Credit card,1,gas,month-to-month,Debora Giordano,1078,0,0.1838,-0.0079,1.01,0.43,True,True,0,0,0.96,0,0,Email,False,,False,0,1,9,0,0,Owner
+10201,2023-10-24,,54.5,821.8,Electronic check,15,electricity,one year,Alessia Conti,329,2,0.2348,-0.0083,1.09,0.42,True,True,0,0,1.14,0,0,Online Portal,True,24,False,0,15,9,1,18,Tenant
+10202,2025-01-20,,116.5,1447.3,Mailed check,13,electricity,one year,Andrea Lombardi,226,0,0.1947,0.0081,0.96,0.39,False,False,234,1,1.04,0,0,Online Portal,True,61,True,17,13,8,0,0,Owner
+10203,2024-08-15,,101.2,1426.4,Mailed check,14,electricity,one year,Roberto Basile,367,4,0.2334,-0.0031,0.94,0.37,True,False,320,1,1.01,0,0,Online Portal,True,58,False,0,14,9,2,5,Tenant
+10204,2023-01-05,,73.4,1432.3,Mailed check,20,electricity,two year,Marco Lombardi,278,0,0.2466,-0.007,1.07,0.4,True,False,107,1,1.24,0,0,Paper,True,172,True,0,0,10,0,0,Tenant
+10205,2022-11-15,,96.2,392.2,Mailed check,4,gas,month-to-month,Salvatore Gentile,1105,4,0.2953,-0.0026,1.11,0.28,True,False,77,2,1.19,0,0,Online Portal,False,,True,20,4,9,1,28,Tenant
+10206,2024-07-23,,92.0,1132.0,Bank transfer,12,electricity,month-to-month,Salvatore Romano,397,3,0.2626,-0.0037,0.91,0.43,False,False,335,0,0.87,0,0,Email,False,,True,11,12,7,2,25,Owner
+10207,2021-06-09,,76.5,1550.2,Mailed check,20,both,two year,Antonio Colombo,1267,1,0.1696,0.0098,1.2,0.48,False,False,112,0,0.91,0,0,Online Portal,True,138,True,16,20,9,0,0,Tenant
+10208,2023-04-08,,98.7,1878.4,Electronic check,19,both,month-to-month,Debora Caruso,1826,1,0.2004,-0.0089,1.19,0.37,False,True,0,0,0.97,0,0,Email,False,,False,0,19,9,0,0,Owner
+10209,2022-06-03,,52.2,635.4,Electronic check,12,electricity,one year,Andrea Bellini,331,2,0.1162,0.0025,1.01,0.3,False,False,129,0,1.12,0,0,Paper,False,165,True,7,0,10,1,6,Tenant
+10210,2022-03-27,,65.5,325.1,Mailed check,5,both,month-to-month,Matteo Bruno,1238,1,0.294,-0.0097,0.91,0.22,False,False,86,0,0.87,0,0,Online Portal,False,,True,3,5,10,0,0,Tenant
+10211,2024-08-07,,113.3,3056.5,Mailed check,28,both,two year,Camilla Colombo,2164,4,0.2163,0.0055,1.03,0.36,True,False,137,0,0.82,0,0,Email,True,104,True,14,28,7,2,26,Tenant
+10212,2022-12-19,,88.7,864.9,Bank transfer,10,gas,one year,Debora Colombo,1635,2,0.2185,-0.006,1.07,0.45,True,False,279,1,1.04,0,0,Paper,True,33,True,0,0,8,1,15,Tenant
+10213,2020-12-01,,66.6,679.1,Credit card,10,both,one year,Matteo Gallo,2006,0,0.134,-0.0013,0.91,0.38,False,True,0,0,1.29,1,27,Email,False,122,False,0,10,9,0,0,Owner
+10214,2022-11-13,,60.9,876.3,Credit card,14,electricity,one year,Paolo Caruso,384,3,0.1307,0.0025,1.16,0.37,False,False,264,3,1.18,0,0,Online Portal,False,154,False,0,14,10,2,15,Owner
+10215,2021-05-07,,72.1,979.5,Mailed check,13,gas,one year,Luigi Lombardo,1893,2,0.1169,-0.0013,1.1,0.45,False,False,253,1,1.16,1,29,Email,False,161,False,0,13,7,1,19,Owner
+10216,2022-02-22,,118.4,2551.3,Mailed check,22,both,two year,Giulia Marchetti,2324,1,0.1204,0.0029,1.09,0.44,True,False,304,0,0.98,0,0,Online Portal,True,40,True,15,22,10,0,0,Tenant
+10217,2021-08-28,,69.3,819.8,Bank transfer,12,both,one year,Giorgio Vitale,1628,2,0.195,-0.0073,0.96,0.24,True,False,359,2,1.18,0,0,Paper,True,8,False,0,0,8,1,1,Owner
+10218,2025-08-05,2026-08-17,113.4,1515.3,Bank transfer,13,gas,one year,Luca Fiore,1713,3,0.4604,-0.0258,1.1,0.23,True,True,0,1,1.21,1,12,Paper,False,,False,0,0,1,1,22,Owner
+10219,2023-06-19,,70.3,881.1,Electronic check,12,both,one year,Federica Fiore,2071,0,0.1102,-0.0091,1.05,0.42,True,False,345,2,0.91,0,0,Paper,True,7,False,0,0,10,0,0,Owner
+10220,2023-11-21,,106.3,2382.8,Credit card,22,electricity,two year,Davide Mancini,323,0,0.1417,0.0064,1.2,0.32,False,True,0,0,0.84,0,0,Paper,False,22,False,0,0,7,0,0,Owner
+10221,2022-04-08,,65.2,939.8,Electronic check,14,both,month-to-month,Alessia Fontana,1723,0,0.231,-0.0081,0.98,0.49,True,False,42,0,1.27,0,0,Email,False,,True,7,14,8,0,0,Tenant
+10222,2022-01-06,,95.2,1091.8,Bank transfer,11,electricity,month-to-month,Salvatore Russo,348,1,0.1833,-0.0049,0.94,0.36,True,True,0,1,1.03,1,10,Email,False,,True,9,11,10,0,0,Owner
+10223,2021-02-13,,117.9,2827.9,Electronic check,24,electricity,two year,Luca Sanna,257,4,0.1491,0.0073,0.95,0.42,True,False,228,2,1.28,0,0,Email,True,134,True,11,24,9,3,16,Owner
+10224,2021-02-06,,61.2,892.4,Credit card,15,electricity,month-to-month,Salvatore Innocenti,255,2,0.2139,-0.0076,1.18,0.31,False,False,208,2,1.17,0,0,Email,False,,True,10,15,9,1,5,Owner
+10225,2022-06-27,,64.4,1576.5,Electronic check,25,electricity,two year,Alessia Romano,314,4,0.2284,-0.0099,1.01,0.44,False,False,187,0,0.87,0,0,Online Portal,True,92,False,0,25,8,2,14,Tenant
+10226,2020-08-27,,90.4,932.3,Credit card,10,gas,one year,Francesco Romano,1703,2,0.1376,0.0098,1.02,0.29,True,True,0,0,1.02,1,27,Paper,True,105,True,11,0,8,1,1,Tenant
+10227,2024-05-13,,58.4,776.8,Credit card,13,electricity,one year,Martina Caruso,321,0,0.2039,-0.0078,1.02,0.43,False,True,0,2,1.12,0,0,Email,True,77,True,10,13,7,0,0,Tenant
+10228,2021-06-07,,87.7,2024.9,Credit card,24,both,month-to-month,Simone Innocenti,1725,4,0.1426,0.0057,1.05,0.45,True,False,333,1,1.04,0,0,Online Portal,False,,False,0,24,9,3,12,Tenant
+10229,2021-03-29,2022-12-23,62.0,1253.3,Credit card,21,both,month-to-month,Angelo Marini,2190,4,0.3928,-0.0452,0.89,0.28,True,True,0,1,2.52,1,24,Paper,False,,False,0,0,5,2,16,Owner
+10230,2023-08-19,2024-05-21,101.9,888.6,Bank transfer,9,gas,month-to-month,Michela Fiore,1060,15,0.1523,-0.004,0.92,0.29,True,False,153,1,2.36,1,14,Email,False,,False,0,9,5,6,18,Owner
+10231,2020-12-28,,62.9,1420.4,Bank transfer,22,both,two year,Vincenzo Lombardo,1419,4,0.2927,-0.0036,1.05,0.48,True,False,30,1,1.29,0,0,Email,True,152,False,0,22,7,1,22,Tenant
+10232,2022-04-04,,98.6,1227.8,Credit card,13,both,month-to-month,Sara Giordano,1249,0,0.2402,-0.0031,1.18,0.47,True,False,194,1,0.85,0,0,Email,False,,True,12,13,8,0,0,Owner
+10233,2021-08-03,,94.6,782.2,Electronic check,8,both,month-to-month,Elisa Sanna,2093,4,0.2919,0.0044,1.18,0.33,True,True,0,1,1.2,0,0,Email,False,,True,18,8,7,2,30,Owner
+10234,2021-02-18,,63.7,663.7,Mailed check,10,gas,one year,Angelo Vitale,1244,4,0.2911,0.0055,0.91,0.38,False,False,177,1,1.25,0,0,Online Portal,True,71,True,0,10,9,2,8,Owner
+10235,2022-06-04,,110.2,1479.5,Credit card,13,electricity,one year,Marco Gallo,301,4,0.1462,0.0036,1.1,0.48,True,True,0,1,0.99,0,0,Online Portal,True,15,True,4,13,7,2,4,Tenant
+10236,2024-01-30,2024-12-01,55.5,567.8,Bank transfer,10,gas,one year,Elena Longo,1643,11,0.4566,-0.0329,0.68,0.33,True,True,0,1,2.68,4,14,Paper,True,,True,17,0,2,7,15,Tenant
+10237,2021-05-14,,104.0,2586.6,Electronic check,25,gas,two year,Ilaria Basile,1828,2,0.2846,-0.0027,1.1,0.39,False,False,103,0,1.28,0,0,Email,True,52,False,0,25,8,1,10,Tenant
+10238,2024-05-14,2025-04-17,55.1,587.3,Bank transfer,11,electricity,one year,Luigi Lombardo,264,14,0.2018,-0.0471,1.12,0.41,True,True,0,1,0.89,1,9,Online Portal,False,,True,20,11,5,7,11,Tenant
+10239,2024-05-02,,77.8,1637.3,Credit card,22,electricity,two year,Gaia Vitale,282,0,0.1333,0.0053,0.91,0.36,True,False,226,0,1.2,0,0,Email,False,69,True,5,22,7,0,0,Tenant
+10240,2023-09-24,2024-08-26,75.3,816.5,Credit card,11,gas,month-to-month,Camilla Bellini,1537,6,0.3045,-0.0194,1.07,0.31,False,True,0,0,2.01,4,21,Email,False,,False,0,11,0,4,1,Tenant
+10241,2021-05-30,,115.6,1654.6,Bank transfer,15,both,one year,Simone Benedetti,2064,4,0.2913,-0.0093,1.06,0.35,True,False,345,0,0.8,2,12,Email,True,87,False,0,15,7,3,11,Tenant
+10242,2022-05-27,,90.1,1659.2,Bank transfer,18,both,month-to-month,Giulia Rossi,1849,3,0.1025,-0.0058,1.05,0.42,True,False,343,0,0.83,0,0,Email,False,,True,1,18,7,1,23,Tenant
+10243,2024-09-13,2025-03-10,69.6,433.0,Credit card,6,both,month-to-month,Alessia Costa,2391,7,0.1411,-0.0012,0.81,0.39,True,False,181,2,1.29,4,7,Online Portal,False,,True,11,6,1,5,12,Tenant
+10244,2020-09-13,,92.6,1048.2,Electronic check,11,electricity,one year,Paolo Ricci,261,2,0.154,-0.0052,1.05,0.45,False,True,0,0,1.03,0,0,Paper,False,178,True,15,0,7,0,0,Owner
+10245,2020-09-14,,92.1,1996.6,Mailed check,21,electricity,two year,Serena Bellini,222,4,0.2535,-0.0007,0.99,0.33,True,False,171,1,1.19,0,0,Online Portal,True,1,True,20,21,10,2,21,Tenant
+10246,2024-09-11,,77.4,625.0,Bank transfer,8,electricity,month-to-month,Elena Gentile,297,1,0.2643,-0.0026,0.99,0.38,True,False,346,1,1.28,0,0,Paper,False,,False,0,0,9,0,0,Owner
+10247,2022-08-21,,50.2,577.0,Credit card,12,both,one year,Davide Moretti,2130,4,0.1628,0.009,1.13,0.34,False,False,242,0,1.23,2,10,Paper,True,38,True,11,0,8,3,12,Owner
+10248,2021-11-28,,62.3,695.0,Bank transfer,11,electricity,month-to-month,Paolo Rossi,336,2,0.2576,0.0036,0.93,0.46,False,False,211,0,1.06,0,0,Online Portal,False,,True,10,11,8,1,3,Owner
+10249,2020-12-02,2022-02-27,78.5,1203.7,Electronic check,15,both,one year,Simone Conti,2117,8,0.2095,-0.0028,0.65,0.26,False,False,247,3,1.25,2,10,Paper,True,,True,3,0,5,3,8,Owner
+10250,2022-09-13,,75.2,2045.7,Mailed check,28,both,two year,Daniele Sanna,2111,3,0.1788,-0.0087,0.94,0.31,True,False,341,1,1.16,1,6,Email,True,131,True,16,28,8,2,5,Owner
+10251,2022-11-07,,64.0,942.7,Mailed check,15,electricity,one year,Chiara Rossi,229,4,0.2737,-0.0068,0.99,0.39,True,False,237,0,0.98,1,26,Online Portal,True,18,True,4,15,9,3,1,Owner
+10252,2021-12-06,,108.7,1139.1,Bank transfer,11,both,month-to-month,Camilla Bruno,1879,4,0.2046,-0.0031,1.19,0.49,False,True,0,0,0.93,1,16,Email,False,,False,0,11,8,3,15,Owner
+10253,2023-04-04,,102.5,2261.9,Bank transfer,23,both,two year,Giorgio De Luca,1569,2,0.1203,-0.0083,0.91,0.38,False,False,356,0,1.29,0,0,Email,True,133,True,1,23,9,1,23,Tenant
+10254,2021-03-23,,62.0,1531.1,Credit card,24,electricity,two year,Debora Ricci,337,0,0.1476,-0.0079,1.13,0.36,True,False,172,2,1.06,0,0,Paper,True,88,False,0,0,10,0,0,Tenant
+10255,2021-09-25,,109.1,1338.1,Credit card,12,both,one year,Sara Moretti,1477,1,0.2135,0.0003,1.13,0.38,False,True,0,1,0.88,0,0,Email,True,25,True,12,12,8,0,0,Owner
+10256,2021-06-04,2021-07-07,119.8,120.7,Mailed check,1,both,month-to-month,Luigi Bruno,2218,10,0.1947,-0.0121,0.58,0.28,True,False,85,2,1.01,5,29,Paper,False,,True,12,0,1,6,5,Owner
+10257,2021-05-31,,68.3,1136.0,Mailed check,16,electricity,month-to-month,Giorgio Conti,364,3,0.161,0.0045,1.13,0.36,True,True,0,1,0.98,0,0,Email,False,,True,12,16,7,1,4,Owner
+10258,2024-04-04,,56.3,290.0,Credit card,5,electricity,month-to-month,Ilaria Ricci,397,2,0.2782,-0.0035,1.1,0.33,True,False,159,0,1.1,0,0,Paper,False,,False,0,0,10,1,19,Owner
+10259,2025-07-12,2027-03-30,108.7,2270.5,Credit card,21,gas,month-to-month,Matteo Morelli,1755,8,0.3261,-0.0298,1.0,0.38,False,False,278,1,2.59,2,5,Email,False,,False,0,21,1,6,14,Tenant
+10260,2024-04-29,2024-09-27,69.8,359.7,Electronic check,5,both,month-to-month,Davide Romano,2339,15,0.3485,-0.0255,0.6,0.43,True,False,37,0,1.23,2,16,Online Portal,False,,True,0,5,0,12,19,Tenant
+10261,2022-07-15,,64.0,535.2,Bank transfer,8,gas,month-to-month,Salvatore Russo,1480,0,0.2653,0.0096,1.06,0.3,True,False,185,0,0.86,0,0,Email,False,,False,0,8,8,0,0,Tenant
+10262,2024-06-26,,89.6,1121.3,Mailed check,12,gas,month-to-month,Debora Bruno,1810,0,0.2182,-0.0022,0.92,0.41,False,True,0,0,1.27,0,0,Paper,False,,True,12,0,8,0,0,Tenant
+10263,2023-10-09,,65.6,63.5,Mailed check,1,electricity,month-to-month,Luca Gentile,360,3,0.1237,0.0079,0.95,0.2,False,False,97,0,1.22,0,0,Email,False,,False,0,1,7,2,24,Owner
+10264,2023-12-31,,90.4,901.0,Bank transfer,10,both,month-to-month,Luca Vitale,2080,2,0.1333,0.0084,1.14,0.21,True,True,0,1,1.06,1,17,Email,False,,True,9,10,10,0,0,Owner
+10265,2022-04-18,,114.2,1368.3,Mailed check,12,both,month-to-month,Sofia Marino,1343,1,0.1637,-0.0028,1.19,0.41,True,False,286,2,1.03,0,0,Online Portal,False,,True,10,12,9,0,0,Owner
+10266,2022-04-15,,50.1,288.0,Bank transfer,6,both,month-to-month,Simone Bellini,2127,1,0.1404,-0.0037,1.18,0.45,True,False,346,0,1.17,0,0,Paper,False,,True,5,0,9,0,0,Owner
+10267,2025-01-01,2026-02-02,68.8,919.7,Mailed check,13,electricity,one year,Giorgio Marino,341,5,0.209,0.001,1.12,0.26,True,False,44,0,2.76,5,10,Email,True,,True,1,13,3,2,16,Tenant
+10268,2021-03-09,,116.9,2926.5,Electronic check,25,both,two year,Giulia Bellini,2398,3,0.2498,0.0027,1.1,0.36,False,True,0,0,0.88,0,0,Email,False,50,True,18,25,10,2,20,Tenant
+10269,2022-10-26,,108.2,2517.0,Bank transfer,24,gas,two year,Silvia Russo,1101,1,0.296,0.0094,1.13,0.45,False,False,130,0,0.81,0,0,Online Portal,False,85,True,4,24,8,0,0,Tenant
+10270,2020-12-24,2022-12-16,101.0,2398.9,Electronic check,24,both,two year,Marco Colombo,2345,15,0.2677,-0.0348,1.11,0.38,True,False,346,1,2.4,1,7,Online Portal,True,,True,17,24,5,9,3,Tenant
+10271,2021-05-12,,101.2,1191.9,Bank transfer,12,gas,one year,Roberto Ricci,1923,2,0.1606,-0.0012,0.9,0.3,True,True,0,0,1.15,0,0,Email,True,28,True,5,12,7,1,26,Owner
+10272,2023-10-29,,79.9,167.0,Electronic check,2,both,month-to-month,Paolo Giordano,2168,0,0.2712,-0.0007,1.19,0.22,True,False,336,1,1.04,0,0,Online Portal,False,,True,11,2,7,0,0,Owner
+10273,2024-12-08,,75.5,1368.5,Bank transfer,18,electricity,month-to-month,Davide Gentile,289,0,0.1667,-0.0044,0.95,0.34,True,True,0,0,0.83,2,12,Paper,False,,True,12,0,8,0,0,Owner
+10274,2021-09-08,2023-06-28,52.1,1176.0,Electronic check,22,electricity,two year,Paolo Esposito,365,3,0.4421,-0.0028,1.14,0.3,True,False,211,0,1.16,3,9,Email,True,,True,10,22,2,1,3,Tenant
+10275,2024-09-30,2027-01-04,88.3,2532.6,Mailed check,28,gas,two year,Valentina Barbieri,1697,14,0.3559,-0.0409,0.68,0.27,True,True,0,0,2.6,1,20,Paper,False,,False,0,0,4,11,17,Owner
+10276,2023-09-30,,112.7,2657.0,Credit card,23,electricity,two year,Chiara Benedetti,278,4,0.1011,-0.0017,1.06,0.34,True,True,0,3,0.98,0,0,Email,True,128,True,13,23,9,3,17,Tenant
+10277,2025-07-23,,110.7,2705.8,Bank transfer,24,gas,two year,Martina Benedetti,1474,3,0.2178,0.002,1.12,0.25,False,True,0,0,1.26,0,0,Email,True,142,False,0,24,10,2,13,Owner
+10278,2025-03-24,2025-09-20,70.0,407.2,Credit card,6,gas,month-to-month,Davide Caruso,1046,13,0.2981,-0.0072,0.54,0.31,True,False,205,0,2.92,2,23,Online Portal,False,,True,10,6,3,5,1,Tenant
+10279,2023-03-25,,113.8,1260.3,Credit card,11,gas,one year,Antonio Longo,1258,4,0.1552,-0.0089,1.13,0.2,False,True,0,3,0.87,1,18,Email,True,70,True,5,11,8,1,1,Tenant
+10280,2022-07-14,,61.3,626.9,Credit card,10,both,month-to-month,Serena Moretti,2280,0,0.2518,0.008,1.03,0.4,True,True,0,0,0.9,0,0,Paper,False,,False,0,0,10,0,0,Owner
+10281,2021-07-16,,115.9,2289.7,Mailed check,20,both,two year,Valentina Martinelli,1390,0,0.2376,0.0018,1.09,0.47,True,False,142,0,1.15,0,0,Online Portal,False,60,True,13,20,9,0,0,Tenant
+10282,2023-08-31,,95.9,1370.3,Electronic check,15,both,one year,Alessandro Bruno,1590,2,0.1239,0.0046,0.96,0.48,False,False,267,3,1.02,0,0,Online Portal,False,93,False,0,15,8,0,0,Tenant
+10283,2023-03-23,,67.1,1181.7,Electronic check,17,electricity,month-to-month,Gaia Bruno,301,0,0.2213,0.0071,1.08,0.26,False,False,236,0,1.22,0,0,Paper,False,,True,5,0,9,0,0,Tenant
+10284,2021-08-26,,57.5,1122.6,Credit card,20,both,two year,Marco Martinelli,2037,4,0.2943,-0.0071,1.08,0.42,False,False,160,1,0.9,2,29,Online Portal,False,78,True,20,20,7,3,29,Owner
+10285,2021-07-12,2023-03-20,81.6,1692.6,Electronic check,21,both,month-to-month,Sara Ricci,1876,8,0.4058,-0.0047,0.53,0.45,True,True,0,1,1.75,4,11,Online Portal,False,,True,5,21,2,5,15,Owner
+10286,2023-12-17,,96.4,186.6,Mailed check,2,electricity,month-to-month,Debora Santoro,368,2,0.1099,0.0091,0.97,0.24,False,False,275,1,1.13,0,0,Email,False,,False,0,2,8,1,12,Tenant
+10287,2024-01-29,,81.7,1669.1,Bank transfer,20,both,two year,Roberto Gentile,2111,3,0.1126,-0.0095,0.91,0.32,True,True,0,0,0.89,0,0,Email,True,99,True,10,20,9,1,4,Owner
+10288,2020-12-16,,81.5,904.1,Bank transfer,11,both,month-to-month,Vincenzo Bianco,1888,1,0.2083,-0.0006,1.01,0.31,True,True,0,1,1.07,0,0,Online Portal,False,,True,2,11,8,0,0,Tenant
+10289,2022-04-02,,104.1,1638.3,Mailed check,15,both,one year,Fabio Coppola,2056,1,0.2363,-0.0073,1.18,0.31,False,False,116,1,0.99,1,21,Email,False,164,True,19,15,9,0,0,Owner
+10290,2020-08-12,,74.0,1707.7,Bank transfer,22,electricity,month-to-month,Nicole Romano,355,4,0.1667,0.001,1.03,0.29,True,True,0,0,1.22,0,0,Online Portal,False,,True,14,22,9,3,22,Owner
+10291,2025-06-11,2026-08-16,114.8,1571.5,Mailed check,14,electricity,month-to-month,Nicole Esposito,272,5,0.3068,0.0019,1.0,0.2,True,False,263,1,2.59,3,5,Paper,False,,True,15,0,1,4,20,Owner
+10292,2023-06-20,2025-05-25,113.0,2723.3,Mailed check,23,gas,two year,Stefano Ferrari,1514,4,0.3209,-0.0339,0.94,0.27,False,True,0,1,1.96,4,19,Online Portal,True,,True,11,23,3,2,16,Owner
+10293,2023-06-22,,95.4,986.4,Mailed check,10,both,one year,Michela De Luca,1277,0,0.2998,-0.0096,1.05,0.4,True,False,242,2,1.13,0,0,Paper,True,76,True,17,0,8,0,0,Owner
+10294,2020-10-12,,54.0,1088.4,Credit card,20,gas,two year,Luigi Barbieri,1410,3,0.1338,0.0055,0.93,0.22,False,False,207,1,0.81,0,0,Paper,True,14,False,0,0,10,2,27,Owner
+10295,2021-02-14,,58.9,921.9,Mailed check,15,both,month-to-month,Paolo Mancini,2232,2,0.2824,-0.0092,1.04,0.24,False,False,321,0,0.86,0,0,Email,False,,False,0,15,10,0,0,Tenant
+10296,2021-05-29,2021-11-29,85.2,514.2,Bank transfer,6,electricity,month-to-month,Federica Basile,367,8,0.3196,-0.008,1.02,0.42,True,True,0,0,1.23,1,16,Online Portal,False,,True,16,6,4,6,2,Tenant
+10297,2023-01-10,,117.3,1121.1,Credit card,10,gas,one year,Salvatore Ferrari,1099,2,0.1346,0.0062,1.13,0.44,True,False,36,0,1.02,0,0,Paper,True,45,False,0,0,8,1,1,Owner
+10298,2025-05-26,,69.8,642.7,Electronic check,9,both,month-to-month,Luigi Benedetti,1489,0,0.1118,0.001,1.1,0.34,True,False,30,0,1.08,0,0,Email,False,,True,12,9,7,0,0,Owner
+10299,2021-11-28,,111.4,1468.8,Credit card,13,both,one year,Alessandro Moretti,2301,4,0.1161,0.0016,0.93,0.41,False,True,0,0,0.88,0,0,Online Portal,True,136,False,0,13,10,1,6,Owner
+10300,2023-02-24,2024-12-20,93.4,2128.4,Bank transfer,22,gas,month-to-month,Paolo Bianchi,1236,15,0.407,0.0016,1.12,0.48,False,False,237,0,1.1,2,13,Paper,False,,True,19,0,6,5,2,Owner
+10301,2023-04-01,,104.6,1479.4,Bank transfer,14,gas,one year,Martina Bianco,1791,2,0.1036,0.0058,1.11,0.38,True,False,207,2,0.92,0,0,Paper,True,43,False,0,0,10,0,0,Owner
+10302,2021-12-24,,116.0,1274.6,Credit card,11,gas,month-to-month,Paolo Romano,1573,3,0.161,0.001,0.9,0.4,True,False,94,0,1.0,0,0,Online Portal,False,,False,0,11,7,1,9,Owner
+10303,2023-11-03,,118.0,1694.9,Credit card,14,gas,month-to-month,Antonio Mancini,1674,2,0.1537,-0.0042,1.07,0.4,False,False,85,0,0.91,0,0,Paper,False,,True,12,0,8,1,29,Owner
+10304,2024-07-01,,112.6,1165.8,Credit card,10,gas,one year,Valentina Mancini,1012,2,0.1144,0.0082,1.12,0.27,False,False,205,0,0.94,0,0,Paper,True,69,True,17,0,8,1,26,Owner
+10305,2024-02-11,,94.6,2261.3,Electronic check,24,electricity,two year,Michela Marini,319,4,0.1366,0.0099,1.06,0.24,False,False,357,0,1.19,2,11,Paper,False,47,True,15,0,8,3,14,Tenant
+10306,2022-10-29,,77.3,771.4,Bank transfer,10,gas,one year,Fabio Marini,1681,0,0.1838,-0.0043,1.03,0.21,True,True,0,0,1.24,0,0,Online Portal,True,120,False,0,10,10,0,0,Tenant
+10307,2025-05-10,,74.6,367.9,Electronic check,5,gas,month-to-month,Daniele Bianchi,1249,3,0.1424,0.0048,1.19,0.21,True,False,75,1,1.16,0,0,Paper,False,,False,0,0,7,2,12,Owner
+10308,2020-11-10,,101.6,2830.8,Electronic check,27,electricity,two year,Gaia Rossi,297,1,0.1459,-0.0071,1.17,0.49,True,False,287,1,1.29,1,21,Online Portal,True,24,False,0,27,8,0,0,Tenant
+10309,2025-07-10,,93.2,992.7,Bank transfer,11,gas,one year,Arianna Romano,1445,3,0.1517,-0.0043,1.01,0.23,False,False,110,1,1.05,0,0,Paper,True,18,False,0,0,10,1,18,Owner
+10310,2024-08-21,,113.6,1458.1,Credit card,13,electricity,one year,Gaia Bianchi,368,1,0.1769,0.0047,0.99,0.44,True,True,0,0,0.81,0,0,Email,True,79,True,11,13,9,0,0,Owner
+10311,2023-10-08,,80.4,958.5,Bank transfer,12,both,one year,Andrea Marino,1444,1,0.2371,0.0053,1.14,0.21,True,False,270,0,0.91,0,0,Online Portal,True,174,False,0,12,10,0,0,Tenant
+10312,2023-10-02,,119.9,2323.1,Mailed check,19,gas,month-to-month,Valentina Basile,1642,0,0.2253,-0.0077,1.15,0.22,False,False,72,0,0.97,0,0,Email,False,,True,20,19,7,0,0,Tenant
+10313,2021-10-24,2023-08-07,42.6,930.9,Mailed check,22,both,two year,Paolo Bianco,2234,5,0.2105,-0.0036,1.17,0.23,True,True,0,0,2.08,2,21,Email,True,,False,0,22,4,3,9,Owner
+10314,2021-01-10,,92.4,275.4,Electronic check,3,gas,month-to-month,Andrea Marino,1472,2,0.2551,0.003,1.04,0.47,True,False,326,2,1.02,0,0,Email,False,,True,16,3,8,1,11,Owner
+10315,2024-11-10,,61.3,62.1,Mailed check,1,gas,month-to-month,Luca Fontana,1425,3,0.1949,0.0056,0.92,0.29,True,True,0,0,0.95,0,0,Paper,False,,False,0,0,9,2,17,Owner
+10316,2020-10-18,,77.0,1897.8,Bank transfer,25,both,two year,Sofia Bellini,2121,3,0.2012,0.0049,1.0,0.44,True,True,0,0,1.26,1,16,Email,True,70,False,0,25,9,2,11,Tenant
+10317,2024-11-05,2026-08-05,76.3,1542.1,Electronic check,21,both,month-to-month,Alessandro Colombo,2077,7,0.1851,-0.0152,0.75,0.36,True,False,204,0,1.23,2,18,Online Portal,False,,True,5,21,4,4,12,Tenant
+10318,2022-01-06,,50.2,670.4,Mailed check,14,electricity,one year,Martina Barbieri,311,1,0.1359,-0.0056,1.03,0.48,True,False,192,1,0.99,0,0,Email,True,177,True,16,14,9,0,0,Tenant
+10319,2021-03-29,,78.7,606.8,Bank transfer,8,gas,month-to-month,Daniele Russo,1208,0,0.1927,-0.0093,1.15,0.29,True,False,324,0,0.93,1,28,Online Portal,False,,True,18,8,7,0,0,Tenant
+10320,2024-01-12,,84.7,2260.1,Bank transfer,27,both,two year,Chiara Sanna,2313,3,0.2474,0.0038,1.1,0.42,True,True,0,0,0.87,0,0,Email,True,115,False,0,27,9,1,16,Tenant
+10321,2023-03-05,2023-09-10,98.8,588.3,Electronic check,6,both,month-to-month,Arianna Fiore,1752,12,0.2287,-0.0169,0.51,0.21,True,False,264,2,0.89,2,21,Online Portal,False,,True,5,6,4,8,7,Owner
+10322,2022-11-16,,82.5,1057.3,Mailed check,13,both,one year,Vincenzo Basile,1309,2,0.2319,0.0061,0.92,0.22,True,False,337,0,1.09,0,0,Online Portal,False,80,True,0,13,8,1,11,Owner
+10323,2021-10-01,,90.2,276.9,Bank transfer,3,gas,month-to-month,Antonio Lombardi,1519,2,0.2373,-0.0067,1.1,0.44,True,False,358,0,1.22,2,12,Email,False,,True,8,3,8,1,27,Tenant
+10324,2022-09-05,,97.0,2701.6,Credit card,27,both,two year,Federica Vitale,1350,1,0.2332,-0.007,1.02,0.35,True,True,0,1,1.16,0,0,Online Portal,True,51,True,20,27,9,0,0,Tenant
+10325,2025-01-16,2026-10-18,94.2,1954.8,Credit card,21,gas,two year,Serena Moretti,1707,6,0.4711,0.0097,1.09,0.33,True,False,169,1,2.94,1,25,Online Portal,True,,True,20,21,0,2,8,Tenant
+10326,2023-05-24,2023-08-31,46.7,142.9,Credit card,3,both,month-to-month,Roberto Bianco,1690,4,0.2181,-0.0486,0.69,0.33,False,False,99,0,1.28,4,17,Email,False,,False,0,3,1,3,9,Tenant
+10327,2022-02-03,,94.5,2021.7,Electronic check,22,gas,two year,Valentina Bianco,1335,0,0.221,0.0075,1.2,0.27,False,True,0,3,0.86,0,0,Email,True,4,True,5,22,8,0,0,Owner
+10328,2022-09-28,,59.0,1426.1,Bank transfer,24,gas,month-to-month,Luca Sanna,1215,3,0.1334,-0.0027,0.94,0.38,True,True,0,0,1.0,1,16,Paper,False,,False,0,0,10,1,2,Owner
+10329,2024-09-05,,113.0,2547.3,Credit card,22,both,two year,Salvatore Moretti,1418,1,0.2579,-0.0049,1.16,0.23,False,True,0,0,1.23,1,10,Email,True,40,True,7,22,8,0,0,Owner
+10330,2021-10-08,2021-11-24,74.6,152.9,Mailed check,2,both,month-to-month,Ilaria Ricci,1771,6,0.1829,0.0022,0.98,0.22,True,False,347,1,0.81,3,29,Paper,False,,True,3,0,1,3,18,Owner
+10331,2023-01-03,2023-10-26,66.8,655.2,Bank transfer,10,gas,one year,Giulia Costa,1631,12,0.2225,-0.0188,0.99,0.48,True,False,31,1,0.94,4,30,Paper,True,,True,12,0,3,9,3,Owner
+10332,2022-01-14,2023-03-20,47.8,671.0,Electronic check,14,gas,one year,Chiara Innocenti,1236,13,0.4113,0.0084,0.96,0.35,False,False,216,2,0.96,5,14,Online Portal,True,,True,19,14,3,9,2,Tenant
+10333,2022-10-31,,83.4,856.8,Mailed check,10,gas,one year,Sara Romano,1890,4,0.1832,-0.0068,1.17,0.23,True,False,57,1,1.06,0,0,Online Portal,False,89,True,10,10,8,3,26,Owner
+10334,2021-08-02,2022-07-21,98.1,1231.0,Bank transfer,12,both,one year,Arianna Costa,1687,14,0.2851,-0.0185,0.51,0.38,False,True,0,2,2.35,2,12,Online Portal,False,,True,12,12,6,10,30,Tenant
+10335,2021-07-07,,109.8,2360.6,Mailed check,21,both,two year,Giorgio De Luca,1897,2,0.1075,-0.0012,0.96,0.41,False,True,0,0,0.9,0,0,Paper,False,153,False,0,0,8,1,20,Owner
+10336,2023-05-23,,89.4,1374.0,Credit card,15,both,one year,Alessandro Bianco,1945,2,0.2724,-0.0062,1.06,0.33,False,False,105,0,0.96,0,0,Online Portal,True,67,True,1,15,8,1,4,Owner
+10337,2022-09-25,2023-11-04,65.2,844.5,Electronic check,13,gas,one year,Elena Vitale,1700,11,0.2286,0.0034,1.1,0.31,True,True,0,2,2.84,4,16,Email,True,,False,0,13,4,6,17,Owner
+10338,2023-10-21,,119.2,1711.0,Bank transfer,14,both,one year,Simone Bellini,1355,4,0.1295,0.0066,1.11,0.4,True,False,71,1,1.1,0,0,Email,True,79,True,18,14,10,1,12,Tenant
+10339,2022-07-22,,55.9,223.6,Mailed check,4,gas,month-to-month,Luigi Longo,1662,0,0.1803,-0.0001,1.06,0.22,True,False,290,0,0.89,1,12,Email,False,,False,0,4,9,0,0,Tenant
+10340,2024-10-27,,70.7,210.5,Credit card,3,gas,month-to-month,Gaia Colombo,1521,1,0.1367,-0.0039,0.91,0.48,True,False,231,2,1.14,0,0,Email,False,,True,1,3,10,0,0,Tenant
+10341,2022-09-03,,105.9,1221.4,Bank transfer,11,electricity,month-to-month,Fabio Coppola,353,2,0.2666,0.0012,1.19,0.29,True,True,0,0,1.28,0,0,Paper,False,,True,11,0,7,1,14,Tenant
+10342,2021-11-10,,112.6,2314.5,Electronic check,21,electricity,two year,Simone Santoro,259,4,0.2791,0.008,1.04,0.47,True,False,276,2,1.17,2,23,Paper,True,133,False,0,0,9,2,4,Owner
+10343,2024-12-03,,84.4,1719.0,Credit card,21,electricity,two year,Paolo Benedetti,292,3,0.2937,0.0099,1.2,0.46,False,True,0,2,1.24,0,0,Paper,True,90,True,9,0,10,1,28,Owner
+10344,2020-12-05,,101.7,1700.4,Mailed check,17,both,month-to-month,Elisa Colombo,1572,0,0.1209,-0.0006,0.98,0.48,True,False,88,0,0.86,0,0,Email,False,,False,0,17,7,0,0,Owner
+10345,2022-03-22,,58.9,1406.9,Credit card,23,electricity,month-to-month,Camilla Ferrara,310,1,0.2189,0.0047,1.1,0.45,True,True,0,0,1.15,0,0,Online Portal,False,,False,0,23,7,0,0,Owner
+10346,2025-05-07,,59.8,570.9,Electronic check,10,gas,one year,Matteo Barbieri,1231,2,0.1108,-0.0008,0.99,0.21,True,False,34,0,0.96,1,28,Email,True,24,True,19,10,9,1,16,Owner
+10347,2024-05-10,,93.6,1473.5,Mailed check,15,electricity,one year,Marco Marchetti,207,1,0.1263,0.0022,1.2,0.31,True,False,341,1,1.11,1,29,Online Portal,True,90,False,0,15,8,0,0,Tenant
+10348,2024-09-05,,103.6,2935.2,Mailed check,27,gas,two year,Simone Morelli,1424,3,0.1886,-0.0043,1.1,0.32,True,False,156,0,1.13,1,14,Online Portal,True,123,True,9,27,9,1,30,Owner
+10349,2022-11-07,,53.3,508.5,Credit card,10,gas,one year,Giorgio Coppola,1585,0,0.2928,-0.0085,1.01,0.24,True,True,0,0,1.3,0,0,Paper,True,5,True,20,0,8,0,0,Tenant
+10350,2020-11-06,,86.9,2446.0,Electronic check,28,both,two year,Debora Fiore,1408,1,0.1554,-0.0079,0.9,0.47,True,False,205,0,1.2,0,0,Email,True,2,True,19,28,10,0,0,Tenant
+10351,2024-12-01,,67.5,1092.7,Bank transfer,17,gas,month-to-month,Alessandro Morelli,1629,2,0.2996,0.0047,1.09,0.23,False,False,253,1,1.04,0,0,Paper,False,,False,0,0,8,0,0,Owner
+10352,2024-11-02,,72.1,1239.5,Electronic check,17,electricity,month-to-month,Matteo Bruno,380,2,0.1403,0.0035,0.98,0.46,True,False,68,1,1.25,0,0,Email,False,,True,11,17,10,1,5,Tenant
+10353,2023-08-15,,67.0,1436.9,Electronic check,21,gas,two year,Alessandro Ricci,1308,0,0.1803,0.0055,1.09,0.48,False,False,111,1,0.88,0,0,Online Portal,True,97,True,20,21,8,0,0,Tenant
+10354,2023-05-13,,84.9,1229.6,Credit card,15,gas,one year,Luca Marino,1087,4,0.2217,0.0,1.1,0.25,True,False,318,0,1.23,0,0,Online Portal,True,137,False,0,15,9,3,30,Tenant
+10355,2021-12-31,,57.7,1180.0,Mailed check,20,gas,two year,Luca Bianchi,1410,3,0.1455,-0.0088,1.01,0.2,False,False,65,1,1.08,0,0,Paper,True,30,True,10,0,9,1,22,Tenant
+10356,2023-09-27,,89.7,1764.0,Mailed check,19,electricity,month-to-month,Michela Mancini,253,3,0.195,0.0049,1.08,0.33,True,False,257,1,1.19,1,5,Email,False,,False,0,19,9,2,12,Tenant
+10357,2020-09-01,,77.5,1037.2,Credit card,14,both,month-to-month,Camilla Sanna,1655,4,0.2835,-0.0048,1.08,0.39,False,True,0,0,0.9,0,0,Online Portal,False,,False,0,14,7,2,25,Tenant
+10358,2020-10-16,,58.7,925.5,Bank transfer,16,electricity,month-to-month,Alessandro De Luca,265,4,0.2132,-0.0071,1.12,0.44,True,True,0,0,1.19,0,0,Online Portal,False,,True,13,16,7,2,18,Tenant
+10359,2025-08-04,,86.3,1134.4,Mailed check,13,electricity,one year,Luigi De Luca,298,1,0.1843,0.0022,1.11,0.33,True,True,0,2,1.12,0,0,Online Portal,False,180,False,0,13,9,0,0,Tenant
+10360,2025-07-26,,59.5,595.9,Bank transfer,10,electricity,one year,Nicole Gallo,322,4,0.1011,0.0025,1.16,0.27,True,True,0,0,0.95,0,0,Online Portal,True,153,True,0,10,7,3,28,Owner
+10361,2022-03-12,,117.4,1342.8,Electronic check,12,gas,one year,Daniele Benedetti,1637,0,0.2578,0.0057,1.11,0.39,False,False,364,0,1.14,0,0,Email,True,32,False,0,12,9,0,0,Tenant
+10362,2023-01-27,2023-06-28,85.8,418.4,Bank transfer,5,both,month-to-month,Davide Moretti,2397,13,0.419,-0.0121,1.08,0.35,False,False,144,1,0.94,1,11,Paper,False,,True,8,0,0,11,14,Owner
+10363,2022-09-21,,77.8,863.8,Credit card,11,gas,one year,Debora Ricci,1348,4,0.2895,-0.0029,1.03,0.49,False,True,0,0,1.21,1,17,Paper,True,9,False,0,0,7,3,2,Owner
+10364,2021-01-23,,76.5,832.4,Credit card,11,both,month-to-month,Vincenzo Fontana,2077,4,0.16,0.004,0.99,0.47,True,True,0,0,1.28,1,6,Paper,False,,True,11,0,10,2,8,Owner
+10365,2022-01-01,,85.2,1828.4,Electronic check,22,gas,two year,Davide Vitale,1441,3,0.2461,0.0062,1.18,0.23,False,False,135,0,1.09,0,0,Online Portal,True,15,True,9,22,7,1,2,Tenant
+10366,2022-06-25,,78.1,842.8,Mailed check,11,both,one year,Paolo Morelli,1243,3,0.2623,-0.0044,0.96,0.29,True,False,113,0,1.05,1,26,Paper,True,78,False,0,0,10,1,15,Owner
+10367,2022-12-20,,52.6,748.8,Electronic check,14,both,one year,Angelo Romano,1619,1,0.1554,0.0064,0.9,0.5,True,True,0,3,1.0,0,0,Online Portal,True,20,False,0,14,10,0,0,Owner
+10368,2020-11-18,,73.9,1941.2,Electronic check,27,electricity,two year,Chiara Bellini,212,0,0.1803,-0.0069,0.93,0.21,True,False,217,0,1.02,0,0,Email,True,42,False,0,27,7,0,0,Tenant
+10369,2025-05-11,,82.0,1582.5,Mailed check,20,both,month-to-month,Michela Fiore,2351,3,0.168,0.0036,1.08,0.29,True,True,0,0,1.18,0,0,Email,False,,False,0,20,8,1,21,Tenant
+10370,2025-02-11,,112.2,1303.8,Bank transfer,12,gas,one year,Salvatore Rossi,1355,3,0.209,0.007,1.07,0.29,False,True,0,0,1.04,0,0,Paper,True,39,False,0,0,10,1,23,Owner
+10371,2023-08-27,,68.6,213.8,Bank transfer,3,electricity,month-to-month,Giorgio Colombo,213,0,0.2409,-0.0016,0.93,0.24,False,False,191,0,0.87,0,0,Paper,False,,True,14,0,9,0,0,Owner
+10372,2021-03-27,,54.5,498.1,Electronic check,9,electricity,month-to-month,Simone Bellini,347,3,0.2276,-0.0034,0.93,0.44,True,False,357,2,1.16,0,0,Online Portal,False,,True,15,9,7,2,26,Owner
+10373,2021-03-15,,82.0,981.8,Bank transfer,12,gas,one year,Elena Ferrara,1559,0,0.1642,0.0003,0.98,0.22,False,False,340,2,1.12,0,0,Paper,True,23,False,0,0,8,0,0,Owner
+10374,2022-05-16,,79.7,1884.9,Bank transfer,23,electricity,two year,Luigi Rossi,280,0,0.2031,-0.0046,0.95,0.37,True,False,278,1,1.17,0,0,Paper,True,13,True,19,0,7,0,0,Owner
+10375,2022-12-05,,113.9,1589.1,Bank transfer,14,both,one year,Francesco Lombardi,1496,0,0.137,-0.0029,0.97,0.26,True,True,0,0,0.8,0,0,Online Portal,True,51,False,0,14,9,0,0,Owner
+10376,2023-02-14,,51.7,527.7,Electronic check,10,electricity,one year,Gaia Bianco,229,1,0.272,-0.0086,1.09,0.24,True,True,0,0,1.13,0,0,Email,True,99,True,7,10,8,0,0,Tenant
+10377,2023-01-25,2024-01-28,67.9,852.5,Mailed check,12,electricity,one year,Nicole Bruno,277,14,0.1624,0.0064,1.04,0.3,False,False,138,1,2.19,1,15,Online Portal,True,,True,0,12,3,13,8,Tenant
+10378,2025-02-25,,76.6,1107.3,Mailed check,14,gas,one year,Luigi Santoro,1368,2,0.117,-0.0081,1.11,0.27,True,True,0,2,0.83,0,0,Paper,True,153,False,0,0,9,1,19,Owner
+10379,2022-03-21,,64.5,1495.8,Electronic check,23,gas,month-to-month,Andrea Longo,1538,4,0.2819,-0.0025,1.02,0.4,False,False,203,3,1.21,0,0,Online Portal,False,,False,0,23,10,2,14,Owner
+10380,2021-01-13,,118.0,3176.9,Electronic check,26,gas,two year,Gaia Romano,1755,2,0.1538,-0.0009,0.93,0.38,True,False,187,1,1.28,0,0,Email,False,167,False,0,26,7,1,18,Owner
+10381,2024-12-07,,106.1,529.0,Mailed check,5,both,month-to-month,Giorgio Costa,1547,1,0.2376,-0.0065,1.08,0.38,True,False,216,0,1.03,0,0,Online Portal,False,,False,0,5,8,0,0,Tenant
+10382,2023-01-25,2023-06-08,86.9,357.4,Bank transfer,4,electricity,month-to-month,Chiara Esposito,225,9,0.2568,-0.0113,0.69,0.29,True,True,0,1,0.8,2,7,Paper,False,,False,0,0,5,3,10,Owner
+10383,2023-05-16,2024-06-09,73.0,950.4,Credit card,13,both,month-to-month,Federica Benedetti,1410,13,0.5485,-0.0142,1.04,0.25,True,True,0,2,2.09,1,27,Online Portal,False,,False,0,13,6,4,1,Tenant
+10384,2022-06-02,,60.4,747.8,Mailed check,13,electricity,one year,Sara Vitale,283,3,0.2998,0.005,1.11,0.22,True,False,78,0,1.25,0,0,Email,True,15,False,0,13,7,1,10,Owner
+10385,2023-02-18,,81.8,2134.5,Credit card,26,gas,two year,Luigi Mancini,1553,2,0.2306,-0.0008,1.16,0.36,True,True,0,0,1.24,0,0,Online Portal,True,4,False,0,26,10,1,14,Tenant
+10386,2024-03-29,,79.4,1879.9,Electronic check,24,electricity,two year,Debora Marino,345,2,0.2121,-0.0087,1.14,0.27,False,False,61,0,0.82,0,0,Paper,True,118,True,10,0,7,1,17,Tenant
+10387,2020-11-16,,99.4,1410.8,Mailed check,14,electricity,one year,Paolo Romano,200,3,0.1306,-0.0014,1.02,0.28,False,False,135,0,1.2,1,13,Email,True,69,True,13,14,9,1,28,Tenant
+10388,2024-07-29,2026-08-27,93.1,2410.4,Electronic check,25,gas,two year,Francesco Ferrari,1869,3,0.2897,-0.0305,0.61,0.23,False,True,0,1,2.75,2,15,Paper,False,,True,10,0,3,2,12,Tenant
+10389,2022-01-18,,55.6,621.0,Bank transfer,11,electricity,one year,Salvatore Gallo,213,1,0.1446,0.0074,0.99,0.46,True,True,0,0,1.02,0,0,Online Portal,True,58,False,0,11,7,0,0,Owner
+10390,2025-06-26,,66.1,1711.7,Credit card,27,electricity,two year,Stefano Longo,282,4,0.1034,-0.0066,0.94,0.35,False,False,94,1,1.22,0,0,Online Portal,True,24,True,3,27,8,1,4,Owner
+10391,2023-11-27,,88.5,968.6,Credit card,11,electricity,one year,Federica Bellini,339,1,0.1242,0.0066,0.96,0.49,True,False,224,1,0.84,0,0,Paper,False,144,True,20,0,10,0,0,Owner
+10392,2023-05-16,,115.4,2551.8,Bank transfer,23,electricity,two year,Elisa Rossi,272,0,0.2393,0.0015,1.03,0.41,True,True,0,0,0.85,0,0,Online Portal,True,174,False,0,23,10,0,0,Owner
+10393,2022-10-02,2023-02-20,71.0,355.3,Mailed check,5,electricity,month-to-month,Sofia Conti,325,5,0.339,-0.006,0.67,0.22,True,False,30,1,1.75,4,26,Online Portal,False,,False,0,5,3,2,22,Owner
+10394,2025-05-03,,88.5,1795.3,Electronic check,20,both,two year,Elisa Fiore,1935,0,0.1802,0.0,1.06,0.39,True,True,0,0,1.17,0,0,Paper,True,40,False,0,0,10,0,0,Tenant
+10395,2024-02-12,2025-05-21,87.8,1333.5,Credit card,15,gas,month-to-month,Ilaria Marini,1223,5,0.203,-0.0142,1.0,0.21,True,False,132,1,0.95,5,18,Online Portal,False,,True,12,15,2,3,19,Tenant
+10396,2025-03-07,2025-04-01,55.5,56.9,Bank transfer,1,gas,month-to-month,Roberto Ferrari,1431,5,0.4003,-0.0327,0.83,0.38,False,True,0,2,2.95,3,16,Paper,False,,True,14,0,2,1,1,Tenant
+10397,2024-02-28,,95.9,287.9,Electronic check,3,gas,month-to-month,Veronica Marini,1896,0,0.2352,-0.0078,1.12,0.4,True,True,0,1,0.91,0,0,Online Portal,False,,False,0,3,7,0,0,Tenant
+10398,2021-05-04,,67.6,1912.5,Electronic check,27,gas,two year,Debora Martinelli,1636,4,0.2128,0.0034,1.13,0.31,True,False,36,2,1.21,0,0,Online Portal,True,147,False,0,27,7,2,29,Owner
+10399,2024-09-20,,95.5,2225.7,Electronic check,23,electricity,month-to-month,Antonio Vitale,261,3,0.1492,-0.005,0.93,0.22,True,False,247,1,1.2,0,0,Email,False,,False,0,23,7,1,22,Owner
+10400,2022-02-09,,87.8,1298.4,Credit card,15,gas,month-to-month,Alessia Marino,1244,1,0.2584,0.0035,1.06,0.49,False,False,250,0,0.95,0,0,Paper,False,,False,0,0,10,0,0,Tenant
+10401,2021-12-26,,53.2,166.5,Electronic check,3,electricity,month-to-month,Sofia Bruno,399,2,0.2421,0.0096,1.08,0.43,True,False,128,0,1.25,2,14,Email,False,,False,0,3,10,1,27,Owner
+10402,2023-12-02,,109.1,2637.5,Mailed check,25,both,two year,Andrea Conti,1554,1,0.2567,0.0039,1.11,0.23,True,False,246,0,1.14,0,0,Email,True,11,False,0,25,10,0,0,Owner
+10403,2020-12-24,,115.0,2668.7,Credit card,24,electricity,two year,Ilaria Gentile,390,4,0.2953,-0.0065,0.96,0.24,True,True,0,1,0.9,0,0,Online Portal,True,9,True,14,24,8,2,26,Owner
+10404,2021-12-12,,53.0,1137.7,Electronic check,22,electricity,two year,Sara Martinelli,311,4,0.274,-0.0019,0.92,0.31,False,True,0,3,1.16,0,0,Online Portal,True,125,True,11,22,10,2,27,Owner
+10405,2022-04-25,,67.5,1620.1,Mailed check,23,gas,month-to-month,Veronica Russo,1741,3,0.1884,0.0067,0.99,0.39,True,True,0,0,1.16,0,0,Email,False,,True,6,23,9,2,11,Owner
+10406,2023-06-11,2025-01-16,108.9,2072.4,Bank transfer,19,electricity,month-to-month,Debora Romano,339,8,0.3841,-0.0218,0.61,0.48,True,True,0,1,2.37,5,11,Email,False,,True,1,19,5,5,21,Owner
+10407,2021-12-25,,78.0,1264.8,Mailed check,16,both,month-to-month,Roberto Coppola,1690,3,0.2536,-0.0012,0.98,0.4,False,True,0,0,1.12,0,0,Email,False,,False,0,16,8,1,22,Owner
+10408,2022-01-09,,68.2,672.5,Mailed check,10,electricity,one year,Veronica Bianco,313,4,0.2918,-0.0056,0.92,0.36,True,False,111,0,0.97,0,0,Online Portal,True,12,True,16,10,8,3,5,Owner
+10409,2021-01-11,,86.5,257.2,Mailed check,3,gas,month-to-month,Davide Lombardi,1534,0,0.1143,0.0016,0.93,0.31,False,True,0,0,0.83,0,0,Email,False,,True,5,3,10,0,0,Tenant
+10410,2022-04-05,,100.8,1245.3,Bank transfer,12,electricity,one year,Vincenzo Bruno,348,4,0.2008,0.0026,1.01,0.46,True,False,210,0,1.29,0,0,Email,True,42,True,14,12,8,3,22,Tenant
+10411,2025-04-26,,80.4,732.2,Bank transfer,9,electricity,month-to-month,Silvia Russo,250,0,0.1482,-0.0049,1.17,0.42,False,False,139,0,0.81,0,0,Paper,False,,False,0,0,8,0,0,Tenant
+10412,2023-12-13,,93.2,2048.9,Electronic check,22,gas,two year,Paolo Barbieri,1776,3,0.1255,-0.0071,1.02,0.29,True,False,63,1,1.21,0,0,Paper,True,40,False,0,0,9,1,14,Tenant
+10413,2023-07-19,,98.1,1445.8,Mailed check,15,both,month-to-month,Sofia Bianco,1602,4,0.2132,-0.0046,0.94,0.42,True,False,312,2,1.16,0,0,Email,False,,False,0,15,7,2,5,Tenant
+10414,2021-09-03,,76.5,470.9,Mailed check,6,gas,month-to-month,Silvia Costa,1226,3,0.1463,0.0063,1.08,0.38,False,False,137,1,0.96,0,0,Paper,False,,True,11,0,8,2,28,Tenant
+10415,2022-10-31,,52.1,1250.2,Electronic check,23,electricity,two year,Valentina Marino,250,3,0.1691,-0.0093,1.12,0.27,False,False,79,2,1.26,2,18,Paper,True,157,False,0,0,9,1,16,Tenant
+10416,2021-06-03,,60.0,1486.9,Bank transfer,26,electricity,two year,Daniele Marino,351,1,0.1291,-0.0018,1.01,0.4,False,False,332,1,1.17,0,0,Paper,True,51,False,0,0,10,0,0,Tenant
+10417,2020-12-14,,110.4,1483.8,Bank transfer,14,both,one year,Simone Gallo,1781,2,0.2586,-0.0045,0.93,0.31,True,False,355,0,1.03,0,0,Online Portal,True,171,True,13,14,9,1,25,Tenant
+10418,2024-02-22,,58.1,608.8,Mailed check,11,both,one year,Sara Lombardo,1546,1,0.2569,0.003,0.94,0.26,False,False,205,1,1.22,0,0,Email,True,164,True,16,11,8,0,0,Tenant
+10419,2023-06-19,,71.7,969.8,Electronic check,13,electricity,one year,Salvatore De Luca,261,3,0.1827,0.0029,1.07,0.49,True,True,0,0,1.1,0,0,Online Portal,True,40,False,0,13,9,2,22,Tenant
+10420,2020-12-30,,82.6,1473.4,Mailed check,18,electricity,month-to-month,Antonio Conti,280,0,0.2167,-0.0037,0.92,0.32,True,True,0,1,0.83,0,0,Paper,False,,False,0,0,9,0,0,Owner
+10421,2020-11-24,,72.2,779.4,Mailed check,11,both,one year,Elena Innocenti,1451,0,0.1185,0.0082,1.1,0.35,False,True,0,0,1.15,0,0,Email,True,151,True,10,11,7,0,0,Tenant
+10422,2024-03-14,,51.5,587.0,Bank transfer,11,electricity,one year,Andrea Barbieri,241,2,0.1547,0.0048,0.98,0.49,False,False,88,1,1.17,0,0,Paper,True,140,True,18,0,7,1,4,Tenant
+10423,2024-01-16,,52.2,368.9,Credit card,7,gas,month-to-month,Michela Romano,1091,4,0.287,-0.0019,1.01,0.2,True,False,117,1,1.23,0,0,Email,False,,False,0,7,9,1,5,Tenant
+10424,2021-08-17,,59.9,1362.1,Credit card,23,electricity,month-to-month,Angelo Bianchi,377,0,0.2999,-0.0091,0.93,0.39,True,False,241,0,1.29,0,0,Online Portal,False,,False,0,23,7,0,0,Owner
+10425,2022-04-22,,69.2,1041.8,Electronic check,15,gas,one year,Arianna Lombardo,1091,4,0.1133,-0.0059,0.95,0.42,True,False,289,3,0.87,0,0,Online Portal,False,125,True,9,15,10,2,7,Tenant
+10426,2024-10-10,2026-06-18,116.0,2402.8,Credit card,21,gas,month-to-month,Silvia Giordano,1394,3,0.2106,-0.0404,1.07,0.35,False,False,74,0,0.96,3,21,Online Portal,False,,True,15,21,4,0,0,Tenant
+10427,2023-11-09,,85.0,810.0,Credit card,10,gas,one year,Chiara Giordano,1959,4,0.2988,-0.0003,1.14,0.32,True,True,0,1,1.1,0,0,Online Portal,False,61,True,14,10,10,2,2,Tenant
+10428,2021-06-24,,118.1,1325.3,Mailed check,11,gas,one year,Davide Bianchi,1661,4,0.155,0.0035,0.91,0.29,True,False,110,0,1.29,1,23,Online Portal,True,57,True,1,11,10,2,14,Owner
+10429,2024-07-12,,76.7,635.0,Mailed check,8,electricity,month-to-month,Vincenzo Fontana,202,2,0.1626,0.0095,1.06,0.27,True,False,351,1,0.92,0,0,Email,False,,True,16,8,8,1,27,Tenant
+10430,2023-10-04,,54.6,573.0,Electronic check,11,gas,one year,Salvatore Gallo,1160,2,0.1241,0.0,0.98,0.43,False,True,0,1,0.92,0,0,Paper,True,35,True,15,0,10,1,29,Tenant
+10431,2021-04-20,,66.7,654.5,Credit card,10,both,one year,Salvatore Esposito,2288,0,0.2736,0.006,1.18,0.45,False,False,89,2,0.81,0,0,Paper,True,2,False,0,0,8,0,0,Tenant
+10432,2022-12-12,,74.7,1516.1,Mailed check,20,electricity,two year,Arianna Santoro,238,1,0.1119,-0.0082,1.19,0.49,False,False,185,3,0.96,0,0,Paper,True,140,False,0,0,10,0,0,Tenant
+10433,2021-11-05,,54.2,1128.4,Electronic check,20,both,month-to-month,Paolo Coppola,2371,2,0.1391,-0.0084,1.08,0.28,True,False,139,2,0.85,1,30,Online Portal,False,,False,0,20,7,1,5,Owner
+10434,2022-09-02,,102.2,1815.7,Credit card,18,electricity,month-to-month,Martina Ricci,265,3,0.1016,0.0021,1.0,0.35,True,False,51,1,1.04,0,0,Email,False,,True,19,18,10,1,6,Owner
+10435,2023-07-26,2025-02-27,81.8,1593.7,Credit card,19,both,month-to-month,Alessia Marchetti,2334,3,0.2188,0.0052,0.63,0.31,False,False,300,1,2.78,5,12,Online Portal,False,,True,20,19,6,1,24,Owner
+10436,2022-03-27,,61.1,905.4,Electronic check,15,gas,one year,Vincenzo Esposito,1686,3,0.2667,0.0018,1.15,0.35,False,False,365,0,0.84,0,0,Email,True,98,False,0,15,10,1,3,Tenant
+10437,2024-09-27,,81.4,1874.5,Electronic check,22,electricity,two year,Roberto Innocenti,350,1,0.1305,0.0092,1.1,0.33,False,False,222,0,1.1,0,0,Paper,True,70,True,9,0,8,0,0,Owner
+10438,2025-02-02,,63.4,797.3,Mailed check,13,electricity,one year,Angelo Romano,272,0,0.1017,-0.0054,1.01,0.4,False,False,128,1,1.16,0,0,Online Portal,False,41,False,0,13,8,0,0,Owner
+10439,2024-05-21,2024-09-22,59.9,249.6,Credit card,4,gas,month-to-month,Andrea Lombardi,1897,3,0.5039,-0.0381,0.99,0.45,True,False,167,0,0.85,1,17,Email,False,,True,9,4,3,1,9,Owner
+10440,2020-11-07,,83.9,1164.3,Mailed check,14,gas,one year,Vincenzo Ricci,1903,2,0.1696,0.0017,1.19,0.45,True,False,167,0,1.15,0,0,Email,True,90,True,2,14,7,1,15,Tenant
+10441,2025-06-12,2025-12-29,68.5,457.5,Credit card,7,both,month-to-month,Veronica Moretti,2252,4,0.5171,-0.0009,0.88,0.41,True,False,107,0,1.11,3,11,Paper,False,,False,0,0,0,3,21,Owner
+10442,2022-08-06,,59.5,811.6,Mailed check,13,both,month-to-month,Serena Esposito,1995,0,0.1947,-0.0008,1.1,0.39,False,True,0,0,0.85,0,0,Paper,False,,True,15,0,7,0,0,Owner
+10443,2023-04-22,,99.8,287.5,Bank transfer,3,gas,month-to-month,Veronica Vitale,1863,2,0.1701,-0.0002,1.16,0.49,False,True,0,1,1.13,0,0,Online Portal,False,,True,16,3,10,1,4,Owner
+10444,2022-02-22,,102.3,1396.5,Credit card,14,both,month-to-month,Marco Coppola,2330,2,0.17,-0.0044,1.19,0.34,False,False,53,1,1.19,0,0,Email,False,,True,16,14,8,0,0,Tenant
+10445,2021-09-12,,53.2,759.7,Electronic check,14,electricity,one year,Arianna Esposito,241,4,0.154,0.006,1.18,0.48,True,False,104,0,1.1,0,0,Email,True,56,False,0,14,9,1,17,Owner
+10446,2024-04-06,,106.5,634.7,Bank transfer,6,electricity,month-to-month,Fabio Rossi,266,0,0.1399,0.0014,1.0,0.23,False,False,228,2,1.2,0,0,Paper,False,,True,18,0,8,0,0,Owner
+10447,2024-04-28,,104.0,1526.3,Electronic check,14,both,one year,Camilla Benedetti,1417,2,0.1603,0.0025,0.99,0.31,False,False,365,1,0.91,0,0,Email,True,30,True,17,14,7,1,6,Owner
+10448,2020-08-21,,62.9,903.3,Mailed check,14,gas,one year,Martina Esposito,1244,1,0.2059,-0.0058,0.91,0.35,True,False,121,0,1.27,0,0,Email,True,174,True,4,14,7,0,0,Tenant
+10449,2022-09-25,,108.6,2617.5,Bank transfer,25,gas,two year,Gaia Fontana,1689,0,0.1584,0.0088,0.93,0.49,True,False,189,2,0.99,0,0,Online Portal,True,104,True,6,25,9,0,0,Owner
+10450,2020-11-14,,75.6,848.3,Electronic check,11,both,month-to-month,Andrea Lombardi,1654,0,0.1319,-0.0026,1.14,0.2,True,True,0,2,1.11,1,18,Email,False,,False,0,11,10,0,0,Owner
+10451,2023-02-23,,112.0,749.8,Bank transfer,7,both,month-to-month,Valentina Ferrara,1776,1,0.2511,0.009,1.01,0.41,False,False,140,2,1.25,0,0,Paper,False,,True,1,0,10,0,0,Tenant
+10452,2021-01-09,,59.5,1439.7,Credit card,24,gas,month-to-month,Sara Santoro,1113,4,0.1109,-0.0011,0.93,0.37,True,True,0,0,1.25,0,0,Online Portal,False,,True,20,24,8,2,11,Owner
+10453,2023-07-29,,66.1,572.7,Mailed check,9,gas,month-to-month,Veronica Marini,1340,0,0.1794,-0.0006,1.09,0.49,True,True,0,1,0.95,0,0,Email,False,,True,9,9,10,0,0,Tenant
+10454,2023-09-19,,105.1,2099.1,Electronic check,20,gas,month-to-month,Camilla Marini,1785,1,0.1144,-0.0081,0.97,0.49,True,False,217,0,1.01,0,0,Paper,False,,True,6,0,9,0,0,Tenant
+10455,2022-11-16,,90.5,999.4,Bank transfer,11,electricity,one year,Fabio Gallo,287,3,0.224,-0.0026,0.99,0.43,False,False,258,0,1.22,0,0,Online Portal,True,33,False,0,11,10,1,28,Owner
+10456,2024-05-26,2025-05-29,47.4,584.6,Mailed check,12,both,one year,Roberto Russo,1634,7,0.4757,-0.0278,0.56,0.26,False,True,0,0,0.95,1,19,Paper,False,,True,10,0,3,3,13,Owner
+10457,2023-04-09,,115.9,1384.2,Electronic check,12,both,one year,Paolo Basile,2217,4,0.1201,0.0068,1.08,0.26,False,True,0,0,1.21,0,0,Email,True,177,True,0,12,7,2,28,Tenant
+10458,2023-11-17,,78.7,838.2,Credit card,11,gas,one year,Arianna Ferrari,1132,1,0.1166,-0.0081,1.18,0.31,True,True,0,2,1.0,0,0,Email,True,51,True,9,11,10,0,0,Owner
+10459,2020-10-19,,108.2,419.9,Electronic check,4,electricity,month-to-month,Giulia Conti,266,2,0.1172,0.0002,0.92,0.29,True,True,0,0,0.97,0,0,Email,False,,True,0,4,10,1,15,Tenant
+10460,2021-06-10,,92.2,2275.4,Credit card,24,electricity,two year,Serena Conti,350,1,0.2222,-0.006,1.08,0.37,True,False,326,2,1.06,0,0,Online Portal,True,173,True,6,24,10,0,0,Owner
+10461,2022-06-29,,73.3,910.2,Bank transfer,12,both,one year,Luigi Esposito,2142,3,0.2314,-0.0076,1.06,0.21,True,False,73,1,0.88,0,0,Paper,False,85,True,19,0,8,2,4,Owner
+10462,2023-01-23,,75.0,74.5,Bank transfer,1,gas,month-to-month,Davide Mancini,1879,0,0.1451,0.0045,0.94,0.39,False,False,69,1,0.87,1,5,Email,False,,False,0,1,7,0,0,Owner
+10463,2021-02-22,,77.6,1931.8,Credit card,24,both,two year,Matteo Morelli,2315,1,0.2771,0.008,0.99,0.41,True,False,65,0,1.25,0,0,Email,True,61,True,6,24,9,0,0,Owner
+10464,2025-05-07,2027-07-12,97.7,2675.4,Mailed check,27,electricity,two year,Giulia De Luca,389,11,0.4298,-0.0304,0.53,0.46,False,False,301,2,2.59,1,17,Paper,True,,True,8,0,4,7,21,Owner
+10465,2024-12-30,,80.7,1735.3,Mailed check,21,gas,two year,Chiara Sanna,1197,4,0.1685,-0.0039,1.1,0.35,True,False,317,0,1.04,1,25,Paper,False,149,True,14,0,7,2,13,Tenant
+10466,2022-04-13,,102.7,2208.1,Mailed check,21,gas,month-to-month,Nicole Romano,1102,2,0.2763,0.003,1.07,0.33,True,True,0,2,1.09,0,0,Email,False,,False,0,21,7,0,0,Owner
+10467,2025-03-10,,103.2,2024.7,Bank transfer,20,gas,two year,Marco Romano,1107,0,0.1964,0.0075,0.91,0.37,False,False,214,0,0.93,1,13,Email,False,55,True,19,20,7,0,0,Owner
+10468,2023-09-23,,115.3,1203.4,Electronic check,10,both,one year,Debora Caruso,2217,0,0.1507,0.006,0.97,0.38,True,False,200,0,1.27,0,0,Online Portal,False,140,True,5,10,7,0,0,Tenant
+10469,2024-01-10,,114.9,1538.9,Electronic check,14,both,one year,Angelo De Luca,1811,1,0.2396,0.0055,1.17,0.25,False,False,47,2,0.83,0,0,Paper,True,106,True,3,0,7,0,0,Owner
+10470,2022-04-03,,102.5,1221.7,Mailed check,12,electricity,one year,Sofia Bruno,242,2,0.1704,-0.0067,0.92,0.3,True,False,53,0,1.19,0,0,Online Portal,True,31,False,0,12,9,1,17,Owner
+10471,2022-01-17,,67.8,808.0,Mailed check,12,both,month-to-month,Daniele Ferrara,1825,3,0.1798,0.0055,1.02,0.25,True,True,0,0,1.22,0,0,Email,False,,False,0,12,8,2,30,Owner
+10472,2023-03-25,2025-01-08,85.7,1936.3,Mailed check,22,gas,two year,Giulia Ricci,1256,11,0.3653,-0.0081,1.19,0.38,True,False,186,1,1.98,1,21,Online Portal,True,,False,0,22,3,7,11,Owner
+10473,2023-10-17,,73.2,1289.5,Mailed check,18,electricity,month-to-month,Gaia De Luca,351,0,0.2454,-0.0019,1.09,0.41,True,False,134,1,1.26,0,0,Online Portal,False,,False,0,18,7,0,0,Owner
+10474,2025-08-06,,99.3,974.1,Bank transfer,10,gas,one year,Arianna Romano,1425,4,0.2442,-0.0032,1.0,0.26,False,False,179,1,0.8,0,0,Email,True,29,False,0,10,8,2,21,Owner
+10475,2025-05-27,2026-06-24,99.9,1285.1,Bank transfer,13,electricity,month-to-month,Gaia Colombo,327,7,0.3514,-0.0076,0.88,0.48,False,False,114,3,1.09,5,26,Paper,False,,False,0,0,4,6,7,Owner
+10476,2023-01-13,,58.6,1614.8,Electronic check,28,both,two year,Simone Basile,1810,2,0.2072,-0.0007,1.13,0.37,True,False,311,1,0.93,0,0,Online Portal,True,93,False,0,28,7,1,25,Owner
+10477,2021-11-29,,52.0,959.5,Electronic check,18,electricity,month-to-month,Fabio Conti,333,3,0.1903,-0.0064,1.17,0.5,False,True,0,0,1.03,0,0,Paper,False,,False,0,0,8,1,30,Tenant
+10478,2024-06-15,2024-12-23,79.7,499.0,Credit card,6,electricity,month-to-month,Arianna Giordano,270,15,0.3087,0.0038,1.05,0.24,True,False,234,1,1.23,4,9,Email,False,,False,0,6,5,6,1,Owner
+10479,2021-10-02,,96.9,2415.6,Bank transfer,25,gas,two year,Valentina Moretti,1124,4,0.2268,-0.0045,0.98,0.32,False,False,321,2,1.18,0,0,Email,True,30,False,0,25,9,2,16,Tenant
+10480,2022-09-15,,86.0,2261.6,Credit card,27,gas,two year,Marco Caruso,1166,1,0.1542,0.0085,1.18,0.41,True,True,0,2,1.19,0,0,Online Portal,True,36,False,0,27,9,0,0,Owner
+10481,2024-08-18,,108.8,1581.7,Credit card,14,both,month-to-month,Silvia Mancini,1871,3,0.1238,0.0097,1.08,0.23,False,False,173,1,0.91,0,0,Paper,False,,False,0,0,8,1,19,Owner
+10482,2021-10-19,,84.5,2030.0,Mailed check,23,both,month-to-month,Simone Russo,1725,2,0.1444,0.0091,1.17,0.49,True,False,143,3,1.19,0,0,Paper,False,,True,14,0,9,0,0,Tenant
+10483,2024-07-18,,58.2,782.2,Bank transfer,13,both,one year,Salvatore Gallo,2042,4,0.2097,-0.0095,0.9,0.46,True,True,0,0,0.84,0,0,Paper,True,128,True,11,0,10,3,9,Tenant
+10484,2020-10-26,,94.8,2240.9,Credit card,23,gas,month-to-month,Stefano Ferrari,1156,1,0.2485,0.0068,1.09,0.28,False,True,0,0,1.11,0,0,Email,False,,False,0,23,9,0,0,Owner
+10485,2024-11-22,,83.8,2156.4,Credit card,26,gas,two year,Roberto Romano,1557,1,0.1555,0.0011,1.09,0.47,True,True,0,2,1.27,1,30,Paper,True,93,False,0,0,10,0,0,Owner
+10486,2025-05-13,,76.2,869.5,Mailed check,11,both,one year,Marco Ferrari,2160,0,0.1171,0.0026,0.92,0.33,False,True,0,1,1.27,0,0,Email,False,130,False,0,11,10,0,0,Owner
+10487,2021-05-23,,95.1,1663.1,Bank transfer,18,electricity,month-to-month,Valentina Fiore,258,1,0.2723,-0.0089,0.92,0.36,False,False,262,2,1.24,1,20,Paper,False,,False,0,0,7,0,0,Tenant
+10488,2025-02-08,,54.4,664.7,Electronic check,12,both,one year,Alessandro Sanna,2029,2,0.2788,-0.0036,1.16,0.35,False,False,186,0,1.13,0,0,Paper,False,73,True,19,0,7,1,29,Owner
+10489,2024-09-15,,95.6,2241.1,Bank transfer,24,both,two year,Serena Romano,1394,2,0.1109,-0.0057,0.95,0.21,False,False,67,0,1.02,1,11,Email,False,160,True,7,24,10,1,27,Owner
+10490,2022-12-04,,98.1,1536.3,Credit card,16,gas,month-to-month,Sara Santoro,1588,3,0.1998,-0.0029,1.12,0.38,True,False,182,1,0.84,0,0,Email,False,,True,0,16,9,1,21,Owner
+10491,2022-06-19,,67.2,834.8,Bank transfer,12,electricity,one year,Luca Marchetti,336,3,0.2004,0.0033,1.07,0.35,False,True,0,0,1.01,0,0,Online Portal,False,96,False,0,12,9,2,21,Tenant
+10492,2025-07-05,2026-02-07,80.5,539.9,Credit card,7,gas,month-to-month,Andrea Longo,1846,10,0.4287,-0.0373,0.89,0.34,True,False,36,2,1.21,5,18,Online Portal,False,,True,19,7,1,5,2,Owner
+10493,2021-12-07,,103.3,1087.4,Mailed check,11,gas,one year,Sofia Romano,1794,4,0.1507,-0.0004,0.91,0.27,True,False,169,1,1.22,0,0,Online Portal,False,174,False,0,11,9,3,23,Tenant
+10494,2023-05-30,,76.4,1161.0,Mailed check,15,electricity,one year,Debora Bianchi,208,4,0.1142,0.0075,1.17,0.25,True,False,89,0,0.88,0,0,Online Portal,False,174,True,2,15,9,3,12,Tenant
+10495,2024-06-25,,53.3,1134.3,Mailed check,22,both,two year,Giulia Mancini,1443,4,0.1917,-0.0095,0.95,0.49,True,False,222,0,1.0,1,29,Paper,True,166,False,0,0,10,2,6,Tenant
+10496,2023-10-01,,106.7,1516.2,Mailed check,14,electricity,one year,Martina Martinelli,234,3,0.2958,-0.0067,1.12,0.26,True,False,315,0,0.84,1,6,Email,True,60,True,15,14,10,1,4,Tenant
+10497,2024-09-17,,56.9,863.4,Credit card,15,gas,one year,Veronica Bellini,1409,0,0.1624,0.0081,1.04,0.23,True,False,125,1,1.26,0,0,Email,True,44,True,15,15,9,0,0,Owner
+10498,2024-08-16,,70.2,406.2,Bank transfer,6,electricity,month-to-month,Antonio Romano,203,3,0.1425,-0.0004,0.93,0.36,True,False,43,0,0.94,0,0,Email,False,,False,0,6,10,1,23,Tenant
+10499,2021-03-15,,96.4,1779.3,Mailed check,18,both,month-to-month,Marco Gallo,1916,1,0.1706,0.0068,0.92,0.49,True,False,106,0,0.9,0,0,Email,False,,False,0,18,9,0,0,Tenant
+10500,2023-11-10,,107.9,2196.9,Electronic check,21,gas,month-to-month,Nicole Barbieri,1080,4,0.2161,-0.0053,0.96,0.47,False,False,203,1,0.89,0,0,Online Portal,False,,False,0,21,7,3,21,Tenant
+10501,2023-10-10,,86.8,2059.1,Credit card,24,gas,month-to-month,Luigi Ferrara,1006,4,0.2268,0.0092,0.91,0.33,False,False,234,1,0.82,2,26,Paper,False,,True,20,0,10,3,10,Owner
+10502,2025-02-02,,57.3,58.7,Mailed check,1,both,month-to-month,Silvia Romano,1611,4,0.1616,-0.0079,0.92,0.34,True,True,0,3,1.0,0,0,Paper,False,,True,19,0,8,3,10,Tenant
+10503,2023-02-18,,83.4,1179.3,Electronic check,14,electricity,one year,Davide Rossi,235,3,0.1519,-0.0098,0.93,0.37,True,False,36,0,1.02,0,0,Paper,False,85,False,0,0,8,1,17,Owner
+10504,2024-03-09,,54.2,1238.1,Electronic check,24,both,two year,Marco Martinelli,1562,2,0.2259,0.0023,0.9,0.23,True,False,59,1,0.87,0,0,Paper,True,20,True,6,0,7,1,17,Owner
+10505,2024-01-11,,85.2,2046.4,Mailed check,25,electricity,two year,Nicole Marini,202,1,0.2886,0.007,1.13,0.43,False,False,360,2,1.11,0,0,Paper,True,54,False,0,0,10,0,0,Owner
+10506,2023-01-09,,70.8,1669.3,Mailed check,23,electricity,two year,Alessandro Mancini,232,0,0.2329,-0.0035,1.0,0.42,False,False,217,0,1.13,0,0,Paper,True,11,False,0,0,8,0,0,Owner
+10507,2023-04-09,,54.9,1190.0,Electronic check,21,both,month-to-month,Marco Sanna,1262,1,0.1423,0.0015,1.17,0.36,True,False,184,1,1.15,0,0,Email,False,,False,0,21,8,0,0,Owner
+10508,2024-01-15,2024-12-12,61.2,685.0,Credit card,11,gas,one year,Silvia Mancini,1683,10,0.1731,-0.037,0.6,0.48,True,False,264,1,0.83,1,27,Paper,True,,False,0,0,5,3,8,Owner
+10509,2024-08-29,,61.3,773.9,Electronic check,13,electricity,month-to-month,Sara Martinelli,214,3,0.195,0.0009,1.03,0.29,True,False,79,0,0.86,2,25,Paper,False,,False,0,0,7,1,26,Tenant
+10510,2022-07-24,,56.5,856.4,Bank transfer,15,electricity,one year,Alessandro De Luca,238,2,0.226,-0.0097,1.03,0.4,True,True,0,0,1.11,0,0,Email,False,42,False,0,15,9,1,4,Tenant
+10511,2023-02-09,,69.7,772.4,Credit card,11,gas,one year,Serena Lombardi,1829,0,0.1246,-0.0072,0.91,0.21,False,False,347,2,0.84,0,0,Online Portal,True,115,True,3,11,8,0,0,Tenant
+10512,2024-05-29,,81.6,1632.3,Mailed check,21,both,month-to-month,Ilaria Martinelli,2066,1,0.1803,-0.0073,1.16,0.23,True,True,0,1,1.1,0,0,Online Portal,False,,True,6,21,9,0,0,Tenant
+10513,2021-06-07,,52.6,450.0,Electronic check,9,electricity,month-to-month,Federica Benedetti,343,2,0.1741,-0.0035,1.16,0.2,False,False,232,2,1.13,0,0,Online Portal,False,,True,4,9,10,1,5,Owner
+10514,2021-03-06,,117.7,2367.5,Credit card,21,gas,month-to-month,Valentina Marino,1031,4,0.2672,0.0089,1.14,0.48,True,False,98,0,1.15,1,12,Paper,False,,False,0,0,7,3,5,Owner
+10515,2024-06-30,,112.0,1204.0,Bank transfer,11,electricity,one year,Nicole Conti,321,3,0.2693,-0.0059,1.0,0.49,False,False,242,1,0.87,1,12,Email,True,151,False,0,11,7,1,25,Owner
+10516,2024-03-10,,110.0,2807.5,Electronic check,25,both,two year,Andrea Esposito,1487,4,0.1895,0.0099,1.16,0.37,False,True,0,0,0.89,0,0,Email,True,62,False,0,25,10,3,10,Owner
+10517,2025-06-21,2027-01-16,85.1,1661.6,Mailed check,19,gas,month-to-month,Giulia Russo,1061,14,0.3531,-0.0138,0.69,0.43,True,False,200,3,2.76,2,11,Email,False,,False,0,19,6,12,21,Owner
+10518,2020-10-18,,61.3,661.4,Bank transfer,11,both,one year,Andrea Innocenti,2043,1,0.111,0.0096,1.09,0.3,False,False,357,1,1.13,1,12,Paper,True,68,True,2,0,10,0,0,Tenant
+10519,2021-10-23,,116.5,1453.4,Bank transfer,12,both,one year,Francesco Martinelli,2290,2,0.1321,-0.0091,0.99,0.49,False,False,101,0,1.23,0,0,Online Portal,True,135,False,0,12,9,0,0,Owner
+10520,2023-03-12,,104.2,2519.1,Mailed check,25,electricity,two year,Paolo Bellini,317,1,0.2666,-0.0007,1.03,0.31,False,False,267,2,1.09,1,8,Paper,True,63,True,16,0,7,0,0,Owner
+10521,2024-12-09,,59.9,1380.4,Mailed check,22,gas,month-to-month,Debora Longo,1436,3,0.2204,-0.0063,1.13,0.4,False,False,311,0,1.07,1,25,Email,False,,False,0,22,7,1,28,Owner
+10522,2025-01-29,2025-03-02,101.2,105.7,Electronic check,1,electricity,month-to-month,Paolo Romano,279,5,0.2299,-0.0223,0.89,0.4,True,False,364,2,0.87,2,22,Email,False,,False,0,1,5,4,18,Tenant
+10523,2020-10-05,,50.5,1445.1,Credit card,28,electricity,two year,Camilla Romano,307,2,0.2088,0.0023,1.01,0.43,True,True,0,1,0.91,1,29,Online Portal,True,39,True,0,28,10,1,17,Owner
+10524,2021-07-07,,78.3,2219.0,Credit card,28,gas,two year,Luigi Lombardi,1218,0,0.1507,-0.0078,0.93,0.35,True,False,352,0,1.22,0,0,Online Portal,True,47,False,0,28,10,0,0,Tenant
+10525,2022-09-27,,63.4,983.9,Bank transfer,15,gas,month-to-month,Camilla Coppola,1350,2,0.1943,0.0074,1.11,0.46,True,False,75,1,1.13,1,6,Paper,False,,True,18,0,8,1,5,Owner
+10526,2025-02-10,2026-02-22,78.4,991.1,Electronic check,13,both,month-to-month,Veronica Rossi,2396,8,0.3348,-0.0157,0.51,0.43,False,False,326,1,1.15,4,8,Paper,False,,True,9,0,6,5,22,Tenant
+10527,2025-07-15,,99.1,2530.2,Bank transfer,25,both,two year,Valentina Martinelli,1932,0,0.1322,-0.0061,1.04,0.24,False,True,0,0,1.2,0,0,Email,True,144,False,0,25,9,0,0,Tenant
+10528,2025-05-25,,108.8,2591.8,Mailed check,25,both,two year,Federica Ferrara,1391,4,0.1857,-0.0001,1.17,0.3,True,True,0,1,1.02,0,0,Online Portal,True,36,False,0,25,9,3,4,Owner
+10529,2025-05-23,,96.3,2188.3,Credit card,23,electricity,month-to-month,Michela Esposito,365,2,0.2325,0.0062,0.96,0.38,False,False,312,0,1.23,0,0,Email,False,,True,9,23,8,1,13,Owner
+10530,2023-04-27,,106.7,1430.6,Mailed check,13,both,one year,Luca Bellini,1282,4,0.2748,0.0087,0.99,0.25,True,False,240,1,1.24,0,0,Email,False,163,False,0,13,10,2,30,Tenant
+10531,2021-08-31,,78.6,901.2,Electronic check,11,both,one year,Serena Fiore,1797,0,0.1052,-0.005,0.93,0.28,True,False,162,1,1.06,0,0,Email,True,138,True,6,11,10,0,0,Tenant
+10532,2023-02-09,,87.2,990.0,Mailed check,11,electricity,one year,Matteo Rossi,284,0,0.2394,0.0073,0.99,0.3,True,True,0,0,1.17,1,20,Email,False,148,True,18,11,10,0,0,Tenant
+10533,2022-02-04,2022-05-23,83.8,320.3,Bank transfer,4,both,month-to-month,Fabio Fontana,1838,8,0.4691,-0.0435,1.06,0.31,True,False,210,0,0.99,4,18,Paper,False,,False,0,0,6,2,29,Tenant
+10534,2025-02-04,,54.4,1014.9,Electronic check,19,gas,month-to-month,Salvatore Marchetti,1759,2,0.296,-0.0011,1.05,0.24,False,False,284,2,0.81,0,0,Email,False,,True,19,19,10,1,25,Tenant
+10535,2023-10-17,,69.4,1513.2,Mailed check,22,electricity,two year,Federica Mancini,345,0,0.2326,-0.0005,1.02,0.35,False,False,363,0,0.85,0,0,Online Portal,True,5,True,13,22,8,0,0,Owner
+10536,2025-04-28,,55.7,940.2,Electronic check,17,electricity,month-to-month,Simone Bianchi,216,2,0.1121,-0.0031,0.92,0.41,True,False,340,0,1.21,0,0,Online Portal,False,,True,16,17,8,1,25,Tenant
+10537,2023-09-14,,113.3,1424.6,Electronic check,12,electricity,one year,Nicole Gentile,261,0,0.1818,-0.0047,1.15,0.35,True,True,0,1,1.11,0,0,Email,True,56,True,7,12,8,0,0,Owner
+10538,2022-04-28,,114.4,2816.0,Bank transfer,24,both,two year,Camilla Benedetti,1731,0,0.2079,-0.0057,1.07,0.26,False,True,0,1,0.82,0,0,Online Portal,True,131,True,9,24,10,0,0,Owner
+10539,2023-07-12,,109.7,2476.4,Bank transfer,22,electricity,month-to-month,Arianna Martinelli,308,3,0.2293,-0.0022,1.19,0.37,True,False,66,2,0.9,0,0,Online Portal,False,,False,0,22,10,2,23,Tenant
+10540,2023-09-17,2024-02-20,118.6,594.8,Mailed check,5,electricity,month-to-month,Luca Ricci,283,4,0.5462,-0.003,0.54,0.49,False,False,154,1,2.74,1,19,Email,False,,True,11,5,1,2,24,Owner
+10541,2021-10-12,2022-08-20,73.5,755.5,Electronic check,10,electricity,month-to-month,Elisa Marino,254,7,0.4921,-0.0046,0.74,0.48,True,False,348,0,2.79,4,24,Online Portal,False,,True,1,10,0,3,25,Owner
+10542,2024-11-03,,116.4,2743.8,Mailed check,24,electricity,two year,Marco Coppola,294,1,0.2056,0.0088,0.99,0.26,True,False,81,1,1.19,1,12,Paper,True,22,True,11,0,7,0,0,Tenant
+10543,2021-08-31,,67.0,1664.4,Credit card,24,gas,two year,Stefano Gentile,1115,4,0.243,0.0006,1.02,0.39,True,False,72,0,0.84,1,19,Paper,True,10,True,14,0,8,2,19,Owner
+10544,2025-01-04,,95.6,982.3,Electronic check,10,electricity,one year,Vincenzo Conti,248,4,0.1805,0.0077,1.03,0.22,True,True,0,0,1.06,0,0,Online Portal,False,65,True,16,10,10,3,9,Tenant
+10545,2023-05-26,,61.8,1388.0,Credit card,23,electricity,month-to-month,Camilla Fiore,220,1,0.2758,0.0026,1.08,0.41,True,True,0,1,1.24,0,0,Paper,False,,False,0,0,9,0,0,Tenant
+10546,2024-06-27,2024-08-10,77.9,81.2,Mailed check,1,both,month-to-month,Debora Rossi,1202,15,0.3174,-0.0354,0.78,0.31,True,False,365,0,2.62,1,8,Online Portal,False,,False,0,1,0,13,18,Owner
+10547,2022-05-06,,51.0,695.7,Credit card,13,gas,one year,Sofia Fiore,1866,0,0.1572,0.0057,1.08,0.21,False,True,0,2,1.06,0,0,Paper,True,124,True,5,0,8,0,0,Owner
+10548,2022-08-29,,115.1,1903.0,Mailed check,16,electricity,month-to-month,Daniele Vitale,264,4,0.1571,0.0013,1.0,0.2,True,False,333,0,0.82,0,0,Online Portal,False,,False,0,16,9,1,23,Tenant
+10549,2023-06-04,,58.4,666.6,Mailed check,11,both,one year,Elena Moretti,1773,3,0.1507,-0.0023,0.93,0.27,True,False,240,2,0.97,1,6,Paper,False,103,True,5,0,9,1,27,Tenant
+10550,2021-08-27,,67.9,970.5,Bank transfer,15,both,one year,Federica Colombo,1752,2,0.2402,-0.0028,1.06,0.35,True,False,165,1,1.1,1,17,Online Portal,True,50,True,17,15,7,1,8,Owner
+10551,2021-08-26,,52.8,674.0,Mailed check,13,gas,month-to-month,Marco Coppola,1842,0,0.2969,-0.004,1.05,0.45,True,False,283,1,1.23,0,0,Online Portal,False,,False,0,13,10,0,0,Tenant
+10552,2023-05-27,,86.3,1067.0,Bank transfer,12,gas,one year,Andrea Marini,1477,1,0.2941,-0.0,0.99,0.49,True,True,0,0,1.18,0,0,Paper,True,131,True,8,0,7,0,0,Tenant
+10553,2023-10-10,,66.8,640.3,Credit card,10,both,one year,Stefano Costa,1287,3,0.1823,-0.002,1.04,0.28,True,True,0,0,0.94,0,0,Email,True,107,True,7,10,8,1,25,Owner
+10554,2021-01-30,,72.4,349.5,Mailed check,5,gas,month-to-month,Daniele Fiore,1699,3,0.2494,-0.0062,0.97,0.5,True,False,294,0,1.13,0,0,Online Portal,False,,True,4,5,8,1,21,Tenant
+10555,2023-05-05,2023-12-10,92.9,630.9,Electronic check,7,gas,month-to-month,Vincenzo Longo,1450,5,0.1742,-0.046,1.09,0.36,False,False,72,1,1.97,5,20,Online Portal,False,,False,0,7,6,4,21,Tenant
+10556,2021-01-18,,117.6,1721.1,Bank transfer,15,gas,one year,Francesco Mancini,1657,2,0.1114,-0.0043,1.11,0.28,True,False,154,1,1.3,0,0,Email,True,144,True,4,15,8,0,0,Owner
+10557,2022-02-05,,77.3,2124.2,Credit card,28,both,two year,Simone Bianco,1662,0,0.201,0.0043,0.92,0.2,True,False,237,0,0.97,0,0,Paper,True,136,False,0,0,9,0,0,Tenant
+10558,2021-08-19,,114.1,3339.5,Electronic check,28,gas,two year,Debora Marchetti,1045,0,0.2593,0.0051,1.03,0.33,False,False,313,1,0.83,0,0,Email,True,88,True,12,28,9,0,0,Owner
+10559,2022-04-02,,97.6,999.4,Mailed check,10,both,month-to-month,Elena Bellini,1774,1,0.234,0.0047,1.03,0.35,True,True,0,0,0.95,0,0,Email,False,,True,17,10,10,0,0,Owner
+10560,2021-04-18,2022-10-24,107.4,1966.6,Credit card,18,gas,month-to-month,Sara Moretti,1695,13,0.1991,-0.0026,0.57,0.25,False,False,146,0,2.36,1,24,Paper,False,,True,14,0,4,8,12,Tenant
+10561,2024-01-29,,50.6,677.7,Credit card,14,gas,one year,Alessia Sanna,1855,3,0.2965,-0.0,1.11,0.25,True,False,288,2,1.28,1,16,Paper,True,20,False,0,0,7,2,7,Tenant
+10562,2024-10-15,,68.7,1810.6,Bank transfer,27,both,two year,Debora Basile,1257,0,0.2273,0.0076,1.19,0.2,True,False,302,3,1.05,0,0,Email,True,35,False,0,27,7,0,0,Tenant
+10563,2023-10-21,,70.8,1855.1,Mailed check,26,gas,two year,Luigi Russo,1535,2,0.2214,0.005,1.04,0.46,False,True,0,0,1.27,0,0,Email,True,103,False,0,26,10,1,6,Owner
+10564,2024-02-15,,59.3,754.2,Bank transfer,13,electricity,one year,Chiara Mancini,331,3,0.2232,-0.0032,1.05,0.33,True,True,0,2,1.06,2,13,Online Portal,True,125,True,20,13,10,1,29,Owner
+10565,2025-07-31,,73.8,655.6,Mailed check,9,electricity,month-to-month,Silvia Sanna,285,4,0.2665,0.0022,1.17,0.25,True,True,0,1,1.02,0,0,Paper,False,,True,0,0,8,3,11,Tenant
+10566,2024-06-05,,110.7,1613.4,Bank transfer,14,both,one year,Valentina Marchetti,2112,4,0.2891,0.01,1.0,0.33,True,True,0,1,0.91,1,28,Paper,True,90,True,0,0,10,2,28,Tenant
+10567,2024-10-24,,113.6,336.5,Electronic check,3,electricity,month-to-month,Vincenzo Gallo,241,4,0.2268,0.003,1.06,0.3,True,True,0,0,1.05,0,0,Paper,False,,True,8,0,8,1,29,Owner
+10568,2023-12-23,,57.5,655.7,Mailed check,12,electricity,one year,Ilaria Romano,377,4,0.2087,0.0059,0.95,0.3,True,False,80,1,0.9,1,26,Online Portal,False,55,True,14,12,8,2,23,Tenant
+10569,2021-06-10,,55.5,1398.4,Bank transfer,24,both,month-to-month,Ilaria Morelli,1281,3,0.2488,-0.0079,1.16,0.39,False,True,0,0,1.16,0,0,Paper,False,,True,14,0,10,2,22,Tenant
+10570,2023-07-25,,63.7,1059.4,Credit card,17,gas,month-to-month,Arianna Santoro,1654,1,0.2908,0.0097,0.92,0.31,False,False,51,0,0.93,0,0,Email,False,,False,0,17,10,0,0,Tenant
+10571,2024-03-27,,101.4,2343.3,Mailed check,24,electricity,two year,Federica Moretti,255,3,0.1726,-0.0084,0.98,0.21,False,False,353,1,0.82,0,0,Paper,False,54,True,8,0,10,2,21,Owner
+10572,2020-09-22,,74.7,858.5,Mailed check,11,electricity,month-to-month,Sara Vitale,336,4,0.2886,-0.0054,1.05,0.31,True,False,335,0,1.27,0,0,Online Portal,False,,True,13,11,10,2,3,Owner
+10573,2022-10-22,2023-04-29,51.0,315.5,Bank transfer,6,both,month-to-month,Giorgio Ricci,1706,8,0.2514,0.0082,1.2,0.48,True,False,144,0,1.52,3,8,Email,False,,True,19,6,0,7,22,Owner
+10574,2023-12-01,,86.1,437.6,Mailed check,5,both,month-to-month,Stefano Santoro,1572,1,0.149,-0.0087,1.2,0.46,True,False,296,1,1.04,1,11,Online Portal,False,,True,12,5,9,0,0,Tenant
+10575,2022-02-03,2022-08-16,81.5,467.7,Credit card,6,gas,month-to-month,Luca Lombardo,1163,6,0.4418,0.0054,0.88,0.35,True,False,343,0,2.08,5,15,Paper,False,,False,0,0,2,2,3,Owner
+10576,2021-12-19,,105.5,2298.0,Mailed check,21,gas,two year,Stefano Colombo,1677,1,0.1374,0.0042,1.01,0.49,True,True,0,3,1.26,0,0,Paper,True,137,False,0,0,8,0,0,Tenant
+10577,2020-12-21,2023-01-23,118.9,2955.3,Credit card,25,both,two year,Elena Russo,1567,12,0.3369,-0.002,0.97,0.47,True,False,252,0,2.93,2,18,Paper,True,,True,19,0,1,3,4,Tenant
+10578,2025-03-06,2026-10-21,99.3,1888.1,Electronic check,20,both,two year,Matteo Martinelli,2036,3,0.4566,-0.0279,0.61,0.38,True,False,40,2,1.24,1,27,Online Portal,True,,False,0,20,2,1,13,Tenant
+10579,2025-06-09,,68.5,284.6,Mailed check,4,gas,month-to-month,Serena Martinelli,1810,1,0.2835,0.0021,1.2,0.37,False,False,80,0,1.21,0,0,Email,False,,True,20,4,10,0,0,Tenant
+10580,2023-09-25,,105.9,1142.2,Credit card,11,both,one year,Sofia Coppola,1686,3,0.2146,-0.0071,0.99,0.48,False,False,158,0,1.27,0,0,Online Portal,True,74,True,3,11,7,1,18,Owner
+10581,2023-04-06,,113.5,2666.6,Bank transfer,23,both,two year,Andrea Santoro,1552,0,0.2813,0.0078,1.2,0.21,True,False,305,0,1.16,0,0,Online Portal,False,135,True,4,23,10,0,0,Owner
+10582,2025-05-30,,108.9,1007.6,Mailed check,9,electricity,month-to-month,Fabio Romano,230,4,0.1774,-0.0021,1.04,0.25,True,False,344,1,0.96,0,0,Paper,False,,False,0,0,9,1,25,Tenant
+10583,2025-07-30,2027-01-11,96.5,1804.5,Mailed check,18,gas,month-to-month,Chiara Colombo,1376,15,0.4571,0.006,1.15,0.24,False,False,62,0,0.92,4,27,Email,False,,False,0,18,6,5,3,Owner
+10584,2021-04-02,,65.8,1535.8,Bank transfer,24,electricity,two year,Camilla Benedetti,372,4,0.1097,0.0099,0.91,0.41,True,False,309,0,1.27,0,0,Online Portal,True,82,True,18,24,7,2,26,Owner
+10585,2023-09-24,,53.2,745.9,Credit card,14,electricity,one year,Matteo Coppola,306,1,0.2788,0.0008,1.2,0.39,False,False,345,3,1.19,0,0,Paper,False,13,True,6,0,9,0,0,Tenant
+10586,2024-10-16,2026-05-18,67.5,1321.0,Electronic check,19,electricity,month-to-month,Sofia Colombo,229,7,0.243,-0.0055,0.76,0.39,False,False,218,1,0.91,4,10,Online Portal,False,,False,0,19,6,3,27,Owner
+10587,2021-08-22,,107.1,1647.6,Bank transfer,15,both,one year,Davide Russo,2253,0,0.145,0.0094,1.04,0.26,True,False,264,0,1.24,0,0,Email,True,62,False,0,15,8,0,0,Owner
+10588,2024-08-27,,84.9,1816.5,Mailed check,22,both,month-to-month,Roberto Bellini,1506,0,0.1292,0.0049,0.98,0.36,True,False,126,0,0.95,0,0,Email,False,,True,17,22,7,0,0,Owner
+10589,2023-07-28,,87.3,2293.8,Bank transfer,27,both,two year,Sara Morelli,1407,0,0.1548,0.0074,0.94,0.48,False,False,39,1,0.86,0,0,Online Portal,True,145,True,4,27,8,0,0,Owner
+10590,2025-06-05,2026-08-12,77.5,1043.4,Bank transfer,14,gas,month-to-month,Martina Bruno,1868,11,0.2734,0.0039,1.08,0.4,True,False,355,1,2.07,4,13,Paper,False,,True,12,0,0,8,28,Tenant
+10591,2025-06-12,,81.9,899.5,Bank transfer,11,both,one year,Angelo Mancini,2320,4,0.2418,-0.008,0.98,0.27,True,False,256,0,1.04,0,0,Paper,True,4,False,0,0,10,2,5,Tenant
+10592,2023-09-26,,107.8,1202.9,Bank transfer,11,both,one year,Davide Martinelli,1382,2,0.1491,-0.0099,1.17,0.44,True,False,293,0,0.96,0,0,Email,True,86,False,0,11,7,0,0,Tenant
+10593,2023-02-09,,89.9,1320.6,Credit card,14,electricity,one year,Debora Romano,348,4,0.2754,0.0023,1.19,0.26,True,False,332,0,0.81,0,0,Paper,True,93,True,8,0,10,2,30,Owner
+10594,2021-01-21,,52.4,760.9,Mailed check,14,electricity,one year,Luigi Gentile,261,3,0.1001,0.0079,0.99,0.49,False,False,253,1,1.03,0,0,Paper,True,88,True,8,0,9,1,24,Tenant
+10595,2024-09-28,,95.3,2683.1,Mailed check,28,both,two year,Chiara Sanna,2301,0,0.1817,0.0035,1.1,0.46,True,True,0,1,1.08,0,0,Paper,True,108,True,11,0,9,0,0,Tenant
+10596,2023-05-16,,89.7,1029.4,Credit card,11,gas,one year,Fabio Vitale,1145,2,0.2599,0.0021,1.16,0.31,True,False,101,2,1.16,0,0,Email,False,58,True,19,11,8,1,1,Tenant
+10597,2023-11-28,,99.0,2342.4,Electronic check,24,both,month-to-month,Simone Marchetti,1879,1,0.281,-0.0052,1.1,0.39,False,False,278,1,1.27,0,0,Paper,False,,True,19,0,10,0,0,Owner
+10598,2022-04-10,,63.6,848.9,Bank transfer,13,both,one year,Chiara Giordano,1720,3,0.2826,0.0083,1.17,0.26,False,False,247,0,0.95,1,7,Paper,True,160,False,0,0,7,1,10,Tenant
+10599,2025-07-20,,70.8,1020.0,Mailed check,14,electricity,one year,Michela Ricci,324,0,0.2767,-0.0099,0.98,0.38,True,False,326,1,0.83,0,0,Paper,False,53,True,13,0,10,0,0,Owner
+10600,2022-12-14,2023-09-15,69.3,603.5,Bank transfer,9,both,month-to-month,Giulia Romano,1946,9,0.4183,0.0058,1.09,0.44,True,True,0,0,0.83,3,30,Paper,False,,False,0,0,6,8,17,Tenant
+10601,2021-02-23,,54.5,1170.1,Credit card,21,both,two year,Elisa Martinelli,2309,2,0.2331,-0.0092,1.16,0.37,False,False,93,0,0.91,0,0,Email,True,170,True,20,21,7,0,0,Tenant
+10602,2023-04-17,,59.2,900.2,Credit card,15,gas,month-to-month,Daniele Ferrari,1197,0,0.2744,0.0079,1.16,0.29,True,False,49,0,0.92,0,0,Online Portal,False,,True,8,15,10,0,0,Owner
+10603,2023-02-28,2024-04-08,56.8,815.7,Mailed check,14,both,one year,Elena Sanna,1419,12,0.2732,-0.0331,1.0,0.48,True,False,270,0,1.19,3,7,Online Portal,True,,True,18,14,4,4,15,Owner
+10604,2024-11-19,,89.5,185.5,Mailed check,2,gas,month-to-month,Marco Coppola,1051,2,0.1797,0.0088,1.1,0.37,True,True,0,0,1.26,0,0,Email,False,,True,7,2,10,0,0,Tenant
+10605,2023-11-12,,82.1,843.1,Credit card,10,both,month-to-month,Simone Coppola,1952,0,0.273,-0.0058,1.17,0.38,True,True,0,0,1.18,0,0,Paper,False,,False,0,0,7,0,0,Tenant
+10606,2023-01-13,,117.5,2406.0,Bank transfer,20,gas,two year,Silvia Martinelli,1047,2,0.205,-0.002,0.95,0.35,True,True,0,2,1.1,2,14,Online Portal,True,89,True,16,20,9,1,2,Owner
+10607,2021-11-23,,65.2,1551.8,Credit card,25,gas,two year,Simone Colombo,1657,1,0.1308,0.0064,0.97,0.3,True,False,334,3,0.98,0,0,Email,True,2,True,12,25,7,0,0,Owner
+10608,2024-01-06,,91.1,2012.7,Electronic check,23,both,month-to-month,Luca Ferrara,1950,0,0.1949,0.0049,1.08,0.36,True,True,0,0,0.81,0,0,Email,False,,False,0,23,7,0,0,Owner
+10609,2021-11-25,,74.1,1475.8,Credit card,19,gas,month-to-month,Daniele Basile,1787,4,0.2574,-0.0087,1.06,0.38,True,True,0,0,1.04,0,0,Paper,False,,True,8,0,7,3,28,Tenant
+10610,2022-09-19,2025-01-12,88.6,2578.5,Credit card,28,electricity,two year,Martina Colombo,320,12,0.1564,0.0038,0.63,0.36,True,False,64,2,0.95,2,30,Email,False,,True,11,28,3,4,8,Owner
+10611,2025-02-27,,117.5,2616.6,Bank transfer,23,electricity,two year,Alessia Bianchi,263,0,0.2453,-0.0068,0.93,0.44,False,True,0,3,1.02,1,11,Email,True,61,True,14,23,10,0,0,Owner
+10612,2021-11-18,2023-02-21,89.9,1281.3,Mailed check,15,gas,one year,Nicole Coppola,1948,14,0.432,-0.0284,1.04,0.28,False,False,208,0,2.51,2,24,Email,True,,False,0,15,2,4,24,Tenant
+10613,2024-09-16,,58.1,801.6,Mailed check,14,electricity,one year,Paolo Vitale,215,0,0.2831,-0.0041,0.93,0.3,True,False,142,0,1.16,0,0,Online Portal,True,115,False,0,14,8,0,0,Tenant
+10614,2022-06-01,,80.4,1555.9,Electronic check,19,electricity,month-to-month,Francesco Coppola,232,1,0.2798,-0.0001,1.0,0.25,True,False,272,0,1.26,0,0,Email,False,,True,12,19,9,0,0,Tenant
+10615,2022-05-01,,115.9,1438.5,Mailed check,12,gas,month-to-month,Martina Lombardo,1917,2,0.1379,0.0062,1.04,0.24,True,True,0,0,1.01,2,15,Online Portal,False,,False,0,12,10,0,0,Owner
+10616,2023-09-27,,82.8,1011.3,Credit card,12,both,one year,Vincenzo Marino,2045,1,0.2551,-0.0085,1.02,0.37,True,False,224,0,1.13,0,0,Email,True,27,False,0,12,8,0,0,Tenant
+10617,2023-12-07,,65.3,589.8,Bank transfer,9,gas,month-to-month,Roberto Fontana,1955,1,0.1721,-0.0051,0.96,0.45,False,True,0,1,1.1,0,0,Paper,False,,True,5,0,8,0,0,Tenant
+10618,2022-01-30,,103.9,2565.7,Bank transfer,25,both,two year,Fabio Gallo,1959,1,0.1476,-0.0096,1.12,0.4,False,True,0,0,1.04,0,0,Online Portal,True,78,True,7,25,9,0,0,Owner
+10619,2020-11-10,,78.6,1148.5,Mailed check,14,both,one year,Alessia Gallo,1368,3,0.1163,0.0046,1.02,0.45,True,True,0,0,1.01,0,0,Online Portal,True,36,False,0,14,7,1,10,Tenant
+10620,2022-04-02,2023-01-17,73.6,715.1,Credit card,10,electricity,month-to-month,Marco Marchetti,323,7,0.2825,-0.0475,0.72,0.25,True,False,39,1,1.53,4,9,Online Portal,False,,True,0,10,2,6,9,Tenant
+10621,2023-07-02,,84.7,968.0,Electronic check,11,electricity,one year,Giorgio Rossi,270,1,0.2465,0.0005,0.96,0.49,True,False,171,2,1.02,1,17,Online Portal,True,27,False,0,11,8,0,0,Owner
+10622,2024-02-13,,96.9,1158.7,Mailed check,12,both,one year,Davide Romano,1240,2,0.124,0.008,1.11,0.41,False,False,31,0,1.3,0,0,Email,True,61,True,17,12,7,1,19,Owner
+10623,2025-03-12,,59.9,691.0,Mailed check,12,electricity,one year,Silvia Morelli,250,4,0.1141,0.0097,0.96,0.4,True,False,304,0,1.15,0,0,Paper,True,87,True,15,0,7,2,19,Tenant
+10624,2020-12-26,,110.2,1619.1,Credit card,14,both,one year,Debora Basile,1312,0,0.2133,-0.001,0.97,0.35,False,False,130,0,0.99,0,0,Paper,True,72,False,0,0,9,0,0,Owner
+10625,2022-03-18,2023-11-04,89.6,1813.1,Mailed check,20,both,two year,Davide Fiore,1302,9,0.2694,0.0076,1.18,0.22,True,False,181,0,1.84,2,10,Email,True,,False,0,20,1,6,11,Tenant
+10626,2020-12-30,2021-10-28,57.9,570.6,Bank transfer,10,electricity,month-to-month,Angelo Ricci,231,15,0.3443,0.0055,0.5,0.49,True,False,42,0,0.85,3,23,Email,False,,False,0,10,4,6,19,Tenant
+10627,2022-06-14,,54.3,847.3,Credit card,15,both,one year,Chiara Marini,2321,1,0.181,0.0045,1.0,0.29,True,True,0,2,0.87,1,25,Online Portal,False,177,True,13,15,7,0,0,Tenant
+10628,2025-03-23,,76.4,1506.6,Bank transfer,20,gas,two year,Chiara Ferrari,1062,2,0.1287,0.0027,1.01,0.3,False,False,209,0,1.14,0,0,Paper,True,146,False,0,0,10,0,0,Tenant
+10629,2023-11-06,,77.8,968.3,Mailed check,13,both,one year,Luca Bruno,1779,0,0.1598,0.0074,1.1,0.23,False,True,0,0,1.03,0,0,Paper,True,172,False,0,0,9,0,0,Tenant
+10630,2021-07-31,,114.1,1093.2,Bank transfer,10,both,one year,Martina Bianchi,1970,2,0.1691,0.0064,1.0,0.34,True,False,56,0,0.94,1,22,Paper,True,63,True,1,0,8,1,2,Owner
+10631,2024-07-11,,91.6,2104.9,Electronic check,24,gas,two year,Arianna Costa,1206,2,0.2197,0.0054,0.92,0.29,True,False,30,3,1.08,0,0,Online Portal,True,162,True,1,24,8,1,2,Tenant
+10632,2023-10-02,,58.6,362.8,Mailed check,6,electricity,month-to-month,Davide Ferrari,400,2,0.167,0.0087,1.16,0.42,True,True,0,2,1.11,0,0,Online Portal,False,,False,0,6,10,1,7,Owner
+10633,2025-07-23,,68.1,1413.4,Electronic check,20,gas,two year,Simone Morelli,1420,0,0.1934,-0.0093,1.12,0.26,True,False,314,0,1.22,0,0,Email,True,23,False,0,20,10,0,0,Owner
+10634,2024-11-10,,111.1,1361.1,Bank transfer,12,electricity,one year,Roberto Basile,217,4,0.2236,-0.0065,1.03,0.44,True,False,114,0,1.2,0,0,Paper,True,166,False,0,0,8,3,3,Owner
+10635,2021-04-21,,93.0,2491.6,Bank transfer,28,gas,two year,Angelo Bianchi,1140,1,0.2174,-0.0085,1.06,0.32,True,True,0,1,1.04,0,0,Online Portal,True,161,True,20,28,10,0,0,Tenant
+10636,2021-06-05,2022-02-26,99.3,886.8,Bank transfer,9,gas,month-to-month,Sofia Conti,1888,10,0.2762,-0.028,0.55,0.31,True,True,0,2,1.68,3,26,Email,False,,False,0,9,4,8,1,Owner
+10637,2021-03-12,,100.3,2027.5,Credit card,20,gas,month-to-month,Elisa Sanna,1639,0,0.2582,0.0085,1.13,0.48,False,True,0,0,0.95,0,0,Email,False,,True,0,20,8,0,0,Owner
+10638,2022-05-12,,66.3,1323.4,Electronic check,20,both,month-to-month,Francesco Romano,1453,1,0.2908,0.0089,0.99,0.33,False,True,0,2,0.83,0,0,Email,False,,True,20,20,9,0,0,Tenant
+10639,2023-03-31,,72.1,2060.0,Mailed check,28,gas,two year,Luigi Morelli,1642,0,0.2661,-0.0046,1.1,0.35,False,False,40,2,1.28,0,0,Online Portal,True,178,True,4,28,8,0,0,Tenant
+10640,2025-06-25,2027-06-23,51.0,1216.4,Bank transfer,24,electricity,month-to-month,Salvatore Basile,261,5,0.4764,-0.0037,1.11,0.35,False,False,219,0,1.05,2,29,Online Portal,False,,True,13,24,3,3,16,Owner
+10641,2021-10-05,,65.5,67.0,Credit card,1,electricity,month-to-month,Elena Ricci,264,3,0.2238,0.006,1.07,0.42,True,False,68,0,0.99,0,0,Paper,False,,False,0,0,7,1,9,Owner
+10642,2023-09-15,,71.0,803.8,Bank transfer,11,both,one year,Roberto Esposito,1714,1,0.1939,-0.0001,1.16,0.49,False,False,73,0,1.29,0,0,Paper,True,92,True,19,0,7,0,0,Owner
+10643,2025-08-09,,80.9,234.4,Electronic check,3,both,month-to-month,Martina Sanna,1496,3,0.146,0.0026,0.91,0.46,True,False,349,0,1.15,0,0,Online Portal,False,,True,2,3,9,1,11,Owner
+10644,2020-12-28,2022-11-23,65.1,1456.6,Credit card,23,electricity,two year,Francesco Gentile,224,7,0.1702,0.0056,0.57,0.29,False,False,112,2,1.15,3,16,Online Portal,True,,False,0,23,2,4,11,Owner
+10645,2025-05-01,,53.3,668.0,Credit card,12,electricity,one year,Federica Giordano,236,1,0.2729,-0.0038,0.92,0.49,False,False,104,1,1.26,0,0,Paper,True,95,False,0,0,7,0,0,Owner
+10646,2022-07-08,,65.3,803.0,Credit card,12,gas,one year,Stefano Ferrari,1679,3,0.2851,-0.0023,1.1,0.45,False,False,41,1,1.15,0,0,Email,False,7,False,0,12,8,1,10,Owner
+10647,2024-07-21,,88.0,1807.1,Credit card,21,gas,two year,Andrea Costa,1358,0,0.2247,-0.0068,1.07,0.2,False,False,85,1,0.88,0,0,Paper,True,162,True,11,0,9,0,0,Tenant
+10648,2025-04-30,,75.7,1691.5,Credit card,23,electricity,two year,Vincenzo Bellini,310,0,0.2571,-0.0045,1.16,0.21,True,False,217,2,1.1,0,0,Paper,False,74,True,2,0,7,0,0,Tenant
+10649,2021-08-04,,51.6,1240.2,Credit card,25,both,two year,Michela Giordano,1940,0,0.2905,-0.0099,1.1,0.2,False,True,0,0,0.91,0,0,Online Portal,True,21,False,0,25,10,0,0,Tenant
+10650,2025-05-31,,83.7,652.2,Credit card,8,electricity,month-to-month,Daniele Innocenti,369,3,0.1522,-0.0068,1.02,0.25,False,True,0,1,0.82,0,0,Email,False,,False,0,8,9,1,19,Owner
+10651,2021-10-27,2022-07-05,110.9,911.5,Credit card,8,both,month-to-month,Giorgio Romano,1335,4,0.4222,-0.0382,1.0,0.4,False,False,78,0,1.8,5,9,Email,False,,True,9,8,4,2,21,Tenant
+10652,2022-01-16,,68.4,663.3,Bank transfer,10,gas,one year,Marco Bianchi,1338,2,0.291,0.0075,0.96,0.24,False,False,58,1,1.01,0,0,Online Portal,True,56,True,16,10,7,0,0,Tenant
+10653,2023-05-05,2023-12-03,59.6,428.7,Credit card,7,electricity,month-to-month,Sara Morelli,264,4,0.3253,-0.0035,0.64,0.48,True,False,333,2,2.65,3,25,Paper,False,,False,0,0,1,3,10,Owner
+10654,2023-10-01,,82.2,924.3,Credit card,11,electricity,month-to-month,Matteo Ricci,318,2,0.2633,-0.004,1.17,0.3,True,False,352,1,0.88,0,0,Online Portal,False,,True,17,11,10,1,2,Owner
+10655,2021-03-17,,57.3,117.3,Mailed check,2,both,month-to-month,Matteo Bianco,1332,1,0.2241,0.0021,1.13,0.32,False,False,113,1,1.29,1,5,Online Portal,False,,True,15,2,10,0,0,Owner
+10656,2023-09-26,,79.6,913.3,Bank transfer,11,electricity,one year,Nicole Innocenti,297,2,0.236,0.0099,1.12,0.2,False,True,0,0,0.93,0,0,Online Portal,True,79,False,0,11,8,0,0,Tenant
+10657,2020-11-22,,108.0,2445.5,Bank transfer,23,electricity,two year,Sara Basile,318,1,0.1399,-0.0027,1.15,0.49,True,False,336,0,0.89,0,0,Email,True,170,False,0,23,10,0,0,Owner
+10658,2022-09-16,,64.4,1101.1,Mailed check,17,both,month-to-month,Giorgio Benedetti,2101,4,0.1106,-0.0036,0.97,0.34,True,False,141,2,0.88,0,0,Paper,False,,False,0,0,10,3,28,Tenant
+10659,2024-01-14,,70.0,1010.3,Electronic check,14,both,one year,Sofia Bianco,1341,1,0.2464,0.0045,1.08,0.47,True,True,0,0,0.96,1,24,Online Portal,True,178,False,0,14,8,0,0,Owner
+10660,2025-07-23,,112.1,1569.7,Credit card,14,gas,one year,Salvatore Basile,1212,0,0.2995,0.0052,1.02,0.41,True,False,76,1,0.96,0,0,Online Portal,True,6,False,0,14,9,0,0,Tenant
+10661,2022-01-03,,89.5,1273.5,Mailed check,14,both,one year,Chiara Esposito,1224,2,0.2722,-0.0039,0.99,0.33,True,False,337,1,0.83,0,0,Online Portal,False,57,False,0,14,7,1,30,Tenant
+10662,2023-10-09,,60.6,699.1,Credit card,11,gas,one year,Elena De Luca,1401,4,0.255,0.0006,0.96,0.5,True,False,326,1,1.11,0,0,Paper,True,159,True,6,0,10,1,10,Owner
+10663,2021-03-20,,70.8,943.3,Electronic check,14,electricity,one year,Vincenzo Marchetti,343,0,0.1516,-0.0066,1.12,0.32,True,False,97,1,1.23,0,0,Email,True,118,True,9,14,9,0,0,Owner
+10664,2025-07-17,2026-05-20,86.8,827.2,Electronic check,10,gas,one year,Davide Sanna,1335,8,0.2036,0.0044,0.93,0.44,False,True,0,1,0.88,4,14,Paper,True,,False,0,0,0,7,23,Tenant
+10665,2022-10-06,,93.2,1257.5,Mailed check,13,gas,one year,Debora Vitale,1952,4,0.121,0.003,0.95,0.42,False,False,254,2,1.09,0,0,Online Portal,True,47,True,5,13,9,3,1,Owner
+10666,2023-03-24,2024-04-12,98.0,1323.9,Bank transfer,13,both,one year,Alessandro Caruso,1217,11,0.3356,-0.0047,1.12,0.45,True,False,85,0,1.7,3,29,Online Portal,False,,False,0,13,1,6,24,Tenant
+10667,2023-09-20,,95.3,2779.1,Credit card,28,both,two year,Valentina Ricci,1997,3,0.2036,0.0006,0.96,0.47,True,True,0,3,0.91,2,23,Online Portal,False,3,True,10,28,8,2,12,Tenant
+10668,2024-11-27,,118.7,1738.7,Bank transfer,14,gas,one year,Federica Barbieri,1202,1,0.2305,-0.0046,1.06,0.24,True,True,0,0,1.02,0,0,Paper,True,125,True,17,0,8,0,0,Tenant
+10669,2022-10-30,,98.0,298.3,Electronic check,3,gas,month-to-month,Federica Romano,1728,0,0.298,-0.0079,1.0,0.5,True,False,117,3,1.26,2,12,Email,False,,True,15,3,9,0,0,Owner
+10670,2022-05-28,,96.1,2170.8,Credit card,23,both,two year,Valentina Lombardo,1753,2,0.1055,-0.006,1.09,0.25,False,True,0,1,0.81,0,0,Paper,True,141,False,0,0,8,1,12,Owner
+10671,2023-01-09,,107.2,1292.2,Mailed check,12,gas,one year,Luca Russo,1954,1,0.1118,0.0014,0.99,0.28,False,False,142,0,0.82,0,0,Paper,True,149,True,2,0,9,0,0,Tenant
+10672,2023-04-05,,52.7,677.9,Credit card,13,both,one year,Roberto Ferrara,1989,0,0.2528,0.008,1.05,0.45,True,False,77,0,1.19,2,18,Email,True,3,True,1,13,7,0,0,Owner
+10673,2024-07-16,,99.6,1353.9,Electronic check,14,both,one year,Arianna Mancini,1360,2,0.1421,0.0049,0.98,0.28,True,False,150,0,1.12,2,10,Online Portal,True,51,True,15,14,9,1,7,Tenant
+10674,2023-04-10,,76.1,864.1,Electronic check,11,gas,one year,Arianna Lombardo,1905,3,0.2196,-0.0076,0.99,0.25,False,False,325,0,0.9,0,0,Email,True,135,True,20,11,9,1,6,Owner
+10675,2022-05-02,,112.8,1626.0,Mailed check,14,both,one year,Veronica Fontana,1453,2,0.217,0.0072,1.1,0.43,True,False,134,2,1.12,0,0,Email,True,175,False,0,14,8,1,16,Owner
+10676,2021-11-16,,105.3,2218.1,Mailed check,22,gas,two year,Sofia Marini,1491,2,0.255,-0.0031,1.04,0.33,False,True,0,1,1.17,0,0,Online Portal,True,152,True,17,22,8,0,0,Tenant
+10677,2024-03-31,,57.3,583.6,Mailed check,10,gas,month-to-month,Marco Bianco,1758,1,0.2086,-0.0059,0.95,0.47,True,False,203,0,1.18,1,18,Email,False,,True,20,10,10,0,0,Owner
+10678,2025-01-16,,84.1,1137.1,Mailed check,14,both,one year,Stefano Gallo,2199,0,0.1971,0.0069,1.02,0.35,False,False,139,1,0.86,0,0,Paper,True,147,True,5,0,8,0,0,Owner
+10679,2021-06-16,,96.1,184.3,Credit card,2,both,month-to-month,Matteo Romano,1919,1,0.2141,0.0066,1.06,0.41,True,False,164,1,1.07,0,0,Paper,False,,False,0,0,9,0,0,Owner
+10680,2023-07-05,,79.9,1054.7,Bank transfer,13,both,one year,Davide Barbieri,1971,1,0.1569,0.0026,1.0,0.21,True,False,260,2,1.19,0,0,Paper,False,123,False,0,0,7,0,0,Tenant
+10681,2023-12-21,,66.6,1362.6,Mailed check,20,electricity,month-to-month,Fabio Romano,231,2,0.1037,0.0083,1.1,0.46,True,True,0,1,0.99,0,0,Online Portal,False,,False,0,20,9,1,4,Owner
+10682,2022-10-05,,87.3,990.1,Electronic check,11,both,one year,Paolo Gentile,2240,3,0.1557,-0.0024,1.05,0.42,False,True,0,1,1.17,0,0,Online Portal,True,161,False,0,11,10,1,1,Owner
+10683,2021-12-13,,52.6,904.9,Credit card,17,electricity,month-to-month,Marco Colombo,299,3,0.2627,0.0095,0.91,0.46,True,True,0,1,0.8,0,0,Paper,False,,False,0,0,7,1,9,Tenant
+10684,2024-06-02,2025-02-28,80.6,756.2,Mailed check,9,gas,month-to-month,Vincenzo Russo,1109,15,0.1911,-0.0077,1.11,0.32,True,False,86,0,2.15,2,6,Online Portal,False,,True,9,9,1,8,10,Tenant
+10685,2024-03-11,2025-10-30,87.1,1728.2,Bank transfer,20,electricity,month-to-month,Simone Russo,371,9,0.1818,-0.0496,0.76,0.38,True,False,170,0,0.94,3,9,Paper,False,,True,3,0,6,2,21,Owner
+10686,2022-10-10,,95.9,948.4,Credit card,10,both,one year,Simone Innocenti,1755,0,0.1722,-0.0043,1.19,0.34,True,False,253,0,1.14,0,0,Paper,True,103,False,0,0,10,0,0,Tenant
+10687,2025-01-09,,118.0,1148.3,Bank transfer,10,both,one year,Luca Fontana,1980,0,0.2955,0.0011,1.18,0.31,False,True,0,0,0.81,1,12,Paper,True,127,True,6,0,8,0,0,Tenant
+10688,2023-11-24,,98.7,2394.0,Electronic check,24,both,two year,Camilla Bruno,2350,3,0.1894,0.0086,1.06,0.5,True,False,334,0,1.28,0,0,Paper,False,18,False,0,0,8,1,1,Owner
+10689,2022-05-29,2022-09-15,95.9,384.5,Bank transfer,4,both,month-to-month,Gaia Costa,1208,6,0.4322,-0.0266,1.08,0.36,False,True,0,1,0.8,4,8,Paper,False,,True,0,0,5,2,6,Tenant
+10690,2023-07-22,,103.1,2940.7,Credit card,28,both,two year,Davide Caruso,2343,2,0.2684,0.0087,1.05,0.37,True,True,0,0,1.13,0,0,Paper,True,140,True,4,0,8,1,29,Tenant
+10691,2022-01-07,,64.9,1483.5,Mailed check,24,electricity,two year,Roberto Coppola,236,2,0.2914,0.0083,0.99,0.26,True,False,362,1,0.81,2,19,Online Portal,False,38,False,0,24,7,1,30,Owner
+10692,2024-03-07,,70.1,879.5,Electronic check,12,gas,one year,Davide Marini,1979,2,0.2881,0.001,0.99,0.42,True,False,67,1,1.12,0,0,Email,True,156,True,2,12,9,1,28,Tenant
+10693,2023-04-26,,68.8,331.8,Mailed check,5,both,month-to-month,Matteo Santoro,2046,0,0.209,-0.0027,0.93,0.25,True,True,0,2,1.0,0,0,Email,False,,True,10,5,10,0,0,Owner
+10694,2022-08-14,,78.8,1833.7,Credit card,23,electricity,month-to-month,Marco Ferrara,282,0,0.1481,0.0088,0.9,0.29,True,True,0,3,1.3,0,0,Online Portal,False,,True,7,23,9,0,0,Owner
+10695,2020-09-29,,69.0,674.5,Bank transfer,10,electricity,one year,Ilaria Morelli,335,2,0.1917,-0.0065,0.97,0.43,True,True,0,0,1.21,0,0,Online Portal,False,104,False,0,10,8,1,15,Owner
+10696,2022-09-20,,86.8,2345.9,Bank transfer,27,gas,two year,Stefano Fiore,1521,1,0.1912,0.0061,1.11,0.45,True,True,0,2,1.19,2,30,Online Portal,True,170,False,0,27,9,0,0,Owner
+10697,2025-06-09,2027-03-20,61.9,1423.3,Bank transfer,22,both,two year,Giorgio Sanna,2075,6,0.3556,-0.0168,1.05,0.21,True,False,43,1,1.82,5,19,Paper,True,,False,0,0,1,5,26,Owner
+10698,2021-12-02,,64.6,666.0,Credit card,10,gas,one year,Alessia Martinelli,1285,1,0.1387,0.0081,1.1,0.24,True,True,0,2,1.16,0,0,Paper,False,7,True,1,0,8,0,0,Owner
+10699,2021-12-03,,98.9,2165.6,Credit card,21,electricity,two year,Fabio Rossi,343,2,0.1032,-0.0071,1.03,0.2,False,False,344,0,0.89,0,0,Paper,True,13,True,16,0,9,1,16,Tenant
+10700,2021-03-29,,76.6,148.3,Mailed check,2,gas,month-to-month,Luigi Barbieri,1329,4,0.1862,-0.0024,1.05,0.31,True,True,0,0,0.81,1,16,Email,False,,True,11,2,9,3,21,Owner
+10701,2024-08-13,,72.8,836.6,Credit card,12,electricity,month-to-month,Andrea Romano,201,1,0.1796,-0.0026,0.93,0.35,True,False,43,0,1.02,0,0,Online Portal,False,,True,8,12,8,0,0,Tenant
+10702,2025-01-19,,54.9,219.9,Electronic check,4,electricity,month-to-month,Stefano Lombardo,343,3,0.1805,0.0002,1.0,0.37,True,False,280,1,1.25,0,0,Email,False,,True,5,4,7,2,1,Tenant
+10703,2020-12-11,,57.1,691.5,Bank transfer,12,both,one year,Paolo Longo,1904,3,0.2812,0.0011,0.97,0.3,True,False,352,0,1.3,2,25,Paper,True,109,False,0,0,7,2,18,Tenant
+10704,2023-11-22,,60.4,932.3,Bank transfer,15,electricity,one year,Antonio Vitale,225,3,0.1087,0.0049,1.1,0.36,True,False,41,0,1.26,1,16,Email,True,147,True,1,15,9,1,14,Owner
+10705,2021-06-15,,106.8,1115.4,Credit card,10,gas,one year,Marco Caruso,1490,3,0.184,0.0003,0.95,0.23,False,True,0,0,0.97,1,20,Paper,True,94,True,1,0,9,2,30,Tenant
+10706,2021-11-19,,112.8,1621.0,Bank transfer,14,electricity,one year,Vincenzo Esposito,374,4,0.2226,0.0002,1.12,0.47,True,False,334,0,0.97,0,0,Paper,True,100,True,11,0,7,1,20,Owner
+10707,2022-03-12,,81.9,1288.2,Bank transfer,15,gas,one year,Marco Romano,1613,4,0.1727,0.0043,1.16,0.38,True,False,288,1,0.87,1,23,Email,True,113,True,9,15,8,1,10,Tenant
+10708,2024-05-02,2025-07-28,76.9,1210.9,Electronic check,15,both,month-to-month,Silvia De Luca,2343,5,0.27,-0.0284,1.19,0.26,False,False,118,0,1.89,2,6,Online Portal,False,,True,19,15,1,2,15,Owner
+10709,2021-09-24,2022-05-22,116.1,895.5,Credit card,8,gas,month-to-month,Federica Marino,1843,15,0.1602,-0.0263,0.95,0.46,False,False,69,2,2.44,2,17,Online Portal,False,,False,0,8,5,10,5,Owner
+10710,2024-04-19,,71.4,913.6,Electronic check,13,both,one year,Martina Marini,1714,1,0.1985,-0.0006,1.16,0.35,False,False,125,1,1.25,0,0,Paper,True,88,True,16,0,9,0,0,Owner
+10711,2021-06-04,,62.1,1568.1,Electronic check,26,gas,two year,Davide Vitale,1696,3,0.1075,0.0022,1.02,0.28,True,False,222,0,1.3,0,0,Online Portal,True,176,True,10,26,10,2,27,Tenant
+10712,2021-07-14,,69.1,996.3,Mailed check,15,both,one year,Roberto Caruso,2309,4,0.2295,-0.0007,1.07,0.23,True,False,218,0,0.84,0,0,Email,False,165,False,0,15,8,1,26,Tenant
+10713,2023-02-26,,92.0,947.0,Credit card,10,both,month-to-month,Paolo Bellini,1561,4,0.1422,0.0029,1.04,0.44,True,False,284,0,0.92,0,0,Email,False,,True,1,10,9,1,1,Tenant
+10714,2022-03-04,,66.7,908.5,Bank transfer,13,gas,one year,Andrea Rossi,1325,0,0.2469,-0.0059,1.1,0.23,True,False,152,0,0.86,0,0,Email,True,25,False,0,13,10,0,0,Owner
+10715,2025-07-28,,59.9,1623.9,Bank transfer,26,electricity,two year,Francesco Longo,234,0,0.2746,-0.0061,1.15,0.27,True,False,359,1,0.98,1,21,Online Portal,True,34,True,1,26,10,0,0,Owner
+10716,2024-08-16,,111.1,1270.8,Credit card,12,both,month-to-month,Sofia Romano,1902,3,0.2047,-0.002,1.01,0.32,True,False,93,0,0.86,0,0,Paper,False,,True,6,0,10,2,16,Owner
+10717,2024-03-16,,105.5,423.6,Mailed check,4,electricity,month-to-month,Giorgio Lombardi,362,0,0.1951,0.0012,1.17,0.48,True,False,234,0,0.95,0,0,Paper,False,,True,16,0,10,0,0,Owner
+10718,2024-06-13,,51.4,492.9,Credit card,10,gas,one year,Vincenzo Innocenti,1540,2,0.1525,-0.0035,0.93,0.38,True,True,0,1,1.03,0,0,Email,False,45,False,0,10,10,1,21,Tenant
+10719,2024-09-16,,115.5,1238.1,Bank transfer,11,gas,one year,Silvia Benedetti,1788,0,0.213,-0.0008,0.98,0.31,False,False,111,1,0.97,0,0,Paper,True,131,True,2,0,7,0,0,Tenant
+10720,2024-06-04,,115.2,1668.5,Mailed check,14,gas,one year,Arianna Lombardo,1670,4,0.2042,-0.0088,1.19,0.25,True,False,313,1,0.9,0,0,Paper,True,111,False,0,0,8,2,13,Tenant
+10721,2025-05-07,,68.1,1285.4,Bank transfer,18,gas,month-to-month,Marco Russo,1249,0,0.2589,-0.0058,0.99,0.42,True,False,257,1,1.19,0,0,Paper,False,,True,7,0,7,0,0,Tenant
+10722,2021-02-27,,81.1,921.9,Bank transfer,11,electricity,one year,Michela Barbieri,354,3,0.2854,0.0018,1.07,0.41,False,True,0,1,0.95,0,0,Email,True,145,True,10,11,7,1,29,Owner
+10723,2023-12-16,,85.6,1966.9,Bank transfer,24,gas,two year,Marco Marini,1793,0,0.1631,0.0009,1.04,0.47,True,True,0,0,1.07,0,0,Email,True,110,True,17,24,7,0,0,Owner
+10724,2021-08-04,,72.9,902.4,Credit card,12,electricity,one year,Veronica Mancini,366,2,0.2206,0.0086,1.17,0.38,True,False,338,1,1.28,0,0,Online Portal,True,15,True,20,12,7,1,27,Tenant
+10725,2022-05-22,,51.9,616.7,Bank transfer,12,electricity,one year,Valentina Bruno,279,2,0.1485,0.0083,1.03,0.2,True,False,112,0,1.18,0,0,Online Portal,True,31,False,0,12,10,1,28,Tenant
+10726,2024-08-24,2025-05-08,113.5,1033.2,Bank transfer,9,gas,month-to-month,Davide Moretti,1950,14,0.2129,-0.0122,1.18,0.21,True,True,0,1,2.03,3,9,Email,False,,True,20,9,1,6,9,Tenant
+10727,2025-01-06,,78.3,1183.8,Credit card,15,both,one year,Alessia Morelli,1288,4,0.1106,0.0009,1.13,0.43,True,True,0,1,1.27,0,0,Paper,True,94,True,20,0,10,1,17,Tenant
+10728,2020-11-01,,82.3,161.9,Mailed check,2,gas,month-to-month,Andrea Coppola,1843,4,0.1124,0.0064,1.17,0.25,False,False,291,0,1.13,0,0,Email,False,,False,0,2,7,1,26,Tenant
+10729,2023-01-28,,96.6,297.7,Electronic check,3,electricity,month-to-month,Silvia De Luca,220,0,0.1421,0.0002,0.95,0.47,False,True,0,1,1.01,0,0,Email,False,,True,6,3,10,0,0,Tenant
+10730,2024-04-30,,59.1,614.5,Electronic check,10,both,one year,Ilaria Morelli,1463,3,0.1256,-0.0047,1.06,0.41,True,True,0,2,1.21,0,0,Paper,True,40,True,16,0,9,1,2,Tenant
+10731,2020-08-31,,114.4,2631.8,Mailed check,23,both,two year,Roberto Fontana,1557,4,0.1112,0.0048,1.18,0.46,True,False,211,0,1.29,0,0,Email,True,86,True,4,23,7,2,5,Tenant
+10732,2021-04-15,,63.5,366.6,Credit card,6,gas,month-to-month,Elisa Marino,1502,1,0.2918,-0.0091,1.17,0.49,True,True,0,1,1.04,0,0,Email,False,,False,0,6,7,0,0,Tenant
+10733,2024-05-19,,112.5,2302.3,Electronic check,20,electricity,two year,Simone Lombardi,347,3,0.1397,-0.0001,1.03,0.21,False,False,348,2,1.14,1,13,Paper,True,148,True,19,0,8,1,1,Owner
+10734,2021-10-16,,57.2,1496.2,Bank transfer,26,gas,two year,Chiara Martinelli,1829,3,0.2975,0.0044,1.06,0.31,True,True,0,1,1.15,0,0,Email,False,109,True,18,26,9,1,7,Owner
+10735,2024-07-04,,53.3,552.3,Bank transfer,10,gas,month-to-month,Fabio Basile,1079,1,0.1565,-0.002,1.15,0.5,True,True,0,3,1.14,0,0,Online Portal,False,,False,0,10,10,0,0,Tenant
+10736,2025-02-07,,84.3,1740.9,Bank transfer,21,both,month-to-month,Sara Innocenti,2335,0,0.1984,-0.0049,0.9,0.4,True,True,0,0,0.98,0,0,Online Portal,False,,True,8,21,10,0,0,Tenant
+10737,2021-11-05,,88.7,1010.8,Credit card,11,gas,one year,Paolo Fontana,1875,4,0.2965,-0.0053,1.1,0.43,True,True,0,0,1.21,0,0,Online Portal,True,155,True,19,11,10,2,26,Owner
+10738,2024-10-31,2026-10-12,66.2,1614.0,Credit card,24,electricity,two year,Angelo Marini,352,10,0.2967,-0.0013,0.62,0.26,False,True,0,0,1.05,5,5,Paper,False,,False,0,0,1,8,17,Tenant
+10739,2021-12-20,,114.6,1751.4,Bank transfer,15,both,one year,Salvatore Gallo,2225,2,0.1495,-0.0068,1.0,0.26,False,True,0,2,0.97,0,0,Email,True,139,False,0,15,7,1,11,Tenant
+10740,2024-10-30,,89.8,1726.8,Credit card,20,both,two year,Angelo Lombardi,1348,1,0.2989,0.0012,1.17,0.38,True,False,335,0,1.2,0,0,Email,True,57,False,0,20,10,0,0,Tenant
+10741,2024-04-07,,65.0,811.8,Bank transfer,12,electricity,one year,Daniele Marino,229,1,0.2747,-0.0027,1.11,0.33,True,False,273,0,1.18,0,0,Paper,False,151,True,4,0,7,0,0,Tenant
+10742,2024-07-11,2025-02-09,72.7,487.5,Bank transfer,7,gas,month-to-month,Luigi Fiore,1220,5,0.3216,0.0022,0.8,0.42,True,True,0,0,1.01,3,27,Online Portal,False,,True,6,7,1,3,21,Owner
+10743,2022-03-10,,107.6,2273.2,Credit card,22,electricity,two year,Valentina Mancini,202,2,0.1125,0.0097,1.07,0.28,True,False,356,0,0.9,0,0,Paper,True,29,False,0,0,9,1,29,Tenant
+10744,2021-04-10,,115.2,2560.7,Bank transfer,23,electricity,month-to-month,Davide Costa,201,3,0.1637,0.0052,0.99,0.21,True,False,336,1,0.86,0,0,Email,False,,False,0,23,9,1,2,Owner
+10745,2023-12-09,,53.5,1572.5,Electronic check,28,electricity,two year,Luigi Moretti,221,4,0.1964,0.004,1.04,0.29,True,True,0,3,0.81,1,29,Online Portal,True,93,True,7,28,7,2,6,Tenant
+10746,2024-10-06,2025-09-29,86.0,1047.8,Credit card,12,both,one year,Giorgio Marini,1716,9,0.3919,-0.025,0.91,0.41,False,True,0,0,1.61,2,5,Online Portal,True,,True,20,12,6,4,9,Owner
+10747,2022-06-06,,106.1,421.7,Bank transfer,4,both,month-to-month,Matteo Conti,1495,1,0.2315,0.0012,0.93,0.33,True,False,89,0,1.29,2,30,Online Portal,False,,True,15,4,10,0,0,Owner
+10748,2024-04-17,2025-10-30,55.7,1052.2,Bank transfer,19,both,month-to-month,Arianna Basile,2222,6,0.4478,0.0048,0.94,0.31,True,False,165,0,2.12,4,23,Paper,False,,False,0,0,6,1,19,Owner
+10749,2024-03-07,,99.4,1213.3,Bank transfer,12,both,one year,Giorgio De Luca,1948,2,0.1027,0.001,1.07,0.32,True,False,281,0,1.01,1,8,Paper,True,113,False,0,0,7,1,28,Owner
+10750,2021-05-19,,66.7,879.4,Electronic check,13,gas,month-to-month,Sofia Marini,1119,4,0.1095,0.0083,1.14,0.26,True,True,0,1,0.95,0,0,Online Portal,False,,True,18,13,7,1,14,Tenant
+10751,2025-07-11,,108.5,1682.2,Credit card,15,electricity,one year,Sofia Gallo,214,2,0.2537,0.0043,1.0,0.4,True,False,47,2,0.91,0,0,Paper,False,50,False,0,0,8,0,0,Tenant
+10752,2020-12-14,2021-10-15,74.9,750.0,Mailed check,10,electricity,month-to-month,Elisa De Luca,262,8,0.2708,-0.0308,0.67,0.39,True,True,0,0,1.23,3,15,Online Portal,False,,True,17,10,3,6,22,Tenant
+10753,2024-10-25,,106.8,1416.6,Electronic check,13,gas,month-to-month,Francesco Ferrari,1502,2,0.2677,-0.0017,1.2,0.34,False,False,264,0,0.87,0,0,Paper,False,,True,7,0,9,1,13,Tenant
+10754,2025-07-16,,102.4,783.1,Bank transfer,8,both,month-to-month,Martina Bianchi,1944,1,0.2461,0.0012,0.97,0.4,False,True,0,0,1.24,0,0,Online Portal,False,,True,20,8,9,0,0,Owner
+10755,2025-02-03,,117.6,1784.7,Bank transfer,15,gas,one year,Marco Benedetti,1700,1,0.2111,0.0077,1.1,0.32,True,False,62,0,1.22,0,0,Online Portal,True,172,True,6,15,7,0,0,Tenant
+10756,2025-06-06,,65.9,467.4,Bank transfer,7,gas,month-to-month,Paolo Marino,1224,4,0.1379,0.0067,0.94,0.27,True,False,60,0,0.96,0,0,Online Portal,False,,True,3,7,8,3,13,Owner
+10757,2020-11-06,,113.2,1615.9,Electronic check,14,both,one year,Debora Barbieri,1966,2,0.1292,0.0014,1.1,0.21,False,False,97,2,1.24,0,0,Paper,False,69,True,15,0,9,1,12,Owner
+10758,2021-05-29,,90.0,1229.9,Mailed check,14,electricity,one year,Camilla Ferrara,350,4,0.2132,0.0049,1.06,0.38,True,False,56,0,0.9,0,0,Online Portal,True,151,True,20,14,8,2,24,Owner
+10759,2022-05-13,,71.8,1934.4,Electronic check,26,both,two year,Marco Gentile,1665,2,0.2391,0.0075,0.98,0.26,True,False,278,2,1.0,0,0,Email,True,5,False,0,26,8,0,0,Owner
+10760,2023-11-01,,108.6,2696.4,Mailed check,25,both,two year,Paolo Moretti,1668,1,0.1946,0.0083,1.07,0.26,True,False,269,3,1.02,1,30,Paper,True,137,True,20,0,10,0,0,Owner
+10761,2023-09-11,,86.6,2361.5,Electronic check,27,gas,two year,Alessandro Fontana,1550,4,0.2977,-0.005,1.04,0.26,False,False,342,0,1.03,0,0,Online Portal,True,87,True,17,27,7,2,29,Tenant
+10762,2025-02-15,2026-03-11,113.2,1533.5,Bank transfer,13,gas,one year,Sofia Benedetti,1827,11,0.3984,-0.0259,0.73,0.21,True,False,78,0,2.91,2,22,Paper,True,,True,7,0,3,4,7,Tenant
+10763,2023-05-11,,88.5,1071.4,Credit card,12,electricity,one year,Daniele Ferrari,261,4,0.2525,-0.002,0.94,0.22,False,False,326,3,0.84,2,10,Paper,True,162,False,0,0,10,2,11,Owner
+10764,2024-08-15,,58.6,1117.6,Electronic check,19,gas,month-to-month,Angelo Giordano,1651,1,0.218,-0.0045,0.97,0.31,True,False,222,0,0.91,0,0,Email,False,,False,0,19,7,0,0,Owner
+10765,2022-10-25,2022-11-10,110.3,108.3,Mailed check,1,electricity,month-to-month,Simone De Luca,378,11,0.4365,0.0012,1.02,0.43,True,True,0,0,2.73,5,8,Email,False,,False,0,1,0,10,27,Tenant
+10766,2021-07-25,,86.9,1740.5,Electronic check,21,electricity,two year,Chiara Bruno,393,1,0.2036,0.0006,0.9,0.39,True,False,120,0,0.85,0,0,Email,True,144,True,12,21,7,0,0,Tenant
+10767,2021-10-12,,90.3,1387.3,Bank transfer,15,electricity,one year,Chiara Coppola,346,3,0.1643,-0.0093,0.98,0.3,False,False,247,3,1.19,2,21,Email,True,137,True,9,15,9,1,4,Owner
+10768,2023-12-08,,78.9,1055.4,Bank transfer,14,both,month-to-month,Alessandro Ferrara,1344,4,0.2099,0.0023,1.13,0.25,True,False,166,0,0.83,0,0,Email,False,,False,0,14,9,3,27,Tenant
+10769,2022-04-04,,76.7,1094.1,Credit card,14,gas,month-to-month,Daniele Fiore,1378,2,0.1989,0.0028,0.92,0.39,True,False,164,2,1.08,0,0,Paper,False,,False,0,0,7,1,6,Owner
+10770,2022-02-11,,57.4,1276.4,Electronic check,23,electricity,month-to-month,Sofia Innocenti,347,2,0.1141,-0.0077,0.93,0.49,True,False,216,0,1.3,0,0,Online Portal,False,,True,10,23,10,1,21,Tenant
+10771,2023-07-04,,67.9,1019.2,Credit card,15,electricity,month-to-month,Veronica Sanna,239,2,0.1101,-0.0049,1.08,0.29,True,True,0,1,1.16,0,0,Email,False,,True,10,15,7,1,3,Owner
+10772,2021-03-07,,110.0,2373.9,Mailed check,22,electricity,two year,Federica Bellini,222,4,0.1224,-0.005,0.96,0.42,True,False,234,1,0.94,0,0,Email,True,32,True,5,22,7,2,13,Owner
+10773,2022-12-11,,94.7,1380.6,Credit card,14,electricity,one year,Silvia Vitale,271,0,0.1362,-0.0091,1.11,0.35,True,False,364,0,1.08,0,0,Email,True,156,False,0,14,8,0,0,Owner
+10774,2023-09-06,,105.4,1213.8,Bank transfer,12,electricity,month-to-month,Matteo Bruno,350,2,0.1281,-0.0088,1.01,0.36,True,True,0,0,1.26,0,0,Paper,False,,True,14,0,9,1,12,Owner
+10775,2023-04-28,,75.0,808.8,Credit card,11,both,one year,Gaia Romano,1256,3,0.2985,0.0069,1.19,0.33,True,False,297,0,1.26,0,0,Paper,True,167,False,0,0,9,0,0,Owner
+10776,2023-11-04,,95.8,1046.5,Electronic check,11,gas,one year,Stefano Esposito,1577,2,0.1232,-0.0066,1.1,0.49,True,False,81,0,1.18,0,0,Paper,True,83,False,0,0,7,0,0,Tenant
+10777,2024-03-03,,102.9,755.4,Mailed check,7,both,month-to-month,Elisa Colombo,1766,4,0.1353,-0.005,1.04,0.47,True,True,0,0,0.98,1,18,Online Portal,False,,True,8,7,8,1,9,Tenant
+10778,2024-10-25,,78.5,1595.2,Credit card,20,both,two year,Giorgio Colombo,1289,0,0.2544,-0.0009,0.91,0.23,True,False,272,1,1.06,0,0,Email,False,99,True,18,20,8,0,0,Tenant
+10779,2023-04-04,,119.9,1444.8,Electronic check,12,both,one year,Elena Bianchi,1824,4,0.1526,-0.0084,1.01,0.32,True,True,0,0,1.07,0,0,Email,True,178,True,18,12,8,2,12,Tenant
+10780,2024-08-07,,56.4,1477.3,Electronic check,26,gas,two year,Davide Benedetti,1149,0,0.1046,0.0026,1.05,0.49,True,False,130,0,1.23,0,0,Email,True,81,True,0,26,10,0,0,Tenant
+10781,2021-11-06,,51.5,1349.8,Mailed check,25,both,two year,Gaia Fiore,1478,2,0.1754,-0.002,1.05,0.4,True,False,66,1,0.82,0,0,Email,True,93,True,7,25,9,1,30,Tenant
+10782,2025-01-20,2025-03-25,59.6,117.4,Mailed check,2,electricity,month-to-month,Gaia Barbieri,300,8,0.3461,0.0096,0.66,0.46,False,False,299,0,1.13,3,29,Paper,False,,True,4,0,4,2,28,Owner
+10783,2020-12-16,,55.3,1411.2,Bank transfer,26,both,two year,Roberto Benedetti,2149,4,0.2661,-0.0038,1.14,0.27,True,False,330,2,1.28,1,25,Email,True,127,True,16,26,8,3,16,Owner
+10784,2021-05-21,,99.2,1969.7,Mailed check,19,both,month-to-month,Luigi Fontana,2105,0,0.2892,-0.0075,1.12,0.44,True,False,266,1,1.2,0,0,Online Portal,False,,False,0,19,9,0,0,Tenant
+10785,2024-12-01,,64.6,1624.3,Bank transfer,25,electricity,two year,Francesco Esposito,252,2,0.2092,0.0098,0.93,0.5,True,True,0,1,1.2,0,0,Paper,True,75,False,0,0,9,1,5,Owner
+10786,2022-04-10,,72.0,1247.0,Bank transfer,17,electricity,month-to-month,Vincenzo Romano,283,4,0.165,-0.0088,0.95,0.32,True,False,260,0,1.13,0,0,Email,False,,True,17,17,8,2,23,Owner
+10787,2024-12-12,,119.2,496.1,Electronic check,4,electricity,month-to-month,Nicole Fiore,345,2,0.2313,-0.0097,1.04,0.36,True,False,240,1,0.94,0,0,Email,False,,False,0,4,7,1,9,Owner
+10788,2024-03-04,,92.7,2395.5,Electronic check,27,gas,two year,Marco Mancini,1034,4,0.142,0.0041,1.11,0.37,True,False,159,3,1.15,2,20,Paper,True,117,True,2,0,7,2,9,Tenant
+10789,2022-01-16,,101.8,2481.4,Bank transfer,24,electricity,two year,Martina Rossi,294,2,0.2175,-0.006,0.95,0.3,True,True,0,1,0.93,0,0,Online Portal,True,96,False,0,24,7,1,28,Tenant
+10790,2024-11-29,,111.8,1431.6,Bank transfer,13,electricity,one year,Valentina Bruno,249,0,0.2494,0.006,1.19,0.22,False,False,167,2,0.83,1,18,Online Portal,True,167,True,9,13,8,0,0,Owner
+10791,2021-11-22,,71.6,1741.6,Electronic check,25,gas,two year,Serena Gentile,1165,0,0.2751,0.0003,0.95,0.28,True,False,90,0,0.98,1,14,Email,True,65,True,11,25,10,0,0,Tenant
+10792,2025-03-18,,109.9,2650.6,Bank transfer,25,electricity,two year,Paolo Marino,263,4,0.1175,-0.0018,1.08,0.37,True,False,224,0,1.07,0,0,Paper,True,131,True,16,0,9,3,17,Tenant
+10793,2022-11-02,,50.4,634.2,Bank transfer,13,gas,one year,Martina Marini,1992,2,0.1496,-0.0061,0.98,0.38,True,True,0,2,1.09,0,0,Online Portal,True,54,True,6,13,10,1,19,Tenant
+10794,2022-03-31,,95.7,1379.7,Bank transfer,15,gas,month-to-month,Giorgio Gallo,1992,0,0.2476,-0.0071,1.17,0.21,True,False,161,0,0.91,1,10,Paper,False,,True,19,0,8,0,0,Tenant
+10795,2021-03-27,,115.5,1655.2,Bank transfer,14,both,month-to-month,Fabio Moretti,2048,1,0.1862,0.0033,1.06,0.44,True,False,325,1,0.88,0,0,Online Portal,False,,True,10,14,10,0,0,Tenant
+10796,2021-05-26,,55.7,1474.8,Electronic check,27,gas,two year,Giorgio Russo,1661,1,0.1203,0.0039,1.15,0.37,True,False,312,1,0.84,0,0,Email,True,134,True,14,27,9,0,0,Owner
+10797,2025-01-18,,88.6,2088.0,Electronic check,24,gas,two year,Alessandro Santoro,1196,1,0.144,0.0097,0.93,0.31,False,False,213,1,1.03,1,23,Email,True,178,False,0,24,7,0,0,Owner
+10798,2022-02-28,,114.6,2050.0,Electronic check,18,gas,month-to-month,Angelo Moretti,1101,0,0.2774,-0.0075,1.16,0.43,True,False,246,0,0.97,1,19,Paper,False,,True,16,0,8,0,0,Tenant
+10799,2024-09-04,,91.7,1076.3,Credit card,12,both,one year,Serena Conti,2071,0,0.1796,-0.0087,0.95,0.48,False,False,242,0,1.05,1,21,Email,False,22,True,10,12,10,0,0,Owner
+10800,2025-02-26,,57.1,853.6,Credit card,15,both,one year,Giulia Bellini,1489,4,0.2106,-0.0035,1.01,0.38,True,False,326,3,1.27,0,0,Online Portal,True,141,True,17,15,8,3,25,Tenant
+10801,2020-12-14,,94.5,1344.1,Bank transfer,14,both,month-to-month,Marco Rossi,2362,1,0.2093,0.0076,1.17,0.2,True,True,0,0,1.15,0,0,Email,False,,True,10,14,10,0,0,Owner
+10802,2021-01-21,,60.6,581.0,Mailed check,10,electricity,month-to-month,Elena Morelli,285,4,0.293,0.0,0.96,0.27,True,True,0,0,0.93,0,0,Paper,False,,False,0,0,8,1,4,Owner
+10803,2021-08-20,,95.7,187.1,Mailed check,2,both,month-to-month,Matteo Moretti,1317,1,0.1728,0.0036,1.13,0.3,True,True,0,0,1.26,0,0,Online Portal,False,,True,4,2,10,0,0,Owner
+10804,2023-06-01,,102.8,2443.1,Credit card,25,gas,two year,Alessia Bianchi,1603,3,0.1217,-0.0073,1.15,0.39,False,True,0,1,1.11,0,0,Paper,True,111,True,15,0,8,2,14,Owner
+10805,2023-05-05,,89.1,1201.7,Mailed check,13,both,month-to-month,Arianna Morelli,1640,1,0.1621,0.0026,1.18,0.22,True,True,0,2,0.85,0,0,Online Portal,False,,False,0,13,8,0,0,Tenant
+10806,2021-02-14,2022-03-04,101.6,1306.9,Electronic check,13,both,month-to-month,Marco Caruso,1236,4,0.5244,-0.0461,1.05,0.26,False,False,119,1,0.9,3,28,Online Portal,False,,False,0,13,6,1,14,Owner
+10807,2023-10-10,,60.8,874.0,Credit card,14,electricity,one year,Debora Innocenti,202,3,0.2933,0.0046,0.95,0.31,False,True,0,0,0.95,2,17,Paper,False,93,True,7,0,10,1,20,Tenant
+10808,2022-05-16,,56.1,691.3,Electronic check,12,gas,one year,Andrea Fiore,1804,1,0.2154,-0.0056,1.18,0.38,False,False,87,0,0.84,1,7,Paper,True,59,False,0,0,7,0,0,Owner
+10809,2023-08-29,,96.6,2674.3,Electronic check,28,electricity,two year,Sofia Santoro,207,1,0.2977,-0.0059,0.92,0.43,True,False,35,0,1.12,0,0,Email,True,103,False,0,28,7,0,0,Owner
+10810,2022-06-08,,86.2,822.8,Mailed check,10,gas,one year,Chiara Ferrara,1211,3,0.1491,-0.0008,0.97,0.5,False,True,0,0,1.11,0,0,Paper,True,138,False,0,0,8,1,2,Owner
+10811,2022-05-05,,76.6,868.8,Electronic check,11,both,one year,Arianna Colombo,1864,4,0.1424,0.0062,1.18,0.24,True,False,312,0,1.15,0,0,Email,True,71,True,6,11,10,3,26,Owner
+10812,2022-08-16,2024-05-20,74.6,1496.0,Electronic check,21,gas,two year,Serena Barbieri,1441,9,0.2488,-0.0464,1.19,0.46,False,False,101,2,1.95,3,25,Paper,True,,True,10,0,0,6,15,Owner
+10813,2020-08-13,2022-03-22,56.8,1112.0,Credit card,20,both,month-to-month,Francesco Ferrara,2279,9,0.4057,-0.0061,0.66,0.23,True,False,205,0,2.33,4,9,Email,False,,False,0,20,0,4,4,Owner
+10814,2020-08-25,,115.5,1645.5,Bank transfer,14,gas,month-to-month,Antonio Costa,1879,0,0.1849,0.0081,0.92,0.24,True,True,0,0,0.82,0,0,Online Portal,False,,False,0,14,9,0,0,Tenant
+10815,2024-07-14,2024-08-17,48.5,48.4,Mailed check,1,electricity,month-to-month,Andrea Fiore,354,13,0.3588,-0.0159,0.93,0.21,True,True,0,0,2.16,4,13,Email,False,,True,14,1,2,9,25,Owner
+10816,2021-11-24,,86.9,1768.4,Bank transfer,21,electricity,month-to-month,Francesco Ferrari,369,4,0.1636,-0.0053,0.92,0.44,False,False,273,0,1.12,1,11,Email,False,,True,13,21,10,1,9,Owner
+10817,2020-09-20,,71.0,1130.7,Mailed check,16,electricity,month-to-month,Salvatore Ferrara,303,1,0.2674,0.0023,0.98,0.32,True,True,0,3,0.97,1,19,Online Portal,False,,True,3,16,10,0,0,Owner
+10818,2023-09-20,,95.3,2141.8,Mailed check,23,gas,month-to-month,Elisa Caruso,1111,2,0.1019,-0.0024,0.9,0.48,True,False,151,0,0.91,1,21,Email,False,,True,2,23,9,1,8,Owner
+10819,2020-11-23,,70.4,1496.7,Bank transfer,21,gas,month-to-month,Luigi Rossi,1819,1,0.2581,-0.0081,1.09,0.39,True,False,169,0,1.12,0,0,Email,False,,True,3,21,10,0,0,Owner
+10820,2020-12-03,,91.4,2507.1,Credit card,27,electricity,two year,Elena Ricci,382,2,0.2609,-0.0025,1.15,0.41,True,False,113,0,1.1,0,0,Email,True,154,False,0,27,10,0,0,Owner
+10821,2023-01-21,2023-11-29,97.9,1027.0,Electronic check,10,gas,one year,Luigi Vitale,1994,6,0.5111,0.0087,1.03,0.27,False,False,118,0,1.06,5,18,Paper,True,,False,0,0,6,3,20,Tenant
+10822,2021-10-09,,87.0,1972.8,Mailed check,22,gas,month-to-month,Simone Romano,1823,2,0.2172,0.0055,1.2,0.3,True,False,143,0,0.96,0,0,Paper,False,,False,0,0,7,1,11,Tenant
+10823,2022-06-04,,76.4,1593.8,Mailed check,21,gas,month-to-month,Marco Russo,1790,1,0.1068,-0.0055,0.91,0.3,True,False,115,0,1.26,0,0,Online Portal,False,,False,0,21,7,0,0,Tenant
+10824,2023-08-30,,90.2,2175.5,Mailed check,23,both,two year,Marco Morelli,1204,0,0.1758,-0.0016,0.9,0.36,False,False,359,0,0.94,0,0,Paper,True,45,True,5,0,9,0,0,Owner
+10825,2023-01-31,,115.9,1214.7,Bank transfer,10,gas,month-to-month,Debora Lombardi,1650,0,0.1324,0.0061,0.91,0.48,False,True,0,0,1.04,0,0,Paper,False,,False,0,0,9,0,0,Owner
+10826,2022-02-19,2023-05-26,60.0,897.2,Credit card,15,both,one year,Paolo Gallo,2300,6,0.2745,-0.0031,0.93,0.48,True,True,0,0,1.04,2,7,Email,True,,True,17,15,5,4,1,Owner
+10827,2024-03-28,2026-02-12,89.0,2079.8,Bank transfer,23,gas,month-to-month,Camilla Colombo,1662,13,0.2235,0.0053,1.07,0.38,False,True,0,1,1.62,1,7,Online Portal,False,,False,0,23,6,3,13,Owner
+10828,2024-12-23,2026-04-02,73.3,1098.3,Bank transfer,15,electricity,one year,Andrea Conti,253,11,0.4772,-0.0088,0.92,0.28,True,True,0,1,0.83,1,10,Paper,True,,True,10,0,1,4,19,Owner
+10829,2024-04-27,,93.8,1002.6,Bank transfer,11,gas,one year,Federica Morelli,1635,1,0.2579,0.0085,1.18,0.38,True,True,0,0,0.95,0,0,Email,True,71,True,14,11,9,0,0,Tenant
+10830,2024-10-13,,74.7,937.2,Bank transfer,13,gas,one year,Valentina Ferrari,1640,1,0.1802,-0.0091,0.99,0.41,False,True,0,2,0.82,0,0,Online Portal,True,56,False,0,13,8,0,0,Owner
+10831,2022-10-25,2023-09-15,87.0,967.2,Bank transfer,11,electricity,one year,Vincenzo Marino,246,6,0.2674,-0.0265,0.71,0.5,False,True,0,0,2.37,5,9,Paper,True,,True,13,0,0,4,2,Owner
+10832,2025-04-24,,114.0,2332.3,Credit card,21,electricity,two year,Sara Santoro,309,1,0.2443,-0.004,0.99,0.3,True,False,112,0,1.01,0,0,Online Portal,True,79,False,0,21,8,0,0,Tenant
+10833,2024-03-31,,58.7,234.0,Electronic check,4,gas,month-to-month,Antonio Fiore,1559,0,0.1268,0.0006,0.91,0.25,True,True,0,0,0.95,0,0,Paper,False,,True,14,0,7,0,0,Owner
+10834,2020-11-12,,93.9,1162.4,Electronic check,12,gas,one year,Chiara Barbieri,1285,3,0.1249,-0.0093,1.04,0.49,True,False,259,2,0.95,0,0,Email,True,90,False,0,12,10,2,8,Tenant
+10835,2025-05-11,,95.7,2121.4,Electronic check,22,electricity,two year,Debora Bellini,383,4,0.2355,0.0019,1.11,0.3,True,False,88,0,0.88,0,0,Email,True,98,False,0,22,9,3,19,Tenant
+10836,2021-02-24,2023-03-20,63.8,1618.5,Mailed check,25,electricity,two year,Giulia Innocenti,323,6,0.4365,-0.0428,0.54,0.26,False,False,119,0,1.17,1,8,Online Portal,True,,True,13,25,5,2,27,Owner
+10837,2024-05-16,2024-12-05,62.3,437.1,Mailed check,7,gas,month-to-month,Luigi Bianchi,1115,4,0.4619,-0.0037,1.02,0.22,True,False,321,0,2.85,1,27,Online Portal,False,,True,8,7,3,1,1,Owner
+10838,2024-05-26,,50.8,1333.0,Electronic check,25,electricity,two year,Andrea Bianco,248,1,0.2156,0.0087,1.19,0.44,False,False,225,0,1.22,0,0,Email,True,110,False,0,25,9,0,0,Owner
+10839,2023-11-18,,92.1,2029.9,Credit card,21,electricity,two year,Nicole Lombardi,270,3,0.1136,-0.0073,1.0,0.41,True,False,226,0,0.88,0,0,Paper,False,61,False,0,0,8,1,2,Owner
+10840,2025-02-24,,88.3,1989.5,Credit card,23,electricity,two year,Camilla Ricci,365,1,0.2731,-0.0028,0.99,0.31,True,False,146,0,0.95,0,0,Online Portal,True,122,False,0,23,8,0,0,Owner
+10841,2022-12-26,,105.3,1742.0,Bank transfer,17,gas,month-to-month,Salvatore Benedetti,1593,3,0.2361,-0.0074,1.16,0.35,True,False,257,2,1.18,0,0,Email,False,,True,6,17,7,2,29,Owner
+10842,2023-05-16,,105.9,1107.7,Electronic check,11,both,month-to-month,Elena Romano,2061,4,0.1787,-0.0052,1.08,0.39,False,True,0,1,1.27,0,0,Paper,False,,False,0,0,7,2,12,Owner
+10843,2023-02-12,2024-09-05,109.7,2059.9,Mailed check,19,both,month-to-month,Luigi Romano,2160,15,0.1464,-0.0159,0.76,0.29,False,True,0,0,1.57,3,25,Email,False,,False,0,19,0,14,11,Owner
+10844,2021-06-14,2023-01-27,51.7,1040.9,Electronic check,20,gas,month-to-month,Salvatore Mancini,1763,3,0.3631,0.0046,0.92,0.21,True,True,0,0,1.29,3,20,Online Portal,False,,True,4,20,5,2,16,Owner
+10845,2021-05-08,,111.0,1668.3,Credit card,15,gas,one year,Alessandro Fiore,1661,3,0.2615,-0.0021,0.95,0.36,True,False,240,0,1.18,0,0,Online Portal,True,147,False,0,15,9,1,13,Tenant
+10846,2021-01-04,,74.4,959.3,Mailed check,13,both,one year,Davide Conti,1504,0,0.2392,0.0089,0.93,0.44,True,False,199,1,0.84,0,0,Paper,True,45,True,0,0,8,0,0,Tenant
+10847,2022-11-13,,78.2,809.8,Credit card,10,both,one year,Elisa Colombo,2396,1,0.1659,-0.0043,0.95,0.27,False,True,0,1,1.2,0,0,Paper,True,30,True,1,0,10,0,0,Owner
+10848,2022-06-14,,74.1,448.1,Credit card,6,gas,month-to-month,Chiara Barbieri,1578,3,0.251,-0.0087,1.18,0.46,False,False,86,2,1.0,1,18,Online Portal,False,,True,11,6,7,2,23,Owner
+10849,2023-12-03,,115.1,1454.1,Credit card,13,electricity,one year,Andrea Gentile,298,1,0.1364,-0.0039,1.12,0.43,True,True,0,1,0.81,1,8,Online Portal,True,12,True,13,13,10,0,0,Owner
+10850,2024-11-29,,93.2,1066.9,Electronic check,12,gas,one year,Angelo Conti,1995,4,0.283,0.0081,1.15,0.36,True,False,307,3,1.13,0,0,Paper,False,3,True,13,0,7,1,28,Owner
+10851,2025-03-20,,50.1,1209.3,Electronic check,24,both,two year,Stefano Bruno,1775,2,0.2984,-0.0004,1.16,0.23,True,False,281,1,1.21,0,0,Online Portal,True,139,True,7,24,7,1,23,Owner
+10852,2024-07-22,2025-06-06,118.9,1297.0,Credit card,11,both,month-to-month,Michela Vitale,2127,9,0.2211,0.0051,1.05,0.29,True,True,0,1,1.28,3,22,Online Portal,False,,True,11,11,5,6,19,Tenant
+10853,2025-02-14,,83.0,759.5,Bank transfer,9,gas,month-to-month,Daniele Lombardo,1752,2,0.2522,-0.0099,1.05,0.42,True,False,302,2,1.18,0,0,Email,False,,False,0,9,7,1,24,Owner
+10854,2025-01-27,2026-09-02,104.6,1910.8,Bank transfer,19,electricity,month-to-month,Giorgio Caruso,263,7,0.2463,0.0092,0.58,0.44,False,False,256,0,2.43,1,30,Online Portal,False,,False,0,19,5,3,19,Owner
+10855,2021-03-22,,75.2,957.3,Bank transfer,13,electricity,one year,Giulia Caruso,322,1,0.2001,-0.0024,1.15,0.46,True,True,0,1,1.29,0,0,Email,True,144,False,0,13,9,0,0,Tenant
+10856,2021-05-27,,78.8,727.6,Bank transfer,9,both,month-to-month,Andrea Russo,1632,1,0.2994,0.0049,1.11,0.37,False,False,169,2,1.13,0,0,Email,False,,True,8,9,8,0,0,Owner
+10857,2024-11-19,,89.0,1285.6,Bank transfer,14,both,one year,Giorgio De Luca,1961,2,0.2377,0.002,1.16,0.23,True,True,0,0,1.28,1,13,Email,True,109,True,16,14,8,1,9,Tenant
+10858,2024-04-29,,111.9,217.0,Bank transfer,2,electricity,month-to-month,Matteo Fontana,338,3,0.1824,0.0079,0.91,0.22,False,False,252,0,0.92,0,0,Paper,False,,True,17,0,8,1,28,Owner
+10859,2021-03-06,,80.5,570.5,Bank transfer,7,both,month-to-month,Daniele Bianco,1742,1,0.2001,-0.0028,0.95,0.22,True,True,0,0,1.19,1,6,Paper,False,,True,12,0,10,0,0,Owner
+10860,2024-07-02,,62.2,1329.1,Credit card,22,electricity,month-to-month,Andrea Fontana,366,4,0.1431,-0.0075,0.91,0.26,False,False,263,0,1.1,0,0,Online Portal,False,,False,0,22,10,2,17,Tenant
+10861,2021-08-05,,98.8,2151.4,Credit card,22,both,two year,Martina Bianchi,2087,1,0.1557,-0.0093,1.02,0.39,False,False,225,2,1.16,0,0,Email,True,3,True,10,22,7,0,0,Owner
+10862,2021-08-06,,84.3,1213.5,Electronic check,14,both,month-to-month,Arianna Bellini,2069,2,0.2521,0.0013,1.13,0.38,True,False,44,0,0.91,2,24,Email,False,,False,0,14,10,1,20,Owner
+10863,2021-09-07,2022-09-05,87.5,1061.9,Electronic check,12,electricity,month-to-month,Elisa Moretti,233,15,0.1496,-0.0059,0.53,0.47,True,False,180,0,1.9,5,18,Online Portal,False,,True,11,12,5,13,22,Tenant
+10864,2022-01-25,,101.8,2058.9,Bank transfer,20,gas,two year,Michela Santoro,1010,0,0.1783,0.0036,1.07,0.24,True,True,0,0,1.1,0,0,Online Portal,True,68,True,13,20,9,0,0,Owner
+10865,2024-04-06,,89.9,178.7,Electronic check,2,both,month-to-month,Antonio Bianchi,1749,1,0.2498,-0.0061,1.0,0.23,True,False,128,0,1.17,0,0,Online Portal,False,,True,5,2,10,0,0,Tenant
+10866,2021-05-12,2023-04-29,109.0,2587.5,Mailed check,24,gas,month-to-month,Silvia Marchetti,1219,13,0.1681,-0.0255,1.02,0.22,True,True,0,1,2.97,3,6,Paper,False,,False,0,0,4,11,12,Owner
+10867,2023-05-14,,54.0,1049.3,Mailed check,20,electricity,two year,Marco Morelli,361,4,0.1341,-0.0023,1.18,0.27,False,True,0,0,0.94,0,0,Online Portal,True,12,False,0,20,9,1,18,Tenant
+10868,2021-02-10,,63.5,1563.0,Credit card,24,gas,two year,Ilaria Ricci,1481,3,0.2137,0.0097,1.11,0.26,False,False,284,1,1.16,1,21,Online Portal,True,123,True,8,24,8,2,22,Owner
+10869,2024-10-27,2025-11-18,113.0,1519.8,Electronic check,13,gas,one year,Camilla Esposito,1920,10,0.2618,0.0035,0.96,0.26,True,False,177,1,1.04,2,25,Paper,True,,False,0,0,4,7,5,Owner
+10870,2020-12-05,,103.4,1288.4,Credit card,12,both,one year,Martina Giordano,2076,2,0.1472,0.0091,0.93,0.32,True,False,200,1,1.06,0,0,Paper,True,140,False,0,0,9,1,10,Tenant
+10871,2020-11-30,,79.9,236.3,Mailed check,3,gas,month-to-month,Marco Bianco,1167,3,0.2909,0.0034,1.13,0.49,True,False,127,1,1.14,0,0,Email,False,,True,0,3,10,2,6,Tenant
+10872,2024-03-08,,84.1,1284.1,Bank transfer,15,both,month-to-month,Andrea Colombo,1900,1,0.1243,0.0052,0.94,0.36,False,False,297,1,1.12,0,0,Online Portal,False,,True,16,15,7,0,0,Tenant
+10873,2022-03-29,,102.0,1497.1,Credit card,15,electricity,one year,Matteo Vitale,304,4,0.2025,0.0076,1.09,0.45,True,False,193,0,1.17,0,0,Email,True,139,True,20,15,7,2,28,Tenant
+10874,2023-05-11,,83.8,907.0,Electronic check,11,electricity,one year,Sofia Martinelli,268,3,0.1654,0.0019,1.02,0.43,True,False,186,0,0.98,0,0,Email,False,144,False,0,11,9,2,30,Owner
+10875,2024-04-10,,115.7,2464.1,Credit card,21,gas,two year,Michela Bellini,1653,4,0.1368,0.0003,1.08,0.25,True,True,0,1,1.28,0,0,Online Portal,False,77,True,20,21,9,2,16,Owner
+10876,2021-04-13,,99.5,1752.9,Credit card,18,both,month-to-month,Martina Bianco,2043,4,0.1081,0.0016,1.08,0.42,True,False,117,0,1.22,0,0,Paper,False,,True,10,0,7,3,28,Tenant
+10877,2021-04-15,,97.4,1392.1,Credit card,15,both,one year,Veronica Giordano,1367,4,0.2079,-0.0067,1.1,0.4,True,False,122,0,0.93,0,0,Email,True,2,False,0,15,7,2,18,Owner
+10878,2023-09-09,,96.7,2362.4,Mailed check,24,gas,month-to-month,Giulia Gallo,1388,3,0.2779,0.003,1.15,0.35,True,True,0,0,1.06,0,0,Paper,False,,True,18,0,10,2,13,Tenant
+10879,2024-04-05,,78.5,763.0,Electronic check,10,gas,month-to-month,Davide Lombardi,1287,4,0.2551,-0.0017,0.97,0.21,True,False,129,0,1.06,0,0,Online Portal,False,,False,0,10,10,3,22,Tenant
+10880,2023-11-21,,108.1,103.3,Electronic check,1,electricity,month-to-month,Camilla Innocenti,372,3,0.18,-0.0044,1.18,0.33,True,False,87,1,1.29,0,0,Email,False,,True,5,1,7,1,6,Tenant
+10881,2021-12-19,,98.9,1334.7,Electronic check,13,gas,one year,Martina Fiore,1630,4,0.2683,-0.0068,1.14,0.46,True,False,335,0,1.23,1,8,Online Portal,True,15,True,12,13,8,1,24,Tenant
+10882,2025-07-25,,50.2,1262.4,Bank transfer,24,gas,month-to-month,Elisa Sanna,1214,0,0.1607,0.0044,0.93,0.45,True,False,136,0,1.25,1,15,Online Portal,False,,True,20,24,9,0,0,Tenant
+10883,2022-04-06,,117.1,2374.8,Bank transfer,20,electricity,month-to-month,Paolo Morelli,252,4,0.2655,-0.006,0.96,0.36,True,False,33,0,1.19,1,29,Online Portal,False,,False,0,20,9,1,11,Owner
+10884,2024-01-18,,67.4,811.2,Mailed check,12,both,one year,Sara Caruso,2300,3,0.1107,0.0063,0.99,0.23,True,False,338,0,0.91,0,0,Paper,True,89,True,16,0,8,2,29,Owner
+10885,2023-08-04,2024-08-22,95.3,1282.5,Mailed check,13,both,one year,Davide Vitale,1671,8,0.3061,-0.047,1.11,0.26,True,False,289,1,2.0,1,22,Online Portal,True,,True,10,13,2,5,7,Tenant
+10886,2021-04-10,,77.5,1040.7,Electronic check,14,both,one year,Nicole Innocenti,1951,1,0.2587,-0.0036,1.04,0.29,False,False,132,0,1.09,0,0,Email,False,105,True,17,14,7,0,0,Tenant
+10887,2023-07-30,,97.6,2731.1,Credit card,27,both,two year,Stefano Esposito,1528,2,0.2626,-0.0052,0.99,0.22,True,False,160,0,0.94,0,0,Email,True,146,False,0,27,7,1,15,Tenant
+10888,2023-12-24,,75.3,1068.0,Credit card,14,electricity,month-to-month,Arianna Ricci,220,3,0.204,-0.0043,1.13,0.26,True,False,158,3,0.98,0,0,Online Portal,False,,False,0,14,8,0,0,Owner
+10889,2020-10-11,,72.1,765.7,Mailed check,11,both,one year,Elena Santoro,1888,1,0.1878,0.002,1.13,0.28,True,True,0,0,1.05,0,0,Paper,True,55,True,20,0,8,0,0,Tenant
+10890,2024-05-23,2026-04-13,112.1,2580.7,Electronic check,23,electricity,month-to-month,Marco Bellini,354,9,0.2983,-0.0423,0.96,0.44,False,False,65,2,1.53,5,9,Email,False,,True,17,23,6,8,13,Owner
+10891,2021-01-30,,112.6,3043.6,Electronic check,26,both,two year,Ilaria Marchetti,2022,0,0.1785,-0.0002,1.13,0.47,True,False,340,0,0.83,0,0,Paper,False,24,False,0,0,10,0,0,Owner
+10892,2025-04-25,,54.2,735.1,Bank transfer,14,gas,month-to-month,Marco Fiore,1635,2,0.1587,0.0037,1.0,0.24,True,False,306,1,1.25,2,24,Paper,False,,False,0,0,7,1,11,Tenant
+10893,2022-02-08,,77.1,1362.2,Credit card,17,gas,month-to-month,Salvatore Innocenti,1409,4,0.2132,-0.0084,1.14,0.38,True,True,0,2,0.93,0,0,Online Portal,False,,False,0,17,9,1,21,Tenant
+10894,2024-09-15,,108.8,1195.6,Mailed check,11,gas,one year,Gaia Bellini,1908,4,0.2489,-0.0069,1.05,0.46,False,False,146,0,1.14,0,0,Online Portal,True,107,True,17,11,7,1,18,Tenant
+10895,2023-05-13,,105.9,1171.1,Mailed check,11,gas,one year,Gaia Bianchi,1587,2,0.2606,-0.0016,0.93,0.36,True,False,50,2,1.16,0,0,Paper,True,47,True,17,0,10,1,14,Owner
+10896,2023-05-26,,114.2,1322.4,Bank transfer,12,gas,one year,Luigi Lombardo,1718,2,0.2402,-0.0052,1.17,0.32,False,False,224,3,0.83,0,0,Email,True,88,True,8,12,8,1,29,Owner
+10897,2021-12-14,,98.1,1919.1,Bank transfer,20,gas,two year,Michela Longo,1810,1,0.1221,-0.007,1.13,0.41,True,False,49,0,1.15,0,0,Online Portal,False,87,True,3,20,8,0,0,Tenant
+10898,2024-01-15,,103.5,1406.4,Credit card,14,electricity,one year,Salvatore Gentile,226,1,0.1009,-0.0063,1.11,0.34,False,True,0,1,1.21,0,0,Email,True,95,True,5,14,7,0,0,Owner
+10899,2021-09-07,,110.4,324.9,Credit card,3,electricity,month-to-month,Sofia Esposito,323,0,0.2268,0.0001,1.06,0.46,True,False,227,1,1.21,1,20,Online Portal,False,,True,13,3,8,0,0,Tenant
+10900,2025-08-08,,61.1,353.4,Bank transfer,6,both,month-to-month,Marco Fontana,1503,0,0.2759,-0.0092,0.9,0.48,True,False,238,3,1.04,0,0,Paper,False,,True,10,0,7,0,0,Tenant
+10901,2024-01-02,,109.1,1655.9,Electronic check,15,both,one year,Marco Rossi,2009,1,0.1749,-0.0072,1.07,0.27,True,True,0,0,1.22,0,0,Online Portal,True,135,True,8,15,8,0,0,Tenant
+10902,2023-01-16,,60.2,899.7,Bank transfer,15,gas,one year,Camilla Ricci,1769,3,0.2867,0.0073,1.06,0.38,True,False,240,0,1.08,0,0,Email,True,49,False,0,15,8,2,26,Tenant
+10903,2021-02-08,,89.2,1653.6,Bank transfer,19,both,month-to-month,Matteo Vitale,1436,4,0.106,-0.0021,1.15,0.28,True,True,0,0,0.98,2,23,Email,False,,False,0,19,9,1,22,Tenant
+10904,2022-05-20,2023-07-29,79.2,1074.3,Credit card,14,both,month-to-month,Arianna Martinelli,1434,7,0.259,0.009,1.19,0.3,True,False,104,1,0.86,5,9,Email,False,,False,0,14,1,5,18,Tenant
+10905,2024-02-17,,77.0,866.4,Mailed check,11,gas,one year,Alessia Vitale,1381,3,0.2683,0.0057,1.16,0.3,False,True,0,0,0.81,0,0,Email,True,36,True,6,11,10,2,21,Tenant
+10906,2021-10-10,,83.4,524.3,Credit card,6,gas,month-to-month,Simone Gallo,1528,3,0.2895,-0.0095,1.17,0.24,False,False,135,1,1.27,0,0,Paper,False,,True,8,0,8,2,19,Tenant
+10907,2020-08-31,2022-07-16,98.3,2373.4,Bank transfer,23,electricity,month-to-month,Stefano Bianchi,368,11,0.3663,-0.0023,0.6,0.46,True,False,121,0,1.88,3,6,Paper,False,,True,19,0,4,4,2,Tenant
+10908,2024-02-21,,51.1,1258.7,Credit card,25,gas,two year,Marco Morelli,1168,2,0.2066,-0.0075,1.05,0.44,False,True,0,0,0.93,2,15,Paper,True,39,True,3,0,8,1,15,Owner
+10909,2022-11-15,,96.1,969.0,Electronic check,10,both,one year,Sara Marino,1798,3,0.2473,-0.0039,1.14,0.31,False,False,272,0,0.95,1,6,Email,False,49,False,0,10,9,2,9,Tenant
+10910,2023-03-15,,63.2,1287.9,Electronic check,21,both,two year,Camilla Colombo,2150,0,0.222,0.0025,1.0,0.41,True,False,289,0,0.84,0,0,Online Portal,True,46,True,20,21,10,0,0,Tenant
+10911,2023-06-21,,112.1,1510.8,Electronic check,13,electricity,one year,Luigi Benedetti,309,0,0.2424,-0.0057,1.0,0.4,False,True,0,2,1.28,0,0,Paper,True,42,False,0,0,9,0,0,Tenant
+10912,2022-04-12,,60.4,636.0,Credit card,11,both,one year,Francesco Giordano,2165,4,0.185,-0.0071,0.97,0.25,True,False,181,0,0.97,0,0,Email,True,148,False,0,11,9,2,12,Owner
+10913,2022-08-06,,99.1,2039.0,Mailed check,21,electricity,month-to-month,Fabio Bianco,292,0,0.2386,0.0051,1.09,0.32,True,False,284,0,0.82,1,7,Paper,False,,False,0,0,9,0,0,Tenant
+10914,2023-11-29,2025-09-23,79.4,1662.0,Electronic check,22,both,month-to-month,Luca Bruno,1335,5,0.2164,-0.03,1.02,0.35,False,False,356,1,2.52,4,5,Online Portal,False,,False,0,22,3,3,4,Tenant
+10915,2024-01-09,,69.3,801.0,Mailed check,12,electricity,one year,Angelo Marini,347,2,0.1864,-0.0018,0.9,0.32,True,False,83,0,1.16,2,23,Paper,True,134,True,19,0,7,1,30,Tenant
+10916,2023-04-25,,119.7,1493.8,Mailed check,13,electricity,one year,Serena Fontana,249,2,0.279,-0.0012,1.13,0.41,False,False,36,1,1.02,0,0,Paper,True,37,True,11,0,8,1,28,Tenant
+10917,2024-05-11,,98.1,1420.5,Mailed check,15,both,one year,Salvatore Mancini,2211,2,0.1494,0.0085,0.95,0.36,True,True,0,0,1.13,0,0,Online Portal,True,13,True,3,15,9,0,0,Owner
+10918,2022-05-14,2023-07-21,73.3,1020.0,Electronic check,14,gas,one year,Elena Mancini,1034,5,0.381,-0.0019,0.95,0.45,True,True,0,0,1.16,4,12,Email,True,,False,0,14,6,3,20,Owner
+10919,2023-12-01,,119.6,2054.8,Credit card,18,gas,month-to-month,Salvatore Fontana,1829,3,0.2272,-0.0005,1.04,0.2,True,False,166,1,1.21,0,0,Paper,False,,False,0,0,10,1,1,Tenant
+10920,2021-01-10,,86.6,2060.7,Credit card,24,electricity,month-to-month,Matteo Innocenti,308,1,0.2568,0.0052,0.93,0.49,True,False,134,1,0.82,1,25,Paper,False,,False,0,0,9,0,0,Owner
+10921,2025-04-25,,103.2,1617.5,Mailed check,15,gas,one year,Stefano Ferrara,1180,1,0.2124,-0.0054,1.04,0.42,True,True,0,2,0.84,0,0,Online Portal,True,169,True,2,15,8,0,0,Owner
+10922,2021-12-16,,87.6,1700.5,Bank transfer,20,gas,two year,Andrea Lombardi,1193,3,0.1199,0.0016,1.2,0.43,True,True,0,0,1.03,1,9,Email,False,53,True,3,20,9,2,6,Owner
+10923,2021-05-20,2023-03-18,51.0,1111.1,Electronic check,22,both,month-to-month,Marco Bruno,2361,11,0.2074,-0.0008,0.98,0.31,True,False,80,0,1.24,1,8,Email,False,,False,0,22,6,9,4,Tenant
+10924,2023-07-29,,86.7,1128.9,Electronic check,13,both,one year,Camilla Benedetti,1524,3,0.2216,-0.0009,0.93,0.35,True,False,195,0,0.95,0,0,Email,True,88,True,6,13,9,2,27,Tenant
+10925,2022-12-18,,74.9,777.1,Electronic check,10,electricity,one year,Chiara Colombo,200,0,0.1983,-0.0049,1.17,0.47,True,False,312,2,1.08,0,0,Online Portal,False,140,True,6,10,9,0,0,Tenant
+10926,2024-02-17,,119.4,2954.2,Mailed check,24,gas,two year,Davide Lombardi,1684,4,0.1529,-0.0073,0.95,0.36,True,False,351,3,1.13,0,0,Paper,True,8,False,0,0,9,1,3,Tenant
+10927,2020-09-12,,54.9,653.5,Mailed check,12,electricity,one year,Luca Marino,261,1,0.2076,-0.0098,0.99,0.37,True,False,89,1,1.25,0,0,Email,True,103,True,19,12,10,0,0,Owner
+10928,2022-05-12,2024-01-31,61.7,1283.7,Mailed check,21,gas,month-to-month,Arianna Longo,1253,10,0.4415,0.0031,1.13,0.27,False,False,117,1,1.08,2,10,Paper,False,,False,0,0,6,9,15,Owner
+10929,2025-04-08,,68.8,1856.8,Mailed check,27,both,two year,Sara Gallo,1768,1,0.2239,0.0048,0.95,0.46,True,True,0,0,0.81,0,0,Online Portal,False,100,True,10,27,7,0,0,Owner
+10930,2021-02-01,,86.2,446.5,Mailed check,5,electricity,month-to-month,Nicole Moretti,309,0,0.282,0.0097,1.19,0.4,True,False,201,1,1.23,0,0,Paper,False,,True,0,0,7,0,0,Tenant
+10931,2021-10-22,2023-08-07,80.6,1689.1,Bank transfer,22,gas,two year,Luigi Ferrara,1939,13,0.3266,0.0064,0.92,0.32,True,False,314,1,1.14,1,9,Paper,True,,False,0,0,6,7,11,Tenant
+10932,2025-02-18,,91.4,272.1,Electronic check,3,electricity,month-to-month,Ilaria Basile,335,0,0.1385,0.0071,1.17,0.44,True,True,0,1,0.94,0,0,Email,False,,False,0,3,9,0,0,Tenant
+10933,2023-11-09,,83.3,1125.7,Bank transfer,14,gas,month-to-month,Daniele Caruso,1109,4,0.2108,0.0044,1.14,0.21,False,False,251,1,1.03,0,0,Email,False,,True,6,14,9,3,24,Owner
+10934,2025-04-12,,85.1,1279.5,Credit card,15,electricity,one year,Debora Mancini,354,1,0.2228,0.0076,1.02,0.33,True,True,0,3,0.83,1,6,Email,True,94,False,0,15,7,0,0,Owner
+10935,2020-11-30,,102.8,99.6,Electronic check,1,both,month-to-month,Fabio Coppola,2282,4,0.1213,0.0013,1.04,0.37,True,False,358,0,0.89,0,0,Online Portal,False,,False,0,1,9,2,10,Owner
+10936,2023-07-22,,97.1,472.8,Credit card,5,both,month-to-month,Arianna Esposito,2117,2,0.1645,-0.0009,1.12,0.36,True,False,210,0,1.19,0,0,Online Portal,False,,True,6,5,8,1,23,Tenant
+10937,2023-03-03,,57.8,1555.7,Electronic check,26,gas,two year,Marco Caruso,1246,3,0.2348,-0.0063,1.15,0.41,True,False,222,0,0.95,1,12,Email,False,170,True,7,26,7,2,8,Tenant
+10938,2022-07-02,,90.8,1103.3,Mailed check,12,gas,month-to-month,Arianna Conti,1431,4,0.2887,-0.0086,1.02,0.22,True,True,0,1,1.21,0,0,Paper,False,,False,0,0,8,3,29,Tenant
+10939,2021-12-14,2022-08-31,56.7,519.8,Mailed check,9,gas,month-to-month,Camilla Gallo,1147,6,0.177,-0.0149,0.54,0.38,False,True,0,1,2.99,1,14,Email,False,,False,0,9,3,3,2,Tenant
+10940,2023-07-05,,107.9,677.2,Mailed check,6,gas,month-to-month,Giorgio Innocenti,1460,2,0.2556,-0.0008,0.98,0.46,False,False,329,0,1.25,0,0,Paper,False,,True,8,0,9,1,3,Owner
+10941,2021-12-14,,101.4,932.2,Credit card,9,gas,month-to-month,Marco Lombardi,1402,0,0.1758,0.0031,1.1,0.5,True,False,350,2,0.83,0,0,Email,False,,False,0,9,7,0,0,Tenant
+10942,2021-09-09,,92.8,650.2,Electronic check,7,both,month-to-month,Elisa Mancini,1797,4,0.2705,-0.0037,1.12,0.45,True,True,0,0,1.01,2,15,Email,False,,False,0,7,10,3,27,Owner
+10943,2024-05-12,,103.6,1793.6,Electronic check,18,gas,month-to-month,Veronica Vitale,1573,2,0.2755,0.0063,1.02,0.35,False,False,111,2,1.16,0,0,Online Portal,False,,False,0,18,9,1,8,Tenant
+10944,2023-06-12,,90.9,1310.1,Mailed check,14,both,month-to-month,Vincenzo Coppola,2074,3,0.1554,-0.0031,1.12,0.27,True,False,185,2,1.06,0,0,Email,False,,True,7,14,8,2,27,Owner
+10945,2022-10-29,,113.1,915.6,Credit card,8,electricity,month-to-month,Serena Esposito,373,2,0.1622,0.0068,0.9,0.42,False,False,46,1,0.88,0,0,Online Portal,False,,True,7,8,9,1,11,Tenant
+10946,2020-09-09,,51.3,805.7,Bank transfer,15,gas,one year,Luigi Gentile,1543,3,0.2736,0.0095,1.18,0.49,True,False,275,2,1.13,0,0,Online Portal,True,9,True,0,15,10,2,22,Tenant
+10947,2023-08-18,,51.2,698.0,Mailed check,13,both,one year,Marco Esposito,1931,2,0.1538,-0.007,1.01,0.44,True,False,360,0,0.92,0,0,Online Portal,True,98,True,19,13,9,1,22,Tenant
+10948,2021-01-26,,104.2,1260.9,Mailed check,12,both,one year,Luca Morelli,1327,2,0.2661,-0.0098,1.11,0.36,True,False,173,0,1.23,0,0,Online Portal,True,131,True,11,12,8,1,6,Tenant
+10949,2022-09-26,,89.0,1531.0,Electronic check,17,electricity,month-to-month,Arianna Barbieri,219,3,0.1476,-0.006,1.06,0.33,True,False,131,0,0.87,0,0,Online Portal,False,,True,2,17,10,1,13,Tenant
+10950,2022-06-19,,61.4,660.4,Mailed check,11,electricity,one year,Alessia Santoro,355,1,0.1484,0.006,1.1,0.23,True,True,0,1,1.05,0,0,Online Portal,False,126,False,0,11,8,0,0,Owner
+10951,2024-04-16,,104.4,2571.7,Mailed check,25,both,two year,Nicole Costa,2119,0,0.2449,0.0079,0.9,0.44,True,False,311,0,1.04,0,0,Email,True,130,True,15,25,9,0,0,Owner
+10952,2022-12-30,,96.8,958.4,Credit card,10,gas,one year,Salvatore Caruso,1834,4,0.2312,0.0013,1.07,0.47,True,True,0,2,0.98,1,13,Online Portal,True,61,True,15,10,7,3,24,Tenant
+10953,2025-04-21,,84.7,926.8,Bank transfer,11,gas,one year,Vincenzo Caruso,1675,2,0.2414,0.0015,0.99,0.22,False,False,186,0,1.26,0,0,Paper,True,79,True,18,0,10,1,20,Owner
+10954,2025-01-24,,95.0,1199.6,Electronic check,13,electricity,one year,Francesco Bianco,281,3,0.253,-0.0077,0.92,0.22,True,True,0,2,0.93,0,0,Email,True,109,False,0,13,10,2,9,Owner
+10955,2022-08-29,,112.7,434.3,Bank transfer,4,both,month-to-month,Sara Rossi,1237,1,0.1881,-0.0085,1.19,0.38,True,False,259,1,0.96,1,23,Email,False,,True,7,4,10,0,0,Tenant
+10956,2021-05-23,,58.1,465.9,Mailed check,8,gas,month-to-month,Fabio Vitale,1395,0,0.1881,-0.0086,0.94,0.42,False,False,268,0,0.95,0,0,Email,False,,True,5,8,8,0,0,Tenant
+10957,2022-12-20,,96.0,2107.3,Credit card,21,both,two year,Vincenzo Costa,1477,3,0.1135,-0.0058,0.91,0.21,True,False,315,0,1.12,0,0,Email,True,55,True,3,21,7,2,4,Owner
+10958,2022-03-07,,52.7,714.3,Credit card,13,electricity,one year,Giorgio De Luca,301,4,0.1735,0.0017,0.92,0.36,True,True,0,0,0.96,1,25,Online Portal,True,6,True,5,13,10,2,8,Owner
+10959,2020-12-16,2022-12-21,70.8,1721.0,Credit card,24,electricity,month-to-month,Davide Bianchi,293,6,0.2416,-0.014,0.54,0.43,False,True,0,0,1.23,3,19,Paper,False,,True,3,0,3,1,20,Tenant
+10960,2021-07-23,2022-09-02,69.8,967.2,Bank transfer,14,electricity,one year,Federica Esposito,360,9,0.4027,-0.001,0.61,0.25,True,False,197,3,1.12,3,22,Paper,True,,True,3,0,3,8,8,Tenant
+10961,2023-07-17,,80.8,1988.1,Credit card,24,both,month-to-month,Matteo Esposito,1377,3,0.2987,-0.001,1.15,0.32,True,False,186,2,0.85,0,0,Online Portal,False,,True,7,24,8,2,10,Owner
+10962,2021-11-24,,60.4,1185.6,Credit card,20,both,month-to-month,Marco Caruso,1340,3,0.1086,-0.0098,1.13,0.36,False,True,0,0,1.09,1,19,Email,False,,True,7,20,8,2,27,Tenant
+10963,2025-04-28,,60.1,692.5,Bank transfer,12,electricity,one year,Daniele Ricci,318,2,0.2064,0.0029,0.94,0.32,True,False,335,2,0.97,0,0,Email,True,30,True,2,12,7,0,0,Tenant
+10964,2021-11-25,,115.1,1338.8,Bank transfer,12,electricity,one year,Sara Sanna,314,2,0.1708,-0.0007,1.01,0.43,True,True,0,1,1.29,1,19,Online Portal,True,84,True,16,12,10,0,0,Owner
+10965,2021-02-05,,108.6,1499.5,Mailed check,14,electricity,one year,Ilaria Fiore,368,0,0.1542,-0.0096,0.93,0.25,True,False,168,0,0.97,0,0,Online Portal,True,78,False,0,14,9,0,0,Owner
+10966,2023-09-02,,109.8,1723.6,Bank transfer,15,electricity,month-to-month,Simone Rossi,371,1,0.1195,-0.0088,0.97,0.47,True,True,0,3,1.14,0,0,Paper,False,,False,0,0,9,0,0,Owner
+10967,2023-05-06,,66.6,1658.2,Bank transfer,26,electricity,two year,Sara Basile,273,1,0.2676,-0.0074,0.96,0.45,True,False,240,0,1.03,0,0,Email,True,23,True,7,26,9,0,0,Tenant
+10968,2024-01-05,,58.0,115.8,Mailed check,2,electricity,month-to-month,Valentina Ferrari,289,2,0.2682,-0.0003,0.98,0.28,True,True,0,2,1.15,0,0,Paper,False,,True,7,0,7,1,5,Tenant
+10969,2021-02-23,,91.0,434.8,Credit card,5,both,month-to-month,Valentina Bellini,1652,0,0.1239,0.0061,0.94,0.35,True,True,0,1,0.98,0,0,Email,False,,True,12,5,10,0,0,Owner
+10970,2025-04-08,2025-10-21,71.0,478.5,Mailed check,7,both,month-to-month,Andrea Ferrara,2297,3,0.3973,-0.0394,1.15,0.25,True,False,221,2,1.11,2,29,Online Portal,False,,True,9,7,0,0,0,Owner
+10971,2022-01-31,,73.7,762.7,Credit card,10,electricity,one year,Angelo Fontana,274,3,0.2622,0.0085,0.99,0.35,True,False,180,0,1.16,1,28,Email,True,147,True,1,10,8,1,18,Tenant
+10972,2024-08-06,,98.3,1970.2,Electronic check,20,electricity,two year,Fabio Martinelli,238,3,0.2021,-0.0054,1.01,0.46,True,False,231,1,1.04,0,0,Email,True,145,True,11,20,9,1,15,Owner
+10973,2022-03-22,,60.3,714.8,Electronic check,12,gas,one year,Chiara Esposito,1006,4,0.2882,0.0061,1.04,0.46,False,False,359,1,0.93,0,0,Online Portal,True,106,False,0,12,8,2,5,Owner
+10974,2022-05-31,,89.7,1579.0,Credit card,17,electricity,month-to-month,Elena De Luca,343,1,0.1897,0.0011,1.0,0.42,False,False,142,0,1.19,0,0,Online Portal,False,,True,1,17,10,0,0,Owner
+10975,2022-07-07,,109.8,2920.1,Bank transfer,27,both,two year,Davide Fontana,2350,1,0.2341,-0.0026,0.91,0.49,True,False,247,0,1.17,1,13,Online Portal,True,41,False,0,27,9,0,0,Tenant
+10976,2023-01-23,2024-01-02,55.1,581.2,Mailed check,11,both,month-to-month,Davide Fiore,1236,9,0.3574,0.009,0.73,0.24,True,True,0,0,1.12,3,14,Email,False,,True,16,11,4,6,9,Owner
+10977,2022-05-15,2023-03-05,102.2,1038.6,Electronic check,10,both,month-to-month,Michela Bellini,1937,10,0.3503,-0.0315,1.01,0.34,True,False,349,0,2.83,1,21,Paper,False,,True,5,0,2,7,16,Owner
+10978,2022-11-16,,76.5,956.4,Credit card,12,both,one year,Veronica De Luca,2267,0,0.2733,-0.0006,1.07,0.41,True,False,221,1,0.83,0,0,Paper,True,19,False,0,0,10,0,0,Owner
+10979,2021-05-15,2022-12-10,81.2,1523.1,Electronic check,19,electricity,month-to-month,Serena Marini,324,15,0.3876,-0.0176,0.97,0.32,True,False,365,0,1.21,2,27,Online Portal,False,,True,9,19,6,14,16,Owner
+10980,2022-07-31,,60.3,591.0,Electronic check,10,both,one year,Giorgio Marini,1845,4,0.1238,-0.0031,1.13,0.29,True,False,294,0,0.94,1,13,Online Portal,True,69,False,0,10,8,2,17,Tenant
+10981,2021-06-27,,63.4,1394.8,Mailed check,21,both,two year,Davide Basile,2119,0,0.2956,0.009,0.9,0.37,True,False,253,2,1.03,1,14,Online Portal,False,46,True,7,21,8,0,0,Owner
+10982,2023-08-20,2025-10-31,57.6,1539.4,Mailed check,27,electricity,two year,Michela Conti,330,6,0.3699,-0.0231,1.01,0.44,False,True,0,1,1.22,2,18,Email,False,,True,5,27,5,5,2,Owner
+10983,2024-01-25,,111.2,2293.0,Electronic check,20,both,two year,Sara Romano,2368,0,0.1608,-0.0021,0.93,0.45,False,True,0,2,0.91,0,0,Online Portal,True,169,True,7,20,7,0,0,Tenant
+10984,2023-03-06,,50.6,490.6,Mailed check,10,gas,one year,Roberto Ferrari,1045,0,0.1312,0.0096,1.15,0.26,True,False,275,1,1.17,0,0,Email,True,63,True,14,10,10,0,0,Owner
+10985,2023-07-31,,64.9,1614.3,Credit card,24,electricity,month-to-month,Nicole Romano,249,0,0.1934,-0.0027,0.95,0.46,False,False,148,0,1.29,2,9,Paper,False,,False,0,0,10,0,0,Owner
+10986,2021-07-20,,70.5,1299.5,Bank transfer,18,gas,month-to-month,Alessia Esposito,1697,1,0.2636,-0.01,1.08,0.25,False,True,0,0,1.06,0,0,Paper,False,,False,0,0,9,0,0,Tenant
+10987,2022-02-08,,101.8,2481.3,Credit card,25,electricity,two year,Francesco Lombardi,282,0,0.1757,0.0078,1.0,0.22,False,True,0,2,1.09,0,0,Online Portal,True,160,True,15,25,10,0,0,Tenant
+10988,2024-04-10,2025-04-05,72.4,855.9,Electronic check,12,gas,month-to-month,Silvia Marini,1332,10,0.3069,-0.0394,1.01,0.34,True,True,0,0,1.18,5,15,Online Portal,False,,False,0,12,0,8,14,Tenant
+10989,2021-05-13,,116.3,2704.0,Credit card,23,both,two year,Serena Gentile,1747,0,0.2495,-0.001,1.18,0.36,True,False,50,1,0.94,0,0,Email,True,145,False,0,23,10,0,0,Owner
+10990,2022-03-13,,58.6,1556.3,Electronic check,26,gas,two year,Debora Marchetti,1541,1,0.126,0.0081,0.92,0.35,False,True,0,0,1.19,1,19,Email,True,158,False,0,26,10,0,0,Tenant
+10991,2020-09-11,,88.1,261.1,Bank transfer,3,electricity,month-to-month,Giulia Caruso,323,1,0.1699,-0.0083,1.09,0.48,True,True,0,0,1.04,0,0,Email,False,,True,20,3,8,0,0,Owner
+10992,2023-01-31,,53.1,659.5,Bank transfer,12,both,one year,Luigi Esposito,2135,1,0.233,-0.0069,1.2,0.35,True,False,342,1,0.97,1,14,Online Portal,True,87,False,0,12,7,0,0,Tenant
+10993,2021-06-05,,65.0,1020.9,Bank transfer,15,both,month-to-month,Angelo Benedetti,1585,3,0.1984,-0.0019,1.2,0.28,True,False,223,0,0.85,0,0,Online Portal,False,,True,7,15,9,2,21,Tenant
+10994,2024-07-13,,84.2,1633.0,Credit card,20,electricity,month-to-month,Daniele Conti,311,2,0.2492,-0.0036,1.19,0.46,False,False,333,0,1.14,0,0,Online Portal,False,,True,10,20,7,1,21,Owner
+10995,2022-07-05,,58.3,114.1,Credit card,2,gas,month-to-month,Alessia Ferrara,1520,4,0.2573,-0.0063,1.11,0.31,True,True,0,1,1.08,1,18,Online Portal,False,,True,2,2,10,2,25,Owner
+10996,2020-09-07,,98.8,1209.2,Credit card,12,both,one year,Vincenzo Mancini,1400,2,0.1426,-0.0057,1.19,0.47,True,False,261,1,1.07,0,0,Email,True,24,True,13,12,7,1,14,Tenant
+10997,2025-01-06,,95.6,2446.2,Electronic check,26,gas,two year,Alessandro Gentile,1711,1,0.2257,-0.0052,0.94,0.47,True,False,180,0,0.84,0,0,Paper,True,164,False,0,0,9,0,0,Tenant
+10998,2024-12-29,2026-06-07,87.4,1569.1,Bank transfer,18,both,month-to-month,Michela Esposito,1646,15,0.3182,-0.0419,0.72,0.29,False,False,123,0,0.96,2,16,Email,False,,True,11,18,3,5,26,Tenant
+10999,2024-07-02,,65.3,1678.4,Electronic check,26,gas,two year,Veronica Fontana,1151,2,0.1162,0.001,1.12,0.33,True,True,0,1,0.9,0,0,Paper,True,174,False,0,0,9,1,8,Tenant
+11000,2024-11-02,,52.5,748.5,Bank transfer,14,electricity,one year,Elisa Giordano,287,3,0.1949,0.0087,1.18,0.23,False,False,62,0,1.02,0,0,Paper,False,123,False,0,0,9,1,10,Tenant

@@ -170,12 +170,17 @@ class ChurnCalculator:
         ).dt.days
         
         # Encode categorical variables
-        categorical_columns = ['payment_method', 'service_type', 'contract_type']
+        # Expanded list of categorical columns that might be in the advanced dataset
+        categorical_columns = [
+            'payment_method', 'service_type', 'contract_type', 
+            'billing_method', 'customer_tenure_type' # 'customer_age_group' if added
+        ]
         
         for col in categorical_columns:
             if col in ml_df.columns:
                 le = LabelEncoder()
-                ml_df[col + '_encoded'] = le.fit_transform(ml_df[col].astype(str))
+                # Fill NaNs with a placeholder string for encoding
+                ml_df[col + '_encoded'] = le.fit_transform(ml_df[col].fillna('Unknown').astype(str))
                 self.label_encoders[col] = le
         
         # Select features for the model
@@ -183,7 +188,33 @@ class ChurnCalculator:
         # Check for new potential features from enriched dataset
         potential_new_features = [
             'avg_monthly_consumption_kwh',
-            'num_support_contacts_last_year'
+            'num_support_contacts_last_year',
+            # --- Nuove features avanzate ---
+            'consumption_volatility',
+            'consumption_trend',
+            'consumption_vs_local_avg_ratio',
+            'peak_hour_consumption_ratio',
+            'smart_meter_flag',
+            'has_promo',
+            'days_since_last_promo_end',
+            'num_price_changes_last_year',
+            'last_bill_amount_vs_avg',
+            'num_late_payments',
+            'avg_days_late_payment',
+            'billing_method_encoded', # Assuming this will be encoded
+            'contract_renewal_reminder_sent',
+            'days_to_contract_end',
+            'has_online_account',
+            'num_logins_last_month',
+            'num_paperless_bills_sent',
+            'last_survey_satisfaction_score',
+            'num_complaints_last_year', # Subset of support contacts
+            'complaint_resolution_time_avg',
+            # Demographic/Location (if available)
+            # 'customer_age_group_encoded',
+            # 'customer_tenure_type_encoded',
+            # 'urban_rural_flag',
+            # 'postal_code_energy_competition_index'
         ]
         
         feature_columns = [
